@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rhythm box  
-technologies: Pure Data, Arduino
+technologies: [Pure Data, Arduino] 
 from: 2010
 to: 2010
 collaborators: [Guiller Malon Aguilar, Daniel Cabezas Lopez, Jaume Subirats Aleixandri, Abel Gasul Pallas] 

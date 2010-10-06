@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sketchyplane  
-technologies: OpenFrameworks, Pure Data, Arduino
+technologies: [OpenFrameworks, Pure Data, Arduino] 
 from: 2010
 to: 2010
 collaborators: [Miguel Sanchez Valdes] 

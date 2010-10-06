@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Psychogeophotography 
-technologies: OpenCV, Processing
+technologies: [OpenCV, Processing] 
 from: 2010
 to: 2010
 collaborators: [Eliza-Nefeli Tsaoussi] 

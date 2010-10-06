@@ -1,0 +1,44 @@
+---
+layout: post
+title: Physiology-based control of affective audio-visual database 
+technologies: [Java, GSR Sensor]   
+from: 2009
+to: 2009
+collaborators: [Lucas Lopez Serrano, Milena Markova] 
+desc: eXperience Induction Machine game made in order to research the effects of stress on performance 
+sourcecode: 
+link: 
+context: Research Methodologies / Cognitive courses. CSIM Master UPF 
+---
+
+h1. {{ page.title }} 
+
+p(meta). 19 May 2009 - Physiology-based control of affective audio-visual database 
+
+create a biofeedback system that  varies the emotional state of the user  using personalized stimuli  in real-time 
+Study of the human reaction to audiovisual stimuli 
+
+Interactive installations 
+Narrative modulation in films 
+Relaxing device 
+
+
+
+
+Study of control of emotion-categorized multimedia databases through human physiology 
+Create a biofeedback system which can vary the emotional state of the user and at the same time modulate the displayed content. 
+Examples of use os such a system 
+Personal cinema
+Treatment for disorders such  as chronic pain, depression, etc 
+Interactive installations 
+ 
+<notextile>  
+<iframe src="http://player.vimeo.com/video/14550291" width="640" height="360" frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Olébot - the flamenco robodancer</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p> 
+</notextile> 
+
+The hypothesis of the researchers that performance level increases when subjects were exposed 
+to stress, failed to be accepted, because the study could not find any difference in performance of 
+the subjects with or without stress factors applied. The study discovered, however, that there is a 
+strong correlation between performance scores under stress and the affinity to play sports that 
+require intense physical activity. 
+

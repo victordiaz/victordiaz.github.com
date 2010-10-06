@@ -2,7 +2,7 @@
 ---
 layout: post
 title: Olebot  
-technologies: IQR, Pure Data, C++ 
+technologies: [IQR, Pure Data, C++] 
 from: 2010
 to: 2010
 collaborators: [Laia Cagigal, Pablo Molina, Zuriñe Resa] 

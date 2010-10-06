@@ -1,7 +1,7 @@
 ---
 layout: post
 title: uBotherMe 
-technologies: canoris API, PHP, Android SDK 
+technologies: [canoris API, PHP, Android SDK]  
 from: 2010
 to: 2010
 collaborators: [Pedro Gouveia] 

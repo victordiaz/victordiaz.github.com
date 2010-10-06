@@ -4,8 +4,7 @@ title: Scalextricity
 technologies: [OpenFrameworks]
 from: 2010
 to: 2010
-collaborators: [Gavin Morris, Martin Cawson (I have a pc laptop, not much else, some fabrication skill!)
-Jonathan P Dryhurst Roberts, Victor Diaz] 
+collaborators: [Gavin Morris, Martin Cawson, Victor Diaz] 
 desc: Game that embodies blowing capabilities 
 sourcecode: 
 link: 
