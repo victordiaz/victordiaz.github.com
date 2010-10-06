@@ -1,0 +1,17 @@
+---
+layout: post
+title: Flower Power  
+technologies: OpenCV, Processing
+from: 2009
+to: 2009
+collaborators: [Lucas Lopez Serrano, Milena Markova] 
+desc: Game that embodies blowing capabilities 
+sourcecode: 
+link: 
+context: Historical, social and cultural context of interactive media course. CSIM Master UPF. 
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 May 2009 - Flower power 
+

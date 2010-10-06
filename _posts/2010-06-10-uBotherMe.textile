@@ -1,0 +1,19 @@
+---
+layout: post
+title: uBotherMe 
+technologies: canoris API, PHP, Android SDK 
+from: 2010
+to: 2010
+collaborators: [Pedro Gouveia] 
+desc: Game that embodies blowing capabilities 
+sourcecode: git@github.com:victordiaz/youBotherMe.git
+link: 
+context: BCN Music hack days  
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 May 2009 - uBotherMe 
+
+On this hack, we wanted the user of Android to loose control of an alarm clock app. So, the alarm clock is controlled trough a webpage, where the user can put the link to a music on a website to be loaded to android, or also you can set a message and it will be generated using the canoris api. Also it is possible to put a link from soundcloud and set it as alarm. 
+

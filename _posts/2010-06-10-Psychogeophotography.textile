@@ -1,0 +1,17 @@
+---
+layout: post
+title: Psychogeophotography 
+technologies: OpenCV, Processing
+from: 2010
+to: 2010
+collaborators: [Eliza-Nefeli Tsaoussi] 
+desc: Game that embodies blowing capabilities 
+sourcecode: 
+link: 
+context: CSIM Master 
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 May 2009 - Psychogeophotography 
+

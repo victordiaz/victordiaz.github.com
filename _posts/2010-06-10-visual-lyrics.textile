@@ -1,0 +1,31 @@
+---
+layout: post
+title: Visual Lyrics 
+technologies: [musicXmatch API, last.fm API, Flickr API, PHP, Javascript] 
+from: 2010
+to: 2010
+collaborators: [Pedro Gouveia, Joan Mora, Vicky Vouloutsi] 
+desc: 
+sourcecode: 
+link: 
+context: BCN Music hack days 
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 May 2009 - Visual Lyrics 
+
+Synesthesia is a really interesting neuronal condition, where different sensations are mixed together and thus some people see colors while listening to sounds or have a different taste while seeing various things. We wanted to re-create this experience based on a song that we like. Thus, we choose a song and depending on it's lyrics, there is a re-creation of the song with images and also we can see the cover of the album the song belongs to, made out of these images. 
+
+!/images/visuallyrics/web.png(Web)! 
+
+!/images/visuallyrics/generatedcover.png(Generated cover)! 
+
+This was made in less than a day within the context of the Barcelona Music hack day using the following APIs / techonologies 
+
+* musiXmatch API
+* last fm API
+* Flickr API
+* PHP
+* Javascript 
+

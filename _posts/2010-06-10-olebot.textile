@@ -1,0 +1,46 @@
+<!-- TODO poner links a IQR, imagenes -->
+---
+layout: post
+title: Olebot  
+technologies: IQR, Pure Data, C++ 
+from: 2010
+to: 2010
+collaborators: [Laia Cagigal, Pablo Molina, Zuriñe Resa] 
+desc: Olebot is a robot which dances flamenco using neural networks 
+sourcecode: 
+link: 
+context: System, design, integration and control course. CSIM Master 
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 May 2009 - Olebot
+
+Olebot is based on the “dancer” metaphor. The global goal of this project was to create expressive reaction to the music through movement and visual output of the robot as humans would do, always taking into account the embodied limitations of the robot. 
+
+<!-- One of the reasons behind making the robot dance flamenco, was that most of the robots  -->
+
+The "intelligence" of the robot was given using IQR, a Large Neural Network Simulator software, using biological paradigms. The music was analyzed in real-time looking for the frequency onsets in order to give stimuli to the neural network that consequently made robot react. 
+
+The projections used were made using a basic VJ controller implemented as well with neural networks that changed according to the music in a similar way the robot was simulated. 
+
+
+<notextile>  
+<iframe src="http://player.vimeo.com/video/14550291" width="640" height="360" frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Olébot - the flamenco robodancer</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p> 
+</notextile> 
+
+
+
+
+h2. The Parable
+
+Imagine that you have a computer that has nothing on it but a text editor and a few file system commands. Now imagine that you have decided to write a large software program on this system. Because you're a responsible software developer, you decide that you need to invent some sort of method for keeping track of versions of your software so that you can retrieve code that you previously changed or deleted. What follows is a story about how you might design one such version control system (VCS) and the reasoning behind those design choices.
+
+
+* "Learn Git":http://learn.github.com/
+* "Git Community Book":http://book.git-scm.com/
+* "Git Magic":http://www-cs-students.stanford.edu/~blynn/gitmagic/
+
+--
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png" /></a>
