@@ -1,33 +1,59 @@
 ---
 layout: default
----
-<div id="post">
+--- 
+
+<div class = "container_12">  
+ <!-- div class = "grid_12" id="post"> --> 
+		
 {{ content }}
 
 <br/> 
 
-<h2> Technologies: </h2> 
 
-{% for technologies in post.collaborators %} 
-{{ technologies.collaborators }}
-{% endfor %} 
+{% if page.context != null %} 
+<h2> Context: </h2> 
+{{ page.context }} 
+{% endif %} 
+<br /> 
+<br /> 
 
+
+{% if page.technologies != empty %} 
+<h2> Used Technologies: </h2> 
+
+	<ul> 
+		{% for technology in page.technologies %} 
+		<li> {{ technology }} </li> 
+		{% endfor %} 
+		{% endif %} 
+	</ul> 
 <br/> 
 
-<h2> Collaborators: </h2> 
 
-{% for collaborator in post.collaborators %} 
-{{ post.collaborators }}
-{% endfor %} 
+{% if page.collaborators != empty %} 
+<h2> Collaborators: </h2> 
+	<ul> 
+		{% for collaborator in page.collaborators %} 
+		<li>{{ collaborator }}</li>
+		{% endfor %} 
+	</ul> 
+{% endif %} 
+<br />
+
+
+{% if page.sourcecode != null %} 
+<h2> Sourcecode: </h2> 
+	<li>{{ page.sourcecode }}</li> 
+{% endif %} 
+<br /> 	
+
+
+{% if page.link != null %} 
+<h2> Link: </h2> 
+	<li>{{ page.link }}</li> 
+{% endif %} 
+<br /> 
+
 
 </div> 
 
-
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %} 
-  </ul>
-</div>

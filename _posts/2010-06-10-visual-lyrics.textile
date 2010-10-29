@@ -1,14 +1,16 @@
 ---
-layout: post
+layout: post 
+category: project 
+img: visuallyrics
 title: Visual Lyrics 
 technologies: [musicXmatch API, last.fm API, Flickr API, PHP, Javascript] 
 from: 2010
 to: 2010
 collaborators: [Pedro Gouveia, Joan Mora, Vicky Vouloutsi] 
-desc: 
+desc: Lyrics with images 
 sourcecode: 
 link: 
-context: BCN Music hack days 
+context: BCN Music hack day 
 ---
 
 h1. {{ page.title }}

@@ -1,5 +1,7 @@
 ---
-layout: post
+layout: post 
+category:  project 
+img: lumivi
 title: Lumivi 
 technologies: Java 
 from: 2009

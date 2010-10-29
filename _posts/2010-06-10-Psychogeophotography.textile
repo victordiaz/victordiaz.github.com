@@ -1,14 +1,16 @@
 ---
-layout: post
+layout: post 
+category: project 
+img: psychogeophotography
 title: Psychogeophotography 
-technologies: [OpenCV, Processing] 
+technologies: [] 
 from: 2010
 to: 2010
 collaborators: [Eliza-Nefeli Tsaoussi] 
-desc: Game that embodies blowing capabilities 
+desc: One person with two personalities, two points of view to explore through photography 
 sourcecode: 
 link: 
-context: CSIM Master 
+context: Aesthetics of interactive media. CSIM Master UPF 
 ---
 
 h1. {{ page.title }}

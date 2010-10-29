@@ -1,32 +1,49 @@
 ---
 layout: default
-title: Victor Diaz 
+title: Victor Diaz  
 ---
 
-<div id="home"> 
-  <h1>Blog Posts</h1> 
-  <ul class="posts"> 
+
+<div class = "container_12">  
+	<div class = "grid_12" id = "projects"> 
+  		<h1>Projects</h1> 
 	
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	</div> 
+	<div class="clear"></div>  
+	
+	
+    {% for post in site.posts %} 
+
+	{% if post.categories contains 'project' %}  
+    <div class = "grid_3 project_preview"> 
+	
+	<a href="{{ post.url }}"> 
+		<br /> 
+		<img src="/images/{{post.img|downcase}}/preview.jpg" alt="{{post.title}} project" width="210" height="210" /> 
+	 
+		<div class="project_preview_title"> {{post.title }}  </div> 
+		
+		</a> 
+		<br /> 
+	
+		<div class="project_preview_desc"> <p> {{post.desc}} </p> </div>  
+
+	
+	
+	</div> 
+	
+	
+	
+	{% if forloop.index == 4 or forloop.index == 8 or forloop.index == 12 or forloop.index == 16 or forloop.index == 20 %}  
+	<div class="clear"></div>  
+	{% endif %}  
+	
+	{% endif %}  	
+	
+	
     {% endfor %}  
 
-</ul>
-
-<h1>Codes</h1> 
-
-  <ul class="codes"> 
-
-  {% for code in site.codes %}
-      <li><span>{{ code.date | date_to_string }}</span> &raquo; <a href="{{ code.url }}">{{ code.title }}</a></li>
-    {% endfor %} 
-</ul> 
-
-  <h1>Interviews, Talks, Etc</h1>
-  <ul class="posts">
-    <li><span>16 Sep 2010</span> &raquo; <a href="http://www.youtube.com/watch?v=Hi2V1x1AkD8">Video: @mail.ru Office Presentation</a></li>
-
-  </ul>
-
+	<!-- </div>  -->
+	
 
 </div>

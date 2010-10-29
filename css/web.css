@@ -1,0 +1,176 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #3db5e8; 
+/*  background-image: url("../images/bg1.jpg"); */
+  background-repeat: repeat; 
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
+} 
+
+#menu
+{
+padding:0;
+margin:0;
+font-family: arial, helvetica, sans-serif; 
+font-size: 28px; 
+font-weight:900; 
+white-space:nowrap;
+list-style-type:none;
+}
+#menu li {display:inline;}
+#menu li a
+{
+padding:0.2em 1em;
+color: #FFFFFF; 
+text-decoration:none;
+float:left; 
+}
+#menu li a:hover
+{
+color: #000000; 
+} 
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a; 
+  text-decoration: none; 
+
+}
+
+a:hover {
+  color: black; 
+  text-decoration: none; 
+
+}
+
+a:visited {
+  color: #a0a; 
+  text-decoration: none; 
+
+} 
+
+
+
+.bgtransparent { 
+	background-color: black; 
+	opacity: 0.5; 
+	
+	z-index; 0; 
+	height: 100%; 
+	
+	
+	position: absolute; 
+	top: 0; 
+} 
+
+
+.site { 
+
+	z-index; 2; 
+	height: 100%; 
+}
+
+
+
+.project_preview { 
+
+  margin: 0px; 
+  padding: 0px; 
+/*  background-color: black; */
+  text-align: center;
+  color: #CCCCCC;
+
+} 
+
+.project_preview_title { 
+/*	background-color: gray; */
+/*  	padding: -2px; 		*/
+	
+	} 
+	
+	
+.project_preview_desc { 
+	
+	
+	
+	}
+
+  .site a {
+    color: #a00;
+    text-decoration: none;
+  }
+
+  .site a:hover {
+    color: black;
+  }
+
+  .site a.extra {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site a.extra:hover {
+    color: black;
+  } 
+
+	.site p { 
+		text-align: left; 
+	} 
+
+  .site .meta {
+    color: #aaa;
+  } 
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden; 
+
+    font-size: 0.8em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #CCCCCC;
+    text-align: center;
+    color: #CCCCCC;
+    background-color: #000000; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin: 0; 
+	opacity: 0.8; 
+    /*clear: both;*/
+  }
+
+   

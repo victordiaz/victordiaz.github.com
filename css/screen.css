@@ -16,7 +16,9 @@ html, body {
 }
 
 body {
-  background-color: white;
+  background-color: white; 
+  background-image: url("../images/bg1.jpg"); 
+  background-repeat: repeat; 
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -89,7 +91,16 @@ ul.posts {
 .title {
   color: #a00;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 2em; 
+
+   padding:2px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #CCCCCC;
+  text-align: center;
+  color: #CCCCCC;
+  background-color: #000000; 
+   opacity: 0.8; 
 }
 
   .site .title a {
@@ -120,7 +131,20 @@ ul.posts {
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 2em;
-    overflow: hidden;
+    overflow: hidden; 
+
+    font-size: 0.8em;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #CCCCCC;
+    text-align: center;
+    color: #CCCCCC;
+    background-color: #000000; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin: 0; 
+	opacity: 0.8; 
+    /*clear: both;*/
   }
 
     .site .footer .contact {
