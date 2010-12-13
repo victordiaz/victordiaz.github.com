@@ -13,11 +13,11 @@
 
 html, body {
   height: 100%;
-}
+} 
 
 body {
   background-color: #3db5e8; 
-/*  background-image: url("../images/bg1.jpg"); */
+  background-image: url("../images/bg/p8.png"); 
   background-repeat: repeat; 
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
@@ -104,22 +104,47 @@ a:visited {
 
 .project_preview { 
 
-  margin: 0px; 
-  padding: 0px; 
-/*  background-color: black; */
-  text-align: center;
-  color: #CCCCCC;
+	/* 
+	border: 1px solid #000; 
+	border-bottom: 3px solid #000; 
+	border-right: 3px solid #000; 
+	*/ 
+	
+	border-top: 0px solid #000; 
+	border-bottom: 3px solid #000; 
+	
+	
+	margin: 5px; 
+	margin-bottom: 10px; 
+	padding:0px; 
+	background-color: #fff; 
+	text-align: center;
+	color: #CCCCCC; 
+
+  background-image: url("../images/bg/p12.png"); 
+  background-repeat: repeat; 
+
 
 } 
 
+.project_preview img { 
+	border: 0px solid #000; 
+	
+	margin: 0px; 
+  	padding:0px;
+} 
+
 .project_preview_title { 
-/*	background-color: gray; */
-/*  	padding: -2px; 		*/
+ 	
+	margin: 0px; 
+	padding: 2px; 	
+	background-color: black; 
+    
 	
 	} 
 	
 	
-.project_preview_desc { 
+	.project_preview_desc { 
 	
 	
 	

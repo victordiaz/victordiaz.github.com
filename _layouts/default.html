@@ -17,6 +17,36 @@
 	
 	<link rel="stylesheet" href="/css/web.css" type="text/css" media="screen, projection" /> 
 
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:regular,bold' rel='stylesheet' type='text/css'> 
+	<link href='http://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>
+	
+
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Neucha">
+    <style>
+      .menu { 
+        font-family: 'Josefin Sans', arial, sans-serif; 
+        font-size: 72px; 
+		float: left; 
+		list-style-type: none; 
+		padding: 2px; 
+		margin: 2px; 
+      } 
+
+	body { font-family: 'Geo', arial, serif;   font-size: 1.1em }; 
+	
+	
+	#project_preview_desc { 
+		font-family: 'Geo', arial, serif;  
+	 	font-size: 5em; 
+		color: black; 
+		font-color: black; 	
+		background-color: black; 
+	}; 
+	
+	
+
+    </style> 
+
 
    <!-- Homepage CSS -->
    <!-- <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />  -->
@@ -60,25 +90,25 @@ var WRInitTime=(new Date()).getTime();
 <!-- <div class="container_12 bgtransparent"> &nbsp </div>  -->
 
 <div class="container_12 site"> 
-  <div class = "grid_5" id = "menu"> 
+  <div class = "grid_8" id = "menu"> 
 		<!-- <ul id = "menu">  
     		<li><a href="/">PROJECTS</a></li> 
     		<li><a href="/bio/bio.html">BIO</a></li> 
 		</ul>  --> 
 		<!-- <a href="/">PROJECTS</a>  --> 
-		<a href="/"><img src = "/images/projects.png" /> </a> 
 		
+		<ul class = "menu">  
+		<li> <a href="/"> Projects </a> </li> 
+		<li> <a href="/bio/bio.html"> About me </a> </li> 
 		
+		</ul> 
 		
-	</div> 
-	
-	<div class = "grid_3" id = "menu"> 
+
 		<!-- <ul id = "menu">  
     		<li><a href="/">PROJECTS</a></li> 
     		<li><a href="/bio/bio.html">BIO</a></li> 
 		</ul>  --> 
 		<!-- <a href="/bio/bio.html">BIO</a>  -->
-		 <a href="/bio/bio.html"><img src = "/images/bio.png" /> </a> 
 		
 		
 		
@@ -122,8 +152,8 @@ var WRInitTime=(new Date()).getTime();
 
 	<div class = "grid_6" id="contact"> 
         <a href="http://github.com/victordiaz/">github.com/victordiaz</a><br />
-        <a href="http://twitter.com/biquillo/">twitter.com/biquillo</a><br />
-        <a href="http://flickr.com/photos/biquillo/">flickr.com/photos/biquillo</a>
+        <a href="http://twitter.com/biquillo/">twitter.com/biquillo</a><br /> 
+        <a href="http://flickr.com/photos/biquillo/">flickr.com/photos/biquillo</a> 
     </div> 
 	
 	<div class="grid_12" id="last_update">Last update {{site.time}} </div> 
