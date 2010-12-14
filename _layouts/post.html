@@ -2,7 +2,9 @@
 layout: default
 --- 
 
-<div class = "container_12">  
+<div class = "container_12" >  
+	<div class = "grid_5"> 
+  
  <!-- div class = "grid_12" id="post"> --> 
 		
 {{ content }} 
@@ -38,7 +40,7 @@ layout: default
 		{% endfor %} 
 	</ul> 
 {% endif %} 
-<br />
+<br /> 
 
 
 {% if page.sourcecode != null %} 
@@ -54,6 +56,34 @@ layout: default
 {% endif %} 
 <br /> 
 
+
+</div> 
+
+<div class = "grid_7 project"> 
+	
+	
+	{% if page.videos != empty %} 
+
+		<ul> 
+			{% for video in page.videos %} 
+			{{video}} 
+			{% endfor %} 
+		</ul> 
+		
+		<br /> 
+	{% endif %} 
+
+	
+	{% if page.images != empty %} 
+
+		<ul> 
+			{% for image in page.images %} 
+			<li> <img src="/images/{{page.img}}/{{ image }}" /> </li> 
+			{% endfor %} 
+		</ul> 
+	<br /> 
+	{% endif %} 
+</div> 
 
 </div> 
 

@@ -1,14 +1,14 @@
-<!-- TODO poner links a IQR, imagenes -->
 ---
 layout: post 
 category: project 
 img: olebot 
 title: Olebot  
-technologies: [IQR, Pure Data, C++] 
+technologies: [IQR, Pure Data, C++ (Qt)] 
 from: 2010
 to: 2010
 collaborators: [Laia Cagigal, Pablo Molina, Zuriñe Resa] 
 desc: Olebot is a robot which dances flamenco using neural networks 
+videos: [<iframe src="http://player.vimeo.com/video/14550291" width="480" height="360" frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Olébot - the flamenco robodancer</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
 sourcecode: 
 link: 
 context: System, design, integration and control course. CSIM Master UPF 
@@ -27,7 +27,4 @@ The "intelligence" of the robot was given using IQR, a Large Neural Network Simu
 The projections used were made using a basic VJ controller implemented as well with neural networks that changed according to the music in a similar way the robot was simulated. 
 
 
-<notextile>  
-<iframe src="http://player.vimeo.com/video/14550291" width="640" height="360" frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Olébot - the flamenco robodancer</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p> 
-</notextile> 
 

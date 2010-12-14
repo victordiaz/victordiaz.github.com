@@ -34,13 +34,15 @@ white-space:nowrap;
 list-style-type:none;
 }
 #menu li {display:inline;}
-#menu li a
-{
-padding:0.2em 1em;
-color: #FFFFFF; 
-text-decoration:none;
-float:left; 
-}
+#menu li a { 
+	
+	padding: 10px; 
+	padding-right: 55px; 
+	color: #FFFFFF; 
+	text-decoration:none;
+	float:left; 
+} 
+
 #menu li a:hover
 {
 color: #000000; 
@@ -148,6 +150,18 @@ a:visited {
 	
 	
 	
+	} 
+	
+	.project { 
+	
+		margin: 5px;  
+		padding: 5px; 
+		
+/*	  background-image: url("../images/bg/p1.png"); 
+	  background-repeat: repeat; */
+
+		
+		
 	}
 
   .site a {
