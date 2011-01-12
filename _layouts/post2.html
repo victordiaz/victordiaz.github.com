@@ -1,0 +1,89 @@
+---
+layout: default
+--- 
+
+<div class = "container_12" >  
+	<div class = "grid_5"> 
+  
+ <!-- div class = "grid_12" id="post"> --> 
+		
+{{ content }} 
+
+<br/> 
+
+
+{% if page.context != null %} 
+<h2> Context: </h2> 
+{{ page.context }} 
+{% endif %} 
+<br /> 
+<br /> 
+
+
+{% if page.technologies != empty %} 
+<h2> Used Technologies: </h2> 
+
+	<ul> 
+		{% for technology in page.technologies %} 
+		<li> {{ technology }} </li> 
+		{% endfor %} 
+		{% endif %} 
+	</ul> 
+<br/> 
+
+
+{% if page.collaborators != empty %} 
+<h2> Collaborators: </h2> 
+	<ul> 
+		{% for collaborator in page.collaborators %} 
+		<li>{{ collaborator }}</li>
+		{% endfor %} 
+	</ul> 
+{% endif %} 
+<br /> 
+
+
+{% if page.sourcecode != null %} 
+<h2> Sourcecode: </h2> 
+	<li>{{ page.sourcecode }}</li> 
+{% endif %} 
+<br /> 	
+
+
+{% if page.link != null %} 
+<h2> Link: </h2> 
+	<li>{{ page.link }}</li> 
+{% endif %} 
+<br /> 
+
+
+</div> 
+
+<div class = "grid_7 project"> 
+	
+	
+	{% if page.videos != empty %} 
+
+		<ul> 
+			{% for video in page.videos %} 
+			{{video}} 
+			{% endfor %} 
+		</ul> 
+		
+		<br /> 
+	{% endif %} 
+
+	
+	{% if page.images != empty %} 
+
+		<ul> 
+			{% for image in page.images %} 
+			<li> <img src="/images/{{page.img}}/{{ image }}" /> </li> 
+			{% endfor %} 
+		</ul> 
+	<br /> 
+	{% endif %} 
+</div> 
+
+</div> 
+

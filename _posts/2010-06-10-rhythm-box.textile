@@ -17,12 +17,7 @@ h1. {{ page.title }}
 
 p(meta). 19 May 2009 - Rhythmbox 
 
-Rhythm box is a new generation of percussion instrument that allows the user play different percussion kits, record sequences and modify them using different gestures. It has been designed to have haptic feedback inherited directly from the box properties and visual feedback through the use of light. 
-
-<!-- we have been working on the construction of a new musical 
-instrument focused on percussion. Our approach was making a musical box that could be actually playable and enjoyed by the users since the very beginning, so we went a bit further than just a proof of concept, having a working prototype that can already played and almost with 100% of the proposed functionality.  -->
- 
-<!-- video   --> 
+Rhythm box is a new generation of percussion instrument that allows the user play different percussion kits, record sequences and modify them using different gestures. It has been designed to have haptic feedback inherited directly from the box properties and visual feedback through the use of reactive light. 
 
 The instrument itself can be played in two modes separately or together depending on how it want to be played. One mode is pure percussion, were the player can make beats detected by piezo-electric sensors located on the surface of the box and attached to an Arduino board. The second mode allows the user to record loops and modifying the sound according to certain movements detected through a 3-axys accelerometer and a gyroscope. 
 
@@ -32,17 +27,9 @@ plates with a thin layer of foam in the middle to absorb the knock. Piezo sensor
 just with some slight movements some “knock” can be detected. The foam helped us to reduce that false 
 knocks and it turned out the best solution we tried. 
 
-<!-- imagen   --> 
-
 The box has three sides forming the shape of an extruded triangle or prism with each side having two 
 piezo-electric sensor, therefore the player will always see two sides at the same time with four sensors 
 divided in two groups of sounds. 
 
-
-<!-- imagen  --> 
-
-<!-- that our interface is both separable, in what concerns to the piezos and knocking and 
-integrable in the sense of moving the box in the 3d axys.  -->
-
-We tried the instrument with certain amount of subjects and we discovered that the box was a bit too big to be played with. Anyhow, the mapping implemented was quite intuitive for the user. 
+We tried the instrument with certain amount of subjects and we discovered that the box was a bit too big to be played with. Anyhow, the mapping implemented was quite intuitive for the user and everybody enjoy using it :) 
 
