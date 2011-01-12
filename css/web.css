@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-  color: black; 
+  color: #0000bb; 
   text-decoration: none; 
 
 }
@@ -153,15 +153,20 @@ a:visited {
 	
 .project_preview_desc { 
 	
-	margin: 0px; 
-	padding: 2px; 	
+	margin:0px;
+	padding:20px; 
+	height:100%; 
+
 	left-padding: 5px;  
 	right-padding: 5px;  
-		
+	
+
 
 	font-family: 'Josefin Sans', arial, serif;  
 	font-size: 1.2em; 
 	color: #fff; 
+	background: rgba(0, 0, 0, 0.28); 
+	
 	
 } 
 
@@ -169,7 +174,6 @@ a:visited {
 	.project_preview_desc p { 
 
 		color: white; 
-		background: rgba(0, 0, 0, 0.28); 
 
 	} 
 	
@@ -191,7 +195,7 @@ a:visited {
   }
 
   .site a:hover {
-    color: black;
+    color: #f00; 
   }
 
   .site a.extra {
@@ -212,25 +216,22 @@ a:visited {
     color: #aaa;
   } 
 
-  .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
+  .site .footer {  
     overflow: hidden; 
 
     font-size: 0.8em;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: #CCCCCC;
-    text-align: center;
+  
+    text-align: left; 
     color: #CCCCCC;
-    background-color: #000000; 
-    padding-top: 5px;
-    padding-bottom: 5px; 
-    margin: 0; 
-	opacity: 0.8; 
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin-top: 20px; 
+	background: rgba(0, 0, 0, 0.28); 
+	
+
     /*clear: both;*/
   }
 
-   
+   .footer { 
+		
+	} 

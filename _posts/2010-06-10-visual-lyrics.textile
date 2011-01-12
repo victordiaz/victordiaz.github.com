@@ -20,9 +20,4 @@ p(meta). 19 May 2009 - Visual Lyrics
 
 Synesthesia is a really interesting neuronal condition, where different sensations are mixed together and thus some people see colors while listening to sounds or have a different taste while seeing various things. We wanted to re-create this experience based on a song that we like. Thus, we choose a song and depending on it's lyrics, there is a re-creation of the song with images and also we can see the cover of the album the song belongs to, made out of these images. 
 
-<!-- !/images/visuallyrics/web.png(Web)!  --> 
-
-<!-- !/images/visuallyrics/generatedcover.png(Generated cover)!  -->
-
-
 

@@ -1,0 +1,34 @@
+---
+layout: post 
+category: project 
+img: oscdroid
+title: OSCdroid  
+technologies: [OpenCV, Processing] 
+from: 2010
+to: 2011
+collaborators: [] 
+desc: A nifty tool for prototyping and control interactive creations 
+sourcecode: 
+link: 
+context: 
+---
+
+h1. {{ page.title }}
+
+p(meta). 19 May 2009 - OSCdroid
+
+OSCdroid is a nifty tool for prototyping software and to manipulate values of your interactive application trough the network.  
+
+Currently has the following features: 
+
+* Multitouch points 
+* Trackpad 
+* Accelerometer 
+* Orientation Sensor 
+* GPS 
+* Sound volume 
+* Light sensor 
+* Incoming SMS to the computer 
+* Send SMS using the phone as gateway 
+* Make the phone vibrate 
+* Send key events to the computer 

@@ -2,7 +2,7 @@
 layout: post 
 category: project 
 img: flowerpower
-title: Flower Power  
+title: Dancing Flowers  
 technologies: [OpenCV, Processing] 
 from: 2009
 to: 2009
@@ -17,16 +17,4 @@ h1. {{ page.title }}
 
 p(meta). 19 May 2009 - Flower power 
 
-<!-- In todays world we do not discover new realities, we create them through virtuality therefore the gap between virtuality and reality get smaller and smaller 
-
-	The simulations of reality replace the real and this simulacrum is hyper reality.
-
-    Characteristics:
-       - The loss of the materiality of objects (virtual realities)
-       - The explosion of new media technologies 
-	  - Hyperreality connects to performance and must be studied as 
-	    being reproduced among wide scale audiences (art, websites…)
-
-
-    The traditional activity of art has been the representation of reality - manipulating materials to create tangible mirrors of our experience and desire. Now with the mechanisms of the new digital technologies, the artwork can become itself a simulation of reality - an immaterial digital structure encompassing synthetic spaces which we can literally enter. 
- -->
+In today's world the chances "to discover" new realities is being reduced so we started to create fictional ones. We create those realities through virtuality therefore the gap with the real world is getting smaller and smaller. It looks a bit scary when said so why not make it funny transforming you into a dancing flower? 

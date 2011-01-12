@@ -17,13 +17,13 @@ h1. {{ page.title }}
 
 p(meta). 19 May 2009 - Physiology-based control of affective audio-visual database 
 
-The study of my master thesis was about studying human emotions and create a biofeedback system that varies the affective state of the user using audiovisual stimuli and at the same time modulate the content being showed. 
+During my master thesis I tried to study human emotions in general and in specific study how could be created a biofeedback system that might variate the affective state of an user through audiovisual stimuli and at the same time modulate the content being showed and heard.  
 
 This biofeeback system could be used in the following scenarios: 
 
-Personal cinema
-Treatment for disorders such as chronic pain, depression, etc 
-Interactive installations 
-Narrative modulation in films 
-Relaxing device 
+ * Personal cinema
+ * Treatment for disorders such as chronic pain, depression, etc 
+ * Interactive installations 
+ * Narrative modulation in films 
+ * Relaxing device 
 
