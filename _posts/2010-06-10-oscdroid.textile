@@ -17,7 +17,8 @@ h1. {{ page.title }}
 
 p(meta). 19 May 2009 - OSCdroid
 
-OSCdroid is a nifty tool for prototyping software and to manipulate values of your interactive application trough the network.  
+OSCdroid is a nifty tool for prototyping software and to manipulate values of your interactive application trough the network. 
+
 
 Currently has the following features: 
 
