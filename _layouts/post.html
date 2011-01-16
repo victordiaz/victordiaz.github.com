@@ -2,22 +2,19 @@
 layout: default
 --- 
 
-<div class = "container_12" >  
-	<div class = "grid_5"> 
+<div class = "container_12 contenido" >  
+	<div class = "grid_7"> 
+		<div class = "project_preview2">
   
  <!-- div class = "grid_12" id="post"> --> 
 		
 {{ content }} 
 
-<br/> 
-
 
 {% if page.context != null %} 
 <h2> Context: </h2> 
-{{ page.context }} 
+<p> {{ page.context }} </p> 
 {% endif %} 
-<br /> 
-<br /> 
 
 
 {% if page.technologies != empty %} 
@@ -29,7 +26,6 @@ layout: default
 		{% endfor %} 
 		{% endif %} 
 	</ul> 
-<br/> 
 
 
 {% if page.collaborators != empty %} 
@@ -40,29 +36,33 @@ layout: default
 		{% endfor %} 
 	</ul> 
 {% endif %} 
-<br /> 
+
 
 
 {% if page.sourcecode != null %} 
 <h2> Sourcecode: </h2> 
 	<li>{{ page.sourcecode }}</li> 
 {% endif %} 
-<br /> 	
-
 
 {% if page.link != null %} 
 <h2> Link: </h2> 
-	<li>{{ page.link }}</li> 
+	<ul>
+		{% for l in page.link %} 
+		<li><a href={{ l }}> {{l}} </a></li> 
+		{% endfor %} 
+	</ul> 
 {% endif %} 
-<br /> 
 
-
+</div>
 </div> 
 
-<div class = "grid_7 project"> 
+<div class = "grid_5"> 
+	<div class = " contenido_img"> 
 	
 	
-	{% if page.videos != empty %} 
+	{% if page.videos != null %} 
+	<h2> Videos	</h2> 
+	
 
 		<ul> 
 			{% for video in page.videos %} 
@@ -73,16 +73,24 @@ layout: default
 		<br /> 
 	{% endif %} 
 
-	
-	{% if page.images != empty %} 
 
-		<ul> 
+	<div id = "content"> 
+	
+	{% if page.images != null %} 
+	<h2> Images	</h2> 
+
+		<!-- <ul>  -->
 			{% for image in page.images %} 
-			<li> <img src="/images/{{page.img}}/{{ image }}" /> </li> 
+			<!-- <li> <img src="/images/{{page.img}}/{{ image }}" /> </li>  -->
+			<a rel="example_group" href="/images/{{page.img}}/big/{{ image }}" title=""><img alt="" src="/images/{{page.img}}/thumb/{{ image }}" /></a> 
 			{% endfor %} 
-		</ul> 
+		<!-- </ul>  -->
 	<br /> 
 	{% endif %} 
+	</div> 
+	
+	</div> 
+	
 </div> 
 
 </div> 

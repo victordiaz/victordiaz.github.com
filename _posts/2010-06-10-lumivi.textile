@@ -9,13 +9,10 @@ to: 2009
 collaborators: [Lucas Lopez Serrano, Milena Markova] 
 desc: eXperience Induction Machine game made in order to research the effects of stress on performance 
 sourcecode: 
-link: 
 context: Research Methodologies / Cognitive courses. CSIM Master UPF 
 ---
 
 h1. {{ page.title }}
-
-p(meta). 19 May 2009 - Lumivi 
 
 Lumivi consists in a game designed in order to research the effects of stress on performance levels in immersive environments. In this game the subjects had to play following a white tile on the floor of the eXperience Induction Machine (XIM) room as it changed its direction of movement as fastest as possible. The gameplay had to be done under normal and stressing conditions such as color and sound factors. 
 

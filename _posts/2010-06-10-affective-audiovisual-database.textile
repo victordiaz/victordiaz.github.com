@@ -8,14 +8,12 @@ from: 2009
 to: 2009
 collaborators: [] 
 desc: Study of affective modulation through a rated audio-visual database 
+images: [1.png, 2.png, 3.png, 4.png, 5.png, 6.png] 
 sourcecode: 
-link: 
 context: Master Thesis. CSIM Master UPF 
 ---
 
 h1. {{ page.title }} 
-
-p(meta). 19 May 2009 - Physiology-based control of affective audio-visual database 
 
 During my master thesis I tried to study human emotions in general and in specific study how could be created a biofeedback system that might variate the affective state of an user through audiovisual stimuli and at the same time modulate the content being showed and heard.  
 

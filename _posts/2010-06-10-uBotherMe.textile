@@ -8,13 +8,12 @@ from: 2010
 to: 2010
 collaborators: [Pedro Gouveia] 
 desc: Set the alarm to your friends using the music you want 
+images: [img1.png, img2.jpg] 
 sourcecode: git@github.com:victordiaz/youBotherMe.git
-link: 
 context: BCN Music hack day  
 ---
 
 h1. {{ page.title }}
 
-p(meta). 19 May 2009 - uBotherMe 
-
 On this hack, we wanted the user of Android to loose control of an alarm clock. So, the alarm clock is controlled trough a webpage, where the user's friends can set the alarm with a custom-generated voice message or Soundcloud music link. 
+
