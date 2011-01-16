@@ -7,17 +7,14 @@ technologies: [Pure Data, Arduino]
 from: 2010
 to: 2010
 collaborators: [Guiller Malon Aguilar, Daniel Cabezas Lopez, Jaume Subirats Aleixandri, Abel Gasul Pallas] 
-desc: Rhythm box is a new generation of percussion instrument  
+desc: A new generation of percussion instrument  
 sourcecode: 
-link: 
 context: Advance interface design. CSIM Master UPF 
 ---
 
 h1. {{ page.title }}
 
-p(meta). 19 May 2009 - Rhythmbox 
-
-Rhythm box is a new generation of percussion instrument that allows the user play different percussion kits, record sequences and modify them using different gestures. It has been designed to have haptic feedback inherited directly from the box properties and visual feedback through the use of reactive light. 
+Rhythmbox is a new generation of percussion instrument that allows the user play different percussion kits, record sequences and modify them using different gestures. It has been designed to have haptic feedback inherited directly from the box properties and visual feedback through the use of reactive light. 
 
 The instrument itself can be played in two modes separately or together depending on how it want to be played. One mode is pure percussion, were the player can make beats detected by piezo-electric sensors located on the surface of the box and attached to an Arduino board. The second mode allows the user to record loops and modifying the sound according to certain movements detected through a 3-axys accelerometer and a gyroscope. 
 

@@ -9,12 +9,9 @@ to: 2009
 collaborators: [Lucas Lopez Serrano, Milena Markova] 
 desc: Installation that transform you into a flower 
 sourcecode: 
-link: 
 context: Historical, social and cultural context of interactive media course. CSIM Master UPF  
 ---
 
 h1. {{ page.title }}
-
-p(meta). 19 May 2009 - Flower power 
 
 In today's world the chances "to discover" new realities is being reduced so we started to create fictional ones. We create those realities through virtuality therefore the gap with the real world is getting smaller and smaller. It looks a bit scary when said so why not make it funny transforming you into a dancing flower? 

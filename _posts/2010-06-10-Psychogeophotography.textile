@@ -8,12 +8,16 @@ from: 2010
 to: 2010
 collaborators: [Eliza-Nefeli Tsaoussi] 
 desc: One person with two personalities, two points of view to explore through photography 
+images: [1.jpg, 2.jpg] 
 sourcecode: 
-link: 
+link: [http://www.flickr.com/photos/46638554@N02/, http://www.flickr.com/photos/kiwi_popeye/] 
 context: Aesthetics of interactive media. CSIM Master UPF 
 ---
 
 h1. {{ page.title }}
 
-p(meta). 19 May 2009 - Psychogeophotography 
+The fictitious itinerary of a person living in "Poblenou area, Barcelona":http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=112009115463063919948.00047d611994066867781&z=16. 
+Our persona suffers from Dissociative Personality disorder. There are days she is a girl working in a fruit shop delivering fruit to the neighboring companies and days he is a man with a hazy past.
+Their only way to communicate is through pictures they take in their everyday tour, which are here superimposed in the order they were taken by each personality.
 
+You can find the pictures alone in the flickr account of "Marian":http://www.flickr.com/photos/46638554@N02/ and "James":http//www.flickr.com/photos/kiwi_popeye/. 

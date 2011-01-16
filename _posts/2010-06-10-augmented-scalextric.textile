@@ -9,13 +9,10 @@ to: 2010
 collaborators: [Gavin Morris, Martin Cawson, Victor Diaz] 
 desc: Enjoy scalectrix with VR glases and sound! 
 sourcecode: 
-link: 
 context: OFLab London 
 ---
 
 h1. {{ page.title }}
-
-p(meta). 19 May 2009 - Scalextricity 
 
 Scalextricity is an augmentation of the original game Scalectrix, a slot car racing game. 
 The car is tracked using a ps3 camera along the circuit extracting location and speed information which are used to sonify the car and apply several video effects to the video coming from a wireless camera located on top of the car.  
