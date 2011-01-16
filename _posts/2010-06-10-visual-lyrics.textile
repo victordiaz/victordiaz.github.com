@@ -4,8 +4,7 @@ category: project
 img: visuallyrics
 title: Visual Lyrics 
 technologies: [musicXmatch API, last.fm API, Flickr API, PHP, Javascript] 
-from: 2010
-to: 2010
+when: 10/2010 
 collaborators: [Pedro Gouveia, Joan Mora, Vicky Vouloutsi] 
 desc: Lyrics with images 
 images: [web.png, generatedcover.png] 

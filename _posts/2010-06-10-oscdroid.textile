@@ -4,8 +4,7 @@ category: project
 img: oscdroid
 title: OSCdroid  
 technologies: [Android SDK] 
-from: 2010
-to: 2011
+when: 11/2010 - Still working on it
 collaborators: [] 
 desc: A nifty tool for prototyping and control interactive creations 
 images: [oscdroid1.png, oscdroid2.jpg] 
@@ -13,7 +12,7 @@ sourcecode:
 context: 
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title }} 
 
 OSCdroid is a nifty tool, _to be released really soon_ in the Android market, meant for prototyping software and to manipulate values of your interactive application trough the network. 
 

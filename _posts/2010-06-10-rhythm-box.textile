@@ -4,10 +4,10 @@ category: project
 img: rhythmbox
 title: Rhythm box  
 technologies: [Pure Data, Arduino] 
-from: 2010
-to: 2010
+when: 05/2010 - 06/2010
 collaborators: [Guiller Malon Aguilar, Daniel Cabezas Lopez, Jaume Subirats Aleixandri, Abel Gasul Pallas] 
 desc: A new generation of percussion instrument  
+videos: [<iframe src="http://player.vimeo.com/video/18859164" width="380" height="214"  frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Rhythmbox</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
 sourcecode: 
 context: Advance interface design. CSIM Master UPF 
 ---

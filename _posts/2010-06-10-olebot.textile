@@ -4,8 +4,7 @@ category: project
 img: olebot 
 title: Olebot  
 technologies: [IQR, Pure Data, C++ (Qt)] 
-from: 2010
-to: 2010
+when: 02/2010 - 03/2010
 collaborators: [Laia Cagigal, Pablo Molina, Zuriñe Resa] 
 desc: A robot which dances flamenco using neural networks 
 videos: [<iframe src="http://player.vimeo.com/video/14550291" width="380" height="214"  frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Olébot - the flamenco robodancer</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
@@ -13,7 +12,7 @@ sourcecode:
 context: System, design, integration and control course. CSIM Master UPF 
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title }} 
 
 Olebot is based on the “dancer” metaphor. The global goal of this project was to create expressive reaction to the music through movement and visual output of the robot as humans would do, always taking into account the embodied limitations of the robot. 
 

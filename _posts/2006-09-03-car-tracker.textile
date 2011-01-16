@@ -4,8 +4,7 @@ category: project
 img: cartracker
 title: Fleet Tracking System  
 technologies: [PHP, python, SOAP] 
-from: 2005 
-to: 2006 
+when: 07/2005 - 03/2006 
 collaborators: [] 
 desc: Fleet Tracking System
 images: [1.png, 2.png, 3.png, 4.png, 5.png] 
@@ -13,7 +12,7 @@ sourcecode:
 context: Bachelor Final Project 
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title }} 
 
 The overall goal of this project goal was to implement a set of computer software that could monitor a fleet of vehicles. 
 Each client can work in two modes: active, sending information to the server constantly and passive, sending information by petition. One of the multiples features of the system is that the server not only works as a merely database since it could generate notifications and alert privileged users about anomalies in the routes that the vehicles had to perform. 

@@ -4,14 +4,13 @@ category: project
 img: flowerpower
 title: Dancing Flowers  
 technologies: [OpenCV, Processing] 
-from: 2009
-to: 2009
+when: 12/2009
 collaborators: [Lucas Lopez Serrano, Milena Markova] 
 desc: Installation that transform you into a flower 
 sourcecode: 
 context: Historical, social and cultural context of interactive media course. CSIM Master UPF  
 ---
 
-h1. {{ page.title }}
+h1. {{ page.title }} 
 
 In today's world the chances "to discover" new realities is being reduced so we started to create fictional ones. We create those realities through virtuality therefore the gap with the real world is getting smaller and smaller. It looks a bit scary when said so why not make it funny transforming you into a dancing flower? 

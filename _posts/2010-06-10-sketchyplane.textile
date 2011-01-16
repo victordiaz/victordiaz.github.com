@@ -4,8 +4,7 @@ category: project
 img: sketchyplane
 title: Sketchyplane  
 technologies: [OpenFrameworks, Pure Data, Arduino] 
-from: 2010
-to: 2010
+when: 03/2010
 collaborators: [Miguel Sanchez Valdes] 
 desc: Control a paper airplane blowing a pinwheel
 videos: [<iframe src="http://player.vimeo.com/video/12589878" width="380" height="360" frameborder="0"></iframe><p><a href="http://vimeo.com/12589878">Sketchy Plane</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
@@ -13,8 +12,10 @@ sourcecode:
 context: Real-time interaction. CSIM Master UPF 
 ---
 
-h1. {{ page.title }} 
+h1. {{ page.title }}
 
 Sketchy plane is a game where you take the role of a paper airplane or better to say the wind that makes it move! So we can just say that we become something similar to a God of wind :)
 
 The aim is to control the paper airplane trying to avoid the birds that come from the top of the screen using something different than a keyboard or a mouse. So why not playing with the air? :) 
+
+

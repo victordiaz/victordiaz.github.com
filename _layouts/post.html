@@ -7,8 +7,14 @@ layout: default
 		<div class = "project_preview2">
   
  <!-- div class = "grid_12" id="post"> --> 
+
 		
 {{ content }} 
+
+{% if page.when != null %} 
+<h2> When: </h2> 
+<p> {{ page.when }} </p> 
+{% endif %} 
 
 
 {% if page.context != null %} 

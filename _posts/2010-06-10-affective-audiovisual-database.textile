@@ -4,8 +4,7 @@ category: project
 img: physiodb
 title: Physiology-based control of affective audio-visual database 
 technologies: [Java, Matlab, GSR Sensor]   
-from: 2009
-to: 2009
+when: 12/2009 - 09/2010
 collaborators: [] 
 desc: Study of affective modulation through a rated audio-visual database 
 images: [1.png, 2.png, 3.png, 4.png, 5.png, 6.png] 
