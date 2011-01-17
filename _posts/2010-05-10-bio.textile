@@ -9,7 +9,7 @@ desc:
 
 h1. {{ page.title }} 
 
-Hello World! My name is Victor Diaz a Spaniard guy who was born in Granada, Spain and now is living in Barcelona. I studied Telecommunication Engineering and recently I finished an Interdisciplinary Master in Cognitive Systems and Interactive Media aka CSIM in the University Pompeu Fabra of Barcelona. 
+Hello World! My name is Victor Diaz a Spaniard guy who was born in Granada, Spain and now is living in Barcelona. I studied Telecommunication Engineering and recently I finished an Interdisciplinary Master in Cognitive Systems and Interactive Media aka CSIM at the University Pompeu Fabra of Barcelona. 
 
 I am really interested in human emotions, in how the brain works, in data visualizations, new ways of interfacing with computers, photography, experimental cinema, more humanized architecture and really concerned about new ways of education. And even better if everything is seasoned with open source and free culture :) Too many things isn't it? It could be but somehow all of them are interconnected :) 
 
@@ -23,7 +23,7 @@ Here some places where I have been (by visiting order)!!
 
 Spain, Portugal, Greece, France, England, Ireland, Italy, Japan, Switzerland, Germany, Czech Republic, The Netherlands, Belgium, Morocco, Hungary, Austria, Poland, Slovakia, Sweden. 
 
-And places where I lived 
+And places where I've lived 
 Granada, Jaen, Madrid, Barcelona (Spain), Montpellier (France), Bern (Switzerland) and Tokyo (Japan) 
 
 
