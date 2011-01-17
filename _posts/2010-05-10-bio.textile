@@ -1,17 +1,13 @@
 ---
-layout: default 
+layout: post 
 category: bio
 title: about me 
+cv: <a href="/docs/victor_diaz_english.pdf"> You can grab my CV here! </a> 
+
 desc: 
 --- 
 
 h1. {{ page.title }} 
-
-
-<notextile>  
-<a href="/docs/victor_diaz_english.pdf"> You can grab my CV here! </a></p> 
-</notextile> 
-
 
 Hello World! My name is Victor Diaz a Spaniard guy who was born in Granada, Spain and now is living in Barcelona. I studied Telecommunication Engineering and recently I finished an Interdisciplinary Master in Cognitive Systems and Interactive Media aka CSIM in the University Pompeu Fabra of Barcelona. 
 

@@ -23,7 +23,7 @@ layout: default
 {% endif %} 
 
 
-{% if page.technologies != empty %} 
+{% if page.technologies != null %} 
 <h2> Used Technologies: </h2> 
 
 	<ul> 
@@ -34,7 +34,7 @@ layout: default
 	</ul> 
 
 
-{% if page.collaborators != empty %} 
+{% if page.collaborators != null %} 
 <h2> Collaborators: </h2> 
 	<ul> 
 		{% for collaborator in page.collaborators %} 
@@ -59,6 +59,7 @@ layout: default
 	</ul> 
 {% endif %} 
 
+<br /> 
 </div>
 </div> 
 
@@ -93,6 +94,23 @@ layout: default
 		<!-- </ul>  -->
 	<br /> 
 	{% endif %} 
+	
+	{% if page.cv != null %} 
+	<h2> CV	</h2> 
+	<p> {{page.cv}} </p> 
+	<br /> 
+	{% endif %} 
+	
+	{% if page.meinimages != null %} 
+	<h2> Me in images	</h2> 
+	<p> {{page.meinimages}} </p> 
+	<br /> 
+	{% endif %}
+	
+	
+	
+	
+	
 	</div> 
 	
 	</div> 

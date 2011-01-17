@@ -7,6 +7,7 @@ technologies: Java
 when: 11/2009 - 12/2009
 collaborators: [Lucas Lopez Serrano, Milena Markova] 
 desc: eXperience Induction Machine game made in order to research the effects of stress on performance 
+videos: [<iframe src="http://player.vimeo.com/video/18862240" width="380" height="214"  frameborder="0"></iframe><p><a href="http://vimeo.com/14550291">Lumivi - an eXperience Induction Machine game </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
 sourcecode: 
 context: Research Methodologies / Cognitive courses. CSIM Master UPF 
 ---
