@@ -3,7 +3,7 @@ layout: post
 category: project 
 img: cartracker
 title: Fleet Tracking System  
-technologies: [PHP, python, SOAP] 
+technologies: [PHP, Python, SOAP] 
 when: 07/2005 - 03/2006 
 collaborators: [] 
 desc: Fleet Tracking System

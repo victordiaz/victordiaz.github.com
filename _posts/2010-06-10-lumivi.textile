@@ -13,11 +13,8 @@ context: Research Methodologies / Cognitive courses. CSIM Master UPF
 
 h1. {{ page.title }} 
 
-Lumivi consists in a game designed in order to research the effects of stress on performance levels in immersive environments. In this game the subjects had to play following a white tile on the floor of the eXperience Induction Machine (XIM) room as it changed its direction of movement as fastest as possible. The gameplay had to be done under normal and stressing conditions such as color and sound factors. 
+Lumivi consists in a game designed in order to research the effects of stress on performance levels in immersive environments. In this game the subjects had to play following a white tile on the floor of the eXperience Induction Machine (XIM) room as it changed its direction of movement as fastest as possible. 
+The gameplay had to be done under normal and stressing conditions such as color and sound factors. 
 
-The hypothesis of the researchers that performance level increases when subjects were exposed 
-to stress, failed to be accepted, because the study could not find any difference in performance of 
-the subjects with or without stress factors applied. The study discovered, however, that there is a 
-strong correlation between performance scores under stress and the affinity to play sports that 
-require intense physical activity. 
+The hypothesis, performance level increases when subjects were exposed to stress, failed to be accepted, because the study could not find any difference in performance of the subjects with or without stress factors applied. The study discovered, however, that there is a strong correlation between performance scores under stress and the affinity to play sports that require intense physical activity. 
 
