@@ -7,6 +7,7 @@ technologies: [OpenCV, Processing]
 when: 12/2009
 collaborators: [Lucas Lopez Serrano, Milena Markova] 
 desc: Installation that transform you into a flower 
+images: [1.png, 2.png, 3.png, 4.png, 5.png, 6.png] 
 sourcecode: 
 context: Historical, social and cultural context of interactive media course. CSIM Master UPF  
 ---
