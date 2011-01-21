@@ -42,10 +42,13 @@
     </style> 
 
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-		<script>
-			!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
-		</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+	
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script> 
+	
+
+
 		<script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 
 		<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
@@ -130,10 +133,44 @@
 					'transitionIn'		: 'none',
 					'transitionOut'		: 'none'
 				});
-			});
-		</script>
+			}); 
+			
+		</script> 
+		
+		<script> 
+		
+		$(document).ready(function() {
+		    $("#me").click(function(event) { 
+		   //     $(this).stop().animate ({"left": "+=50px"}, {queue:false, duration:600, easing: 'easeOutBounce'}); 
+				
+				 $(this).stop().animate({paddingLeft:'25px'},{queue:true, duration:200, easing: 'easeOutBounce'});   
+				$(this).stop().animate({paddingLeft:'-25px'},{queue:true, duration:200, easing: 'easeOutBounce'}); 
+		        	
+				var fadeDuration = 200; 
+				
+		        // $(this).animate({ paddingLeft: '25px' }, fadeDuration); 
+		        // $(this).animate({ paddingLeft: '25px' }, fadeDuration);
+				
+		    }); 
+	
+		    // 
+		    // //When mouse rolls over  
+		    // $("#me").mouseover(function(){  
+		    //     $(this).stop().animate({height:'150px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+		    // });  
+		    // 		
+		    // //When mouse is removed  
+		    // $("#me").mouseout(function(){  
+		    //     $(this).stop().animate({height:'50px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+		    // });  
+		    // 
+		    // 		
+		
+		}); 
 		
 		
+		
+		</script> 
 
 
    <!-- Homepage CSS -->
@@ -203,7 +240,9 @@ var WRInitTime=(new Date()).getTime();
 	</div> 
 	  
 	<div class = "grid_4" >	
-		<img src = "/images/victordiazplayfulhacker.png" height="180" /> 
+		<div id = "me"> 
+			<img src = "/images/victordiazplayfulhacker.png" height="180" /> 
+		</div> 
 			
 	</div> 
 	<!-- <div class = "grid_6" id="status"> <p> Still updating! </p> </div>  -->
