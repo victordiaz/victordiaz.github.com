@@ -7,7 +7,7 @@ technologies: [Android SDK]
 when: 11/2010 - Still working on it
 collaborators: [] 
 desc: A nifty tool for prototyping and control interactive creations 
-images: [oscdroid1.png, oscdroid2.jpg] 
+images: [oscdroid1.png, oscdroid2.png, oscdroid3.png, oscdroid4.png] 
 sourcecode: 
 context: 
 ---
