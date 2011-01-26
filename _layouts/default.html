@@ -143,28 +143,26 @@
 		    $("#me").click(function(event) { 
 		   //     $(this).stop().animate ({"left": "+=50px"}, {queue:false, duration:600, easing: 'easeOutBounce'}); 
 				
-				 $(this).stop().animate({paddingLeft:'25px'},{queue:true, duration:200, easing: 'easeOutBounce'});   
-				$(this).stop().animate({paddingLeft:'-25px'},{queue:true, duration:200, easing: 'easeOutBounce'}); 
+				// $(this).stop().animate({paddingLeft:'25px'},{queue:true, duration:200, easing: 'easeOutBounce'});   
+				//$(this).stop().animate({paddingLeft:'-25px'},{queue:true, duration:200, easing: 'easeOutBounce'}); 
 		        	
-				var fadeDuration = 200; 
+				//var fadeDuration = 200; 
 				
-		        // $(this).animate({ paddingLeft: '25px' }, fadeDuration); 
-		        // $(this).animate({ paddingLeft: '25px' }, fadeDuration);
 				
 		    }); 
 	
-		    // 
-		    // //When mouse rolls over  
-		    // $("#me").mouseover(function(){  
-		    //     $(this).stop().animate({height:'150px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
-		    // });  
-		    // 		
-		    // //When mouse is removed  
-		    // $("#me").mouseout(function(){  
-		    //     $(this).stop().animate({height:'50px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
-		    // });  
-		    // 
-		    // 		
+		    
+		     //When mouse rolls over  
+		     $("#me").mouseover(function(){  		    
+		        $(this).stop().animate({paddingLeft:'50px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+		     });  
+		     		
+		     //When mouse is removed  
+		     $("#me").mouseout(function(){  		        
+		         $(this).stop().animate({paddingLeft:'-50px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+		     });  
+		     
+		     		
 		
 		}); 
 		
