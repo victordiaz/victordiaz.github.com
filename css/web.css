@@ -319,8 +319,15 @@ a:visited {
 		
 	} 
 	
-	#content { 
+	.content p { 
+		padding-left: 10px; 
 		text-align: right; 
+		
+	} 
+	
+	
+	.b_imagenes { 
+		text-align: center; 
 		
 	} 
 	

@@ -3,6 +3,7 @@ layout: post
 category: bio
 title: about me 
 cv: <a href="/docs/victor_diaz_english.pdf"> You can grab my CV here! </a> 
+links: [ <a href="http://www.flickr.com/photos/biquillo"> My Flickr gallery </a> ] 
 
 desc: 
 --- 
@@ -19,10 +20,10 @@ My biggest passion is to travel, it always remind me that my culture is not the 
 
 I love languages as well and although I do not speak any perfectly I try to do it in English, French, German and Japanese apart from my mother tongue, Spanish. 
 
-Here some places where I have been (by visiting order) 
+<h2>Here some places where I have been (by visiting order)</h2> 
 
 Spain, Portugal, Greece, France, England, Ireland, Italy, Japan, Switzerland, Germany, Czech Republic, The Netherlands, Belgium, Morocco, Hungary, Austria, Poland, Slovakia, Sweden. 
 
-Places where I've lived 
+<h2>Places where I've lived </h2> 
 Granada, Jaen, Madrid, Barcelona (Spain), Montpellier (France), Bern (Switzerland) and Tokyo (Japan) 
 

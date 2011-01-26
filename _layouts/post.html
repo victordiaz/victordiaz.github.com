@@ -81,25 +81,41 @@ layout: default
 	{% endif %} 
 
 
-	<div id = "content"> 
+	<div class = "content"> 
 	
 	{% if page.images != null %} 
 	<h2> Images	</h2> 
-
+	<div class="b_imagenes"> 
 		<!-- <ul>  -->
 			{% for image in page.images %} 
 			<!-- <li> <img src="/images/{{page.img}}/{{ image }}" /> </li>  -->
 			<a rel="example_group" href="/images/{{page.img}}/big/{{ image }}" title=""><img alt="" src="/images/{{page.img}}/thumb/{{ image }}" /></a> 
 			{% endfor %} 
-		<!-- </ul>  -->
+		<!-- </ul>  --> 
+	</div> 
 	<br /> 
 	{% endif %} 
+	
 	
 	{% if page.cv != null %} 
 	<h2> CV	</h2> 
 	<p> {{page.cv}} </p> 
 	<br /> 
 	{% endif %} 
+	
+	
+	{% if page.links != null %} 
+	<h2> Links </h2> 
+
+		<!-- <ul>  -->
+			{% for link in page.links %} 
+			<p> {{link}} </p> 
+		
+			{% endfor %} 
+		<!-- </ul>  -->
+	<br /> 
+	{% endif %} 
+	
 	
 	{% if page.meinimages != null %} 
 	<h2> Me in images	</h2> 
