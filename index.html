@@ -15,7 +15,8 @@ title: Victor Diaz
     {% for post in site.posts %} 
 
 	{% if post.categories contains 'project' %}  
-    <div class = "grid_3 project_preview"> 
+    <div class = "grid_3" > 
+	<div class = "project_preview"> 
 	
 	<a href="{{ post.url }}"> 
 		<br /> 
@@ -28,7 +29,7 @@ title: Victor Diaz
 		<div class = "project_preview_desc">  <p> {{post.desc}} </p> </div>  
 
 	
-	
+	</div> 
 	</div> 
 	
 	

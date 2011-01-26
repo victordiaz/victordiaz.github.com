@@ -2,8 +2,8 @@
 layout: post 
 category: bio
 title: about me 
-cv: <a href="/docs/victor_diaz_english.pdf"> You can grab my CV here! </a> 
-links: [ <a href="http://www.flickr.com/photos/biquillo"> My Flickr gallery </a> ] 
+cv: <a href="/docs/victor_diaz_english.pdf"> GRAB IT HERE! </a> 
+links: [ <a href="http://www.flickr.com/photos/biquillo"> MY FLICKR GALLERY </a> ] 
 
 desc: 
 --- 

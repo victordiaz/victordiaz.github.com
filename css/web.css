@@ -176,14 +176,14 @@ a:visited {
 .project_preview_desc { 
 	
 	margin:0px;
-	padding:20px; 
-	height:100%; 
+	padding:8px; 
+	height:100px; 
 
 	left-padding: 5px;  
 	right-padding: 5px;  
 	
 	font-family: 'Josefin Sans', arial, serif;  
-	font-size: 1.2em; 
+	font-size: 1.15em; 
 	color: #fff; 
 	background: rgba(0, 0, 0, 0.28); 
 	
@@ -242,13 +242,29 @@ a:visited {
 	padding:5px; 
 } 
 
+
 .project_preview2 p { 
 	
-	padding-left: 25px;
-	padding-right: 25px;
+	font-family: Geneva,Arial,Helvetica,sans-serif; 
+	font-size: 0.8em; 
+	padding-left: 25px; 
+	padding-right: 25px; 
 	text-align: justify; 
+	list-style: none; 
 	
 } 
+
+
+.project_preview2 li { 
+	
+	font-family: Geneva,Arial,Helvetica,sans-serif; 
+	font-size: 0.8em; 
+	text-align: justify; 
+	list-style: none; 
+	
+} 
+
+
 
 .project_preview2 h2 { 
 	padding:5px; 

@@ -6,7 +6,7 @@ title: Augmented Scalextric
 technologies: [OpenFrameworks]
 when: 02/2010
 collaborators: [Gavin Morris (original idea), Martin Cawson] 
-desc: Enjoy scalectrix with VR glases and sound! 
+desc: Enjoy scalectrix with VR glasses and sound! 
 videos: [<iframe src="http://player.vimeo.com/video/19030867" width="380" height="214"  frameborder="0"></iframe><p><a href="http://vimeo.com/19030867"> Augmented excalextric </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
 sourcecode: 
 context: OFLab London 
