@@ -3,21 +3,24 @@ layout: post
 category: project 
 img: oscdroid
 title: OSCdroid  
-technologies: [Android SDK] 
+technologies: [Android SDK, HTML5, Javascript] 
 when: 11/2010 - Still working on it
 collaborators: [] 
 desc: A nifty tool for prototyping and control interactive creations 
-images: [oscdroid1.png, oscdroid2.png, oscdroid3.png, oscdroid4.png] 
+images: [oscdroid1.png, oscdroid2.png, oscdroid3.png, oscdroid4.png, oscdroid5.png, oscdroid6.png] 
 sourcecode: 
 context: 
 ---
 
 h1. {{ page.title }} 
 
-OSCdroid is a nifty tool, _to be released really soon_ in the Android market, meant for prototyping software and to manipulate values of your interactive application trough the network. 
+OSCdroid is a nifty tool, _to be released really soon_ in the Android market, meant for prototyping software and to manipulate values of your interactive application trough the network using the OSC protocol. 
+
+It comes with some standard native interfaces but it also provides the option of creating as many custom interfaces as you want using html5 and Javascript by the user. 
 
 Currently has the following features: 
 
+* Custom interface using html5 and Javascript 
 * Multitouch points 
 * Trackpad 
 * Accelerometer 
