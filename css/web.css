@@ -238,7 +238,10 @@ a:visited {
 } 
 
 .project_preview2 p { 
-	padding:5px; 
+	
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify; 
 	
 } 
 
@@ -323,7 +326,7 @@ a:visited {
 	} 
 	
 	.content p { 
-		padding-left: 10px; 
+		padding-right: 10px; 
 		text-align: right; 
 		
 	} 
@@ -359,10 +362,6 @@ a:visited {
   .site a.extra:hover {
     color: black;
   } 
-
-	.site p { 
-		text-align: left; 
-	} 
 
   .site .meta {
     color: #aaa;
