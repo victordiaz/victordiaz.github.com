@@ -12,12 +12,11 @@
 }
 
 html, body {
-  height: 100%;
+
 } 
 
 body {
-  background-color: #3db5e8; 
-  background-image: url("../images/bg/p8.png"); 
+  background-color: #222222; 
   background-repeat: repeat; 
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
@@ -138,8 +137,6 @@ a:visited {
 	border-top: 0px solid #000; 
 	border-bottom: 3px solid #000; 
 	
-	
-	margin: 5px; 
 	margin-bottom: 10px; 
 	padding:0px; 
 	background-color: #fff; 
@@ -325,8 +322,15 @@ a:visited {
 	#content { 
 		text-align: right; 
 		
+	} 
+	
+	
+	.site { 
+		background-image: url("../images/bg/p8.png"); 
+	  
+		
 	}
-
+	
   .site a {
     color: #a00;
     text-decoration: none;
