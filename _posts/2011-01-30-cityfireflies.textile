@@ -1,0 +1,21 @@
+---
+layout: post 
+category:  project 
+img: cityfireflies
+title: City Fireflies 
+technologies: [Openframeworks, Media Facade] 
+when: 28/01/2011 - 30/01/2011
+collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+desc: Media Lab Prado Media Facade Game that uses light sources as controller 
+videos: [<iframe src="http://player.vimeo.com/video/19356892" width="380" height="214"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892"> City Fireflies </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
+sourcecode: 
+context: Global Gamejam 2011, Medialab Prado. Madrid. 
+---
+
+h1. {{ page.title }} 
+
+We are using the a 15x10 meters media facade at Medialab Prado, Madrid. 
+
+Topic: Several environmental dangers are threatening human life: Buildings, pollution, cars. They are eating all the public space around and our mission is to draw clean spaces with the help of a bright light: A torch or our mobile phone light. 
+
+In this first prototype we only have one level with a lot of evil monster representing the city aggressions. If the monster extinguish all the free space, we die and have to start again. 
