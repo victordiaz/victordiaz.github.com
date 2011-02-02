@@ -116,7 +116,7 @@ a:visited {
 } 
 
 .contenido_img { 
-	background-image: url("../images/bg/p12.png"); 
+	background-image: url("../images/bg/p8_2.png"); 
 	margin:0px;
 	padding:0px; 
 	height:100%; 
@@ -150,7 +150,7 @@ a:visited {
 	color: #CCCCCC; 
 
 
-  background-image: url("../images/bg/p12.png"); 
+  background-image: url("../images/bg/p8_2.png"); 
   background-repeat: repeat; 
 
 
@@ -383,7 +383,7 @@ a:visited {
 	
 	
 	.site { 
-		background-image: url("../images/bg/p8.png"); 
+		//background-image: url("../images/bg/p8.png"); 
 	  
 		
 	}
