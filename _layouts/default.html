@@ -154,13 +154,14 @@
 		    
 		     //When mouse rolls over  
 		     $("#me").mouseover(function(){  		    
-		        $(this).stop().animate({paddingLeft:'50px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+		        $(this).stop().animate({paddingLeft:'50px'},{queue:true, duration:200, easing: 'easeOutBounce'})  
 		     });  
 		     		
 		     //When mouse is removed  
 		     $("#me").mouseout(function(){  		        
-		         $(this).stop().animate({paddingLeft:'-50px'},{queue:false, duration:600, easing: 'easeOutBounce'})  
+		         $(this).stop().animate({paddingLeft:'-50px'},{queue:true, duration:200, easing: 'easeOutBounce'})  
 		     });  
+		     
 		     
 		     		
 		
@@ -238,6 +239,13 @@ var WRInitTime=(new Date()).getTime();
 	</div> 
 	  
 	<div class = "grid_4" >	
+	
+	<!-- 
+		<div id = "me2"> 
+			 <a href="/bio/bio.html"><img src = "/images/.png" height="180" /></a> 
+		</div> 
+	--> 
+	
 		<div id = "me"> 
 			 <a href="/bio/bio.html"><img src = "/images/victordiazplayfulhacker.png" height="180" /></a> 
 		</div> 
@@ -247,7 +255,7 @@ var WRInitTime=(new Date()).getTime();
 	
 	
   <div class="clear"></div>  
-  <div class="msg"> I am still updating the web design and content of this site, sorry for the inconvenience!! :) </div> 
+  <div class="msg"> I am still updating web design and content of this site, sorry for the inconvenience!! :) </div> 
 	
 
 	

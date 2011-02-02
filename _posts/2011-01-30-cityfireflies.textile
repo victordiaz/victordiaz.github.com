@@ -14,8 +14,12 @@ context: Global Gamejam 2011, Medialab Prado. Madrid.
 
 h1. {{ page.title }} 
 
-We are using the a 15x10 meters media facade at Medialab Prado, Madrid. 
+This project was made in less than 48 hours for the Global Gamejam 2011 in Madrid. 
 
-Topic: Several environmental dangers are threatening human life: Buildings, pollution, cars. They are eating all the public space around and our mission is to draw clean spaces with the help of a bright light: A torch or our mobile phone light. 
+We wanted to focus more in the user experience for digital urban games. How people who walk around the area next to the Media Lab Prado can be engaged to play without almost no instructions and problems in the 15x10 meters Media facade. 
 
-In this first prototype we only have one level with a lot of evil monster representing the city aggressions. If the monster extinguish all the free space, we die and have to start again. 
+We discarded using active devices that sends information to the screen. Tracking the user with cameras tends to be complicated when lots of users are playing in a reduced space and light condition varies. For these reasons we came out with the idea of using light sources as a controller, so turning on the phone screen works perfectly even with a huge number of players! 
+
+The game was made in such a way that it takes almost no time to start playing since the only instruction given is to turn on the phone screen. Rapidly the player can enjoy the game. 
+
+During the game several environmental dangers are threatening human life: Buildings, pollution, cars. They are eating all the public space around and our mission is to draw clean spaces with the help of a bright light: A torch or our mobile phone light. 
