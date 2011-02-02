@@ -245,6 +245,15 @@ a:visited {
 } 
 
 
+.project_preview2 h2 { 
+	font-family: 'arial', sans-serif; 
+	font-size: 0.8em; 
+	background: rgba(0, 0, 0, 0.2); 
+	padding:5px; 
+} 
+
+
+
 .project_preview2 p { 
 	
 	font-family: Geneva,Arial,Helvetica,sans-serif; 
@@ -299,6 +308,11 @@ a:visited {
 .contenido_img p { 
 	padding-left: 12px; 
 	
+	
+} 
+
+.contact p { 
+	text-align: center; 	
 	
 } 
 
