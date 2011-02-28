@@ -18,8 +18,6 @@ OSCdroid is a nifty tool, meant for prototyping, manipulate values of your inter
 
 You can start playing with it since the first moment. Just download the Processing examples from this URL: goo.gl/nqRDo and have fun! 
 
-OSCdroid will be for a short period in BETA version, so the price right now is reduced. If you find some bug or you want some feature be included in a future release please contact me in victormdb@gmail.com 
-
 The application comes with some standard native interfaces but it also provides the option of creating as many custom interfaces as you want using html5 and Javascript.
 
 Currently has the following features:
