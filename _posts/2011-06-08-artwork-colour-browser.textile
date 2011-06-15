@@ -6,7 +6,7 @@ title: Artwork color visualization
 technologies: [Python, Processing] 
 when: 28/01/2011 - 30/01/2011
 collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
-desc: Artwork color visualization 
+desc: Artwork visualization that focus on showing color palettes that artists used 
 images: [p1.png] 
 sourcecode: 
 context: Europeana Hack4europe event. Barcelona. 
