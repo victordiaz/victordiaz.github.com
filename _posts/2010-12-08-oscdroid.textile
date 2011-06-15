@@ -33,5 +33,6 @@ Currently has the following features:
 - Incoming SMS to the computer
 - Send SMS using the phone as gateway
 - Make the phone vibrate
-- Send key events to the computer
+- Send key events to the computer 
+- NFC 
 - and many more!

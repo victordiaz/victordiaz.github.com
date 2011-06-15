@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_posts/2010-12-08-oscdroid.textile</string>
+	<string>_posts/2010-12-04-flower-power.textile</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,28 +26,58 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>4</integer>
+				<integer>54</integer>
 				<key>line</key>
-				<integer>150</integer>
+				<integer>6</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>175</integer>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>48</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>54</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
 		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>26</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>87</integer>
+				<integer>64</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>5</integer>
+			<integer>51</integer>
+		</dict>
+		<key>_layouts/post2.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>_posts/2010-05-10-bio.textile</key>
 		<dict>
@@ -169,6 +199,7 @@
 		<string>_posts/2010-05-10-bio.textile</string>
 		<string>_posts/2010-12-04-flower-power.textile</string>
 		<string>_layouts/post.html</string>
+		<string>_layouts/post2.html</string>
 		<string>index.html</string>
 		<string>_layouts/default.html</string>
 		<string>_posts/2010-12-08-oscdroid.textile</string>
@@ -178,6 +209,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{372, 164}, {847, 680}}</string>
+	<string>{{372, 163}, {847, 680}}</string>
 </dict>
 </plist>

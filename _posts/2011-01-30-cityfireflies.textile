@@ -7,7 +7,7 @@ technologies: [Openframeworks, Media Facade]
 when: 28/01/2011 - 30/01/2011
 collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
 desc: Media Lab Prado Media Facade Game that uses light sources as a controller 
-videos: [<iframe src="http://player.vimeo.com/video/19356892" width="380" height="214"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892"> City Fireflies </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
+videos: [<iframe src="http://player.vimeo.com/video/25071870" width="380" height="214"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892"> City Fireflies v0.2</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>, <iframe src="http://player.vimeo.com/video/19356892" width="380" height="214"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892"> City Fireflies </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
 sourcecode: 
 context: Global Gamejam 2011, Medialab Prado. Madrid. 
 ---
