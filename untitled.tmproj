@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_posts/2010-12-04-flower-power.textile</string>
+	<string>_posts/2010-12-03-augmented-scalextric.textile</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,67 +18,9 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>278</integer>
+	<integer>225</integer>
 	<key>metaData</key>
 	<dict>
-		<key>_layouts/default.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>54</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>48</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>54</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-		</dict>
-		<key>_layouts/post.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>64</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>51</integer>
-		</dict>
-		<key>_layouts/post2.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>_posts/2010-05-10-bio.textile</key>
 		<dict>
 			<key>caret</key>
@@ -93,7 +35,7 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_posts/2010-12-04-flower-power.textile</key>
+		<key>_posts/2010-11-27-car-tracker.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
@@ -107,14 +49,28 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_posts/2010-12-05-Psychogeophotography.textile</key>
+		<key>_posts/2010-11-28-affective-audiovisual-database.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>74</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2010-12-03-augmented-scalextric.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -126,14 +82,42 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>134</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>36</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>4</integer>
+		</dict>
+		<key>_posts/2011-01-30-cityfireflies.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>176</integer>
+				<key>line</key>
+				<integer>9</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>_posts/2011-06-08-artwork-colour-browser.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>83</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>css/960.css</key>
 		<dict>
@@ -179,36 +163,20 @@
 			<key>firstVisibleLine</key>
 			<integer>235</integer>
 		</dict>
-		<key>index.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>8</integer>
-				<key>line</key>
-				<integer>31</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>6</integer>
-		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
+		<string>_posts/2011-06-08-artwork-colour-browser.textile</string>
 		<string>_posts/2010-05-10-bio.textile</string>
-		<string>_posts/2010-12-04-flower-power.textile</string>
-		<string>_layouts/post.html</string>
-		<string>_layouts/post2.html</string>
-		<string>index.html</string>
-		<string>_layouts/default.html</string>
+		<string>_posts/2010-11-27-car-tracker.textile</string>
+		<string>_posts/2010-11-28-affective-audiovisual-database.textile</string>
+		<string>_posts/2010-12-03-augmented-scalextric.textile</string>
+		<string>_posts/2011-01-30-cityfireflies.textile</string>
 		<string>_posts/2010-12-08-oscdroid.textile</string>
-		<string>css/web.css</string>
-		<string>_posts/2010-12-05-Psychogeophotography.textile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{372, 163}, {847, 680}}</string>
+	<string>{{297, 158}, {847, 680}}</string>
 </dict>
 </plist>
