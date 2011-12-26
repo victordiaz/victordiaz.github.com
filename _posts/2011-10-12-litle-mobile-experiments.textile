@@ -1,0 +1,16 @@
+---
+layout: post 
+category:  project 
+img: mobileexperiments 
+title: Little Mobile Experiments 
+technologies: [Processing, Python, PHP, OSCdroid, Android, Arduino] 
+when: 22/10/2011 - 25/10/2011
+collaborators: [<a href="http://www.kitchenbudapest.hu">Kitchen Budapest</a>] 
+desc: Tangible visualization of Tweets related to the Dutch Design Week
+sourcecode: 
+context: Kitchen Budapest Residency. Budapest. Hungary. 
+---
+
+h1. {{ page.title }} 
+
+

@@ -1,0 +1,20 @@
+---
+layout: post 
+category:  project 
+img: twittercircles
+title: Twitter circles 
+technologies: [Processing, Python] 
+when: 22/10/2011 - 25/10/2011
+collaborators: [<a href="http://www.kibu.hu">Kitchen Budapest</a>, <a href="http://www.baltanlaboratories.org">Baltan Laboratories</a>] 
+desc: Tangible visualization of Tweets related to the Dutch Design Week
+sourcecode: 
+context: Dutch Design Week 2011. Eindhoven. The Netherlands. 
+---
+
+h1. {{ page.title }} 
+
+
+In the case of a few projects this week, we were inspired to explore a number of different ways to visualise and experience a single data source. Specifically, KIBU guest researcher Victor Diaz set up a project in Processing that processes tweets that include the hashtag #ddw11. The first manifestation of this data comes automatically out of the printer in the form of black or grey circles that vary in size and shape based on the country the tweeter comes from, the length of their tweet and the number of followers they have. Every tweet is then hung on the wall. As we cover more and more of the walls and surfaces of the lab throughout the week, we create an overwhelming spatial database of the scope of the Twitter chatter about Dutch Design Week, in which the visitors to the space are immersed.
+
+A second project takes the same raw data as used in the print outs, but instead transforms it into an impressive web of yarn that reflects the provenance of the tweeters and the size of their network. “I like it because it has become a real spatial structure. It’s interesting because we use the same data as the prints on the wall,” says lab participant Jop Japenga. For visitors to the lab, this is a simple but striking way to look at the different possibilities and impact of designing data. What can we read into these different visualisations? What can we achieve if we start from an aesthetic or experiential idea rather than an already-set aim in relation to what the data should tell us? One visitor to the lab remarked that normally, data visualisations are commissioned with a distinct purpose in mind (to educate, marketing, urban planning, politics). Here in the lab, we invite people to suggest their own readings and purposes for the visualisations and spatial representations we have created. 
+
