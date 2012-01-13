@@ -1,3 +1,6 @@
 permalink: none 
-markdown: rdiscount
-pygments: true
+markdown: rdiscount 
+pygments: true 
+auto: true 
+server: true
+

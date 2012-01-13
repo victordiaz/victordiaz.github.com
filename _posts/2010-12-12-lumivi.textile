@@ -1,13 +1,15 @@
 ---
 layout: post 
 category:  project 
+type: interactive installation 
 img: lumivi
 title: Lumivi 
-technologies: Java 
+technologies: [Java, XIM Room] 
 when: 11/2009 - 12/2009
 collaborators: [Lucas Lopez Serrano, Milena Markova] 
+task: Game desing, programming 
 desc: eXperience Induction Machine game made in order to research the effects of stress on performance 
-videos: [<iframe src="http://player.vimeo.com/video/18862240" width="380" height="214"  frameborder="0"></iframe><p><a href="http://vimeo.com/18862240">Lumivi - an eXperience Induction Machine game </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
+videos:  
 sourcecode: 
 context: Research Methodologies / Cognitive courses. CSIM Master UPF 
 ---
@@ -17,5 +19,7 @@ h1. {{ page.title }}
 Lumivi consists in a game designed in order to research the effects of stress on performance levels in immersive environments. In this game the subjects had to play following a white tile on the floor of the eXperience Induction Machine (XIM) room as it changed its direction of movement as fastest as possible. 
 The gameplay had to be done under normal and stressing conditions such as color and sound factors. 
 
+<iframe class="project_full_video" src="http://player.vimeo.com/video/18862240" width="480" height="320"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/18862240" class="project_full_caption"> Lumivi Vimeo Link</a>  
+	
 The hypothesis, performance level increases when subjects were exposed to stress, failed to be accepted, because the study could not find any difference in performance of the subjects with or without stress factors applied. The study discovered, however, that there is a strong correlation between performance scores under stress and the affinity to play sports that require intense physical activity. 
 

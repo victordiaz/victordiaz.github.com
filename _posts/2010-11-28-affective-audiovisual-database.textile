@@ -1,26 +1,39 @@
 ---
 layout: post 
-category: project
+category: project 
+type: university project
 img: physiodb
 title: Physiology-based control of affective audio-visual database 
 technologies: [Java, Matlab, GSR Sensor]   
 when: 12/2009 - 09/2010
-collaborators: [] 
+collaborators: 
+task: 
 desc: Study of affective modulation through a rated audio-visual database 
 images: [1.png, 2.png, 3.png, 4.png, 5.png, 6.png] 
 sourcecode: 
-context: Master Thesis. CSIM Master UPF 
+context: MSc Thesis. CSIM Master UPF 
 ---
 
 h1. {{ page.title }} 
 
-During my master thesis I tried to study human emotions in general and in specific study how could be created a biofeedback system that might variate the affective state of an user through audiovisual stimuli and at the same time modulate the content being showed and heard.  
+During my master thesis I tried to study human emotions in general and in specific, study how could be created a biofeedback system that might variate the affective state of an user through visual stimuli and at the same time modulate the content being showed and heard.  
 
-This biofeeback system could be used in the following scenarios: 
+!../images/{{page.img}}/big/1.png(Title)! 
 
- * Personal cinema
+My biggest motivation for this project was the future benefits that this kind of systems will provide to different fields. In particular I was interested in: 
+
  * Treatment for disorders such as chronic pain, depression, etc 
  * Interactive installations 
- * Narrative modulation in films 
+ * Plot modulation in films 
+ * Adaptive music 
  * Relaxing device 
+
+The system was developed using g-tec hardware and certain software with Matlab for the signal processing part and java for the front-end application. 
+
+!../images/{{page.img}}/big/2.png(Title)! 
+
+The visual stimuli used during the experiments was taken from the International Affective Picture System IAPS automatically with the software using the ratings. Prior using the database I made a custom visualization tool to understand this database as depicted in the next image. 
+
+!../images/{{page.img}}/big/4.png(Title)! 
+
 

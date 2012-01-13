@@ -1,11 +1,13 @@
 ---
 layout: post 
 category: project 
+type: tool  
 img: oscdroid
 title: OSCdroid  
 technologies: [Android SDK, HTML5, Javascript] 
-when: 11/2010 - Still working on it
-collaborators: [] 
+when: 11/2010 - Still working on it!
+collaborators: 
+task:  
 desc: A nifty tool for prototyping and control interactive creations 
 images: [oscdroid1.png, oscdroid2.png, oscdroid3.png, oscdroid4.png, oscdroid5.png, oscdroid6.png] 
 sourcecode: 

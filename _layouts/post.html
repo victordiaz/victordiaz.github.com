@@ -3,28 +3,33 @@ layout: default
 --- 
 
 <div class = "container_12 contenido" >  
-	<div class = "grid_7"> 
-		<div class = "project_preview2">
-  
- <!-- div class = "grid_12" id="post"> --> 
+	<div class = "grid_4"> 
+	<div class = "project_full project_info">
 
-		
-{{ content }} 
 
-{% if page.when != null %} 
-<h2> When: </h2> 
-<p> {{ page.when }} </p> 
+<!-- <h1> details </h1> --> 
+
+{% if page.type != null %} 
+<h3> Project type: </h3> 
+<p> {{ page.type }} </p> 
 {% endif %} 
 
 
+
 {% if page.context != null %} 
-<h2> Context: </h2> 
+<h3> Context: </h3> 
 <p> {{ page.context }} </p> 
 {% endif %} 
 
 
+{% if page.when != null %} 
+<h3> When: </h3> 
+<p class = ""> {{ page.when }} </p> 
+{% endif %} 
+
+
 {% if page.technologies != null %} 
-<h2> Used Technologies: </h2> 
+<h3> Used Technologies: </h3> 
 
 	<ul> 
 		{% for technology in page.technologies %} 
@@ -34,8 +39,17 @@ layout: default
 	</ul> 
 
 
+{% if page.task != null %} 
+<h3> My task: </h3> 
+	<ul> 
+	<li>{{ page.task }}</li>
+	</ul> 
+{% endif %} 
+
+
+
 {% if page.collaborators != null %} 
-<h2> Collaborators: </h2> 
+<h3> Team: </h3> 
 	<ul> 
 		{% for collaborator in page.collaborators %} 
 		<li>{{ collaborator }}</li>
@@ -46,12 +60,12 @@ layout: default
 
 
 {% if page.sourcecode != null %} 
-<h2> Sourcecode: </h2> 
+<h3> Sourcecode: </h3> 
 	<li>{{ page.sourcecode }}</li> 
 {% endif %} 
 
 {% if page.link != null %} 
-<h2> Link: </h2> 
+<h3> Link: </h3> 
 	<ul>
 		{% for l in page.link %} 
 		<li><a href={{ l }}> {{l}} </a></li> 
@@ -63,8 +77,18 @@ layout: default
 </div>
 </div> 
 
-<div class = "grid_5"> 
-	<div class = " contenido_img"> 
+<div class = "grid_8"> 
+	
+	<div class = "project_full">
+
+	 <!-- div class = "grid_12" id="post"> --> 
+
+	{{ content }} 
+	
+	</div> 
+	
+	<div class = "contenido_img"> 
+	
 	
 	
 	{% if page.videos != null %} 
@@ -84,7 +108,7 @@ layout: default
 	<div class = "content"> 
 	
 	{% if page.images != null %} 
-	<h2> Images	</h2> 
+	<h2> Extra media content </h2> 
 	<div class="b_imagenes"> 
 		<!-- <ul>  -->
 			{% for image in page.images %} 

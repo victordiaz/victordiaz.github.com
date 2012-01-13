@@ -3,7 +3,7 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="Victor Diaz" />
+   <meta name="author" content="Victor Diaz Portfolio" />
    <!-- <link href="http://feeds.feedburner.com/victor-diaz" rel="alternate" title="Victor Diaz" type="application/atom+xml" />  --> 
 
    <!-- syntax highlighting CSS -->
@@ -28,7 +28,14 @@
 	
 
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Neucha">
-    <style>
+    <style> 
+
+	  body { 
+		-webkit-transform: rotate(0deg) scale(1);
+		-webkit-transition-property: all 2s ease-out;
+	  }  
+
+	
       .menu { 
         font-family: 'Yanone Kaffeesatz', arial, sans-serif; 
         font-size: 2em; 
@@ -38,14 +45,50 @@
 		/*		margin: 2px; */ 
       } 
 
+	.project_preview { 
+		-moz-transform: rotate(0deg) scale(0.95);
+		-webkit-transform: rotate(0deg) scale(0.95);
+		-o-transform: rotate(0deg) scale(0.95);
+		transform: rotate(0deg) scale(0.95);
+		
+	    -webkit-transition: -webkit-transform 0.2s ease-out; 
+		-moz-border-radius: 1px; 
+		-webkit-border-radius: 1px; 
+		-moz-box-shadow: 1px 1px 1px #222;
+		-webkit-box-shadow: 1px 1px 1px #222; 		
+	
+	}
+
+	.project_preview:hover {
+	    -moz-transform: rotate(0deg) scale(1.15);
+	    -webkit-transform: rotate(0deg) scale(1.15); 
+	    -o-transform: rotate(0deg) scale(1.15); 
+	    transform: rotate(0deg) scale(1.15); 
+	
+		-moz-border-radius: 1px;
+		-webkit-border-radius: 1px; 
+		-o-border-radius: 1px;
+		-border-radius: 1px;
+		
+		-moz-box-shadow: 2px 2px 10px #222;
+		-webkit-box-shadow: 2px 2px 10px #222; 
+		-o-box-shadow: 2px 2px 10px #222;
+		-box-shadow: 2px 2px 10px #222;
+		
+	 	-moz-transition: all 0.2s ease-out;
+		-webkit-transition: all 0.2s ease-out;
+		-o-transition: all 0.2s ease-out;
+	 	-transition: all 0.2s ease-out;
+	 	
+		z-index: 5;
+		
+		
+	}
 
     </style> 
 
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
-	
-
-	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script> 
 	
 
@@ -57,46 +100,8 @@
 	
 		<script type="text/javascript">
 			$(document).ready(function() {
-				/*
-				*   Examples - images
-				*/
-
-				$("a#example1").fancybox();
-
-				$("a#example2").fancybox({
-					'overlayShow'	: false,
-					'transitionIn'	: 'elastic',
-					'transitionOut'	: 'elastic'
-				});
-
-				$("a#example3").fancybox({
-					'transitionIn'	: 'none',
-					'transitionOut'	: 'none'	
-				});
-
-				$("a#example4").fancybox({
-					'opacity'		: true,
-					'overlayShow'	: false,
-					'transitionIn'	: 'elastic',
-					'transitionOut'	: 'none'
-				});
-
-				$("a#example5").fancybox();
-
-				$("a#example6").fancybox({
-					'titlePosition'		: 'outside',
-					'overlayColor'		: '#000',
-					'overlayOpacity'	: 0.9
-				});
-
-				$("a#example7").fancybox({
-					'titlePosition'	: 'inside' 
-				});
-
-				$("a#example8").fancybox({
-					'titlePosition'	: 'over'
-				});
-
+		
+		
 				$("a[rel=example_group]").fancybox({
 					'transitionIn'		: 'elastic',
 					'transitionOut'		: 'elastic', 
@@ -106,35 +111,7 @@
 					}
 				});
 
-				/*
-				*   Examples - various
-				*/
 
-				$("#various1").fancybox({
-					'titlePosition'		: 'inside',
-					'transitionIn'		: 'none',
-					'transitionOut'		: 'none'
-				});
-
-				$("#various2").fancybox();
-
-				$("#various3").fancybox({
-					'width'				: '75%',
-					'height'			: '75%',
-					'autoScale'			: false,
-					'transitionIn'		: 'none',
-					'transitionOut'		: 'none',
-					'type'				: 'iframe'
-				});
-
-				$("#various4").fancybox({
-					'padding'			: 0,
-					'autoScale'			: false,
-					'transitionIn'		: 'none',
-					'transitionOut'		: 'none'
-				});
-			}); 
-			
 		</script> 
 		
 		<script> 
@@ -168,23 +145,16 @@
 		}); 
 		
 		
+	
 		
 		</script> 
 
-
-   <!-- Homepage CSS -->
-   <!-- <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />  -->
 
 	{% if page.context != /index.html %} 
 	<!-- Project CSS  -->
 	<!-- <link rel="stylesheet" href="/css/project.css" type="text/css" media="screen, projection" />  -->
 	{% endif %} 
 	
-
-   <!-- Typekit --> 
-   <!-- <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script> 
-   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>  --> 
-
 
 	<script type="text/javascript">
 
@@ -196,8 +166,42 @@
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  })(); 
 
+	/* 
+
+	if (navigator.geolocation) {
+  		navigator.geolocation.getCurrentPosition(function(position) {
+    		
+			console.log(position.coords.latitude); 
+			console.log(position.coords.longitude); 
+    	
+
+  		}, 
+		function (error)
+		{
+			switch(error.code) 
+			{
+				case error.TIMEOUT:
+					alert ('Timeout');
+					break;
+				case error.POSITION_UNAVAILABLE:
+					alert ('Position unavailable');
+					break;
+				case error.PERMISSION_DENIED:
+					alert ('Permission denied');
+					break;
+				case error.UNKNOWN_ERROR:
+					alert ('Unknown error');
+					break;
+			}
+		}
+		); 
+		
+	} 
+	*/ 
+	
+	
 </script> 
 
 </head>
@@ -213,51 +217,31 @@ var WRInitTime=(new Date()).getTime();
 
 <!-- <div class="container_12 bgtransparent"> &nbsp </div>  -->
 
-<div class="container_12 site"> 
-  <div class = "grid_8" id = "menu"> 
-		<!-- <ul id = "menu">  
-    		<li><a href="/">PROJECTS</a></li> 
-    		<li><a href="/bio/bio.html">BIO</a></li> 
-		</ul>  --> 
-		<!-- <a href="/">PROJECTS</a>  --> 
-		
-		<ul class = "menu">  
-		<li> <a href="/"> Projects </a> </li> 
-		<li style="color:white; font-size:1em"> | </li> 
-		<li> <a href="/bio/bio.html"> About me </a> </li> 
-		
-		</ul> 
-		
-
-		<!-- <ul id = "menu">  
-    		<li><a href="/">PROJECTS</a></li> 
-    		<li><a href="/bio/bio.html">BIO</a></li> 
-		</ul>  --> 
-		<!-- <a href="/bio/bio.html">BIO</a>  -->
-		
-		
-	</div> 
-	  
-	<div class = "grid_4" >	
-	
+	<ul class = "menu" id = "menu">  
+	<li> <a href="/"> Projects </a> </li> 
+	<li style="color:white; font-size:1em"> | </li> 
+	<li> <a href="/bio/bio.html"> About Victor Diaz </a> </li> 
 	<!-- 
-		<div id = "me2"> 
-			 <a href="/bio/bio.html"><img src = "/images/.png" height="180" /></a> 
-		</div> 
-		
-		<div id = "me"> 
-			 <a href="/bio/bio.html"><img src = "/images/victordiaz.png" height="180" /></a> 
-		</div> 
+	<li style="color:white; font-size:1em"> | </li> 
+	<li> <a href="http://blog"> Blog </a> </li> 
+	--> 
+	
+	</ul> 
 
-			
-	-->  
-	</div> 
+<!--  
+<div id = "me"> </div> 
+--> 
+
+
+<div class="container_12 site"> 
+
+
+
 	<!-- <div class = "grid_6" id="status"> <p> Still updating! </p> </div>  --> 
 
 	
   <div class="clear"></div>  
-  <div class="msg"> I am still updating web design and content of this site, sorry for the inconvenience!! :) </div> 
-	
+ <!-- <div class="msg"> I am still updating web design and content of this site, sorry for the inconvenience!! :) </div> --> 
 
 	
   
@@ -265,7 +249,8 @@ var WRInitTime=(new Date()).getTime();
 
 
 
-  <div class="clear"></div>  
+ 
+
 
   <!-- <div class="container_12" id ="lower_menu"> 
 	<div class = "grid_8" id = "menu"> 
@@ -282,7 +267,7 @@ var WRInitTime=(new Date()).getTime();
 	
   <div class = "container_12 footer"> 
     <div class = "grid_12 contact"> 
-        <p> Victor Diaz victormdb@gmail.com </p> 
+        <p> Victor Diaz victormdb __ gmail.com </p> 
 	</div> 
 
 <!-- 
@@ -313,7 +298,21 @@ if(document.location.protocol!='https:')
 if(typeof ClickTale=='function') ClickTale(9719,1,"www03");
 </script> -->
 <!-- ClickTale end of Bottom part --> 
+<script> 
 
+	$('#menu a').click(function(){
+	  $('#menu a').removeClass('selected');
+	  $(this).toggleClass('selected');
+	}); 
+	
+	$(function(){
+    	var path = location.pathname; 
+		//alert(path); 
+   	if ( path )
+     	$('#menu a[href$="' + path + '"]').attr('class', 'selected');
+ });
+
+</script>
 
 </body>
 </html>

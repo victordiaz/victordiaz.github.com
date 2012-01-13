@@ -1,19 +1,26 @@
 ---
 layout: post 
 category: project 
-img: scalextricity
+type: interactive toy 
+img: scalextricity 
 title: Augmented Scalextric 
 technologies: [OpenFrameworks]
 when: 02/2010
 collaborators: [Gavin Morris (original idea), Martin Cawson] 
+task: Open Frameworks Programming
 desc: Enjoy scalectrix with VR glasses and sound! 
-videos: [<iframe src="http://player.vimeo.com/video/19030867" width="380" height="214"  frameborder="0"></iframe><p><a href="http://vimeo.com/19030867"> Augmented excalextric </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
+videos: 
 sourcecode: 
 context: OFLab London 
 ---
 
 h1. {{ page.title }} 
 
-Scalextricity is an augmentation of the original game Scalectrix, a slot car racing game. 
-The car is tracked using a ps3 camera along the circuit extracting location and speed information which are used to sonify the car and apply several video effects to the video coming from a wireless camera located on top of the car.  
+Scalextricity is an augmentation of the original slot car racing game, Scalextric, that was developed during an Open Frameworks workshop held in the Victoria & Albert museum in London. 
+
+The car is tracked using a ps3 camera along the circuit extracting location and speed information which are used to sonify the car with real engine sound and apply several video effects to the video feed that is wirelessly sent from a wireless camera located on top of the car. 
+
+As an extra, the players were able to play the game using a VR headset to get more immersed into the game
+
+<iframe class="project_full_video" src="http://player.vimeo.com/video/19030867" width="480" height="360"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19030867" class="project_full_caption"> Augmented Scalextric </a> 
 

@@ -1,25 +1,35 @@
 ---
 layout: post 
 category:  project 
+type: interactive installation  
 img: cityfireflies
 title: City Fireflies 
 technologies: [Openframeworks, Media Facade] 
 when: 28/01/2011 - 30/01/2011
 collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+task: Game design, Programming 
 desc: Media Lab Prado Media Facade Game that uses light sources as a controller 
-videos: [<iframe src="http://player.vimeo.com/video/25071870" width="380" height="214"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892"> City Fireflies v0.2--</a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>, <iframe src="http://player.vimeo.com/video/19356892" width="380" height="214"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892"> City Fireflies </a> from <a href="http://vimeo.com/victordiaz">Victor Diaz</a> on <a href="http://vimeo.com">Vimeo</a>.</p>] 
+videos:  
 sourcecode: 
 context: Global Gamejam 2011, Medialab Prado. Madrid. 
 ---
 
 h1. {{ page.title }} 
 
-This project was made in less than 48 hours for the Global Gamejam 2011 in Madrid. 
+CityFireflies started as a project during the 48 hours game-coding event, Global Gamejam 2011 in Madrid. 
 
-We wanted to focus more in the user experience for digital urban games. How people who walk around the area next to the Media Lab Prado can be engaged to play without almost no instructions and problems in the 15x10 meters Media facade. 
+The game was made in such a way that it takes almost no time to start playing since the only instruction given is to turn on the phone screen. Rapidly the player can enjoy the game in a 15x10 meters Media Facade located in the Media Lab Prado, Madrid. 
 
-We discarded using active devices that sends information to the screen. Tracking the user with cameras tends to be complicated when lots of users are playing in a reduced space and light condition varies. For these reasons we came out with the idea of using light sources as a controller, so turning on the phone screen works perfectly even with a huge number of players! 
+Details later, here a video of how the game looks like :) 
 
-The game was made in such a way that it takes almost no time to start playing since the only instruction given is to turn on the phone screen. Rapidly the player can enjoy the game. 
+<iframe class="project_full_video" src="http://player.vimeo.com/video/25071870" width="480" height="320"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/25071870" class="project_full_caption"> City Fireflies v0.2 Vimeo Link</a> 
 
-During the game several environmental dangers are threatening human life: Buildings, pollution, cars. They are eating all the public space around and our mission is to draw clean spaces with the help of a bright light: A torch or our mobile phone light. 
+Before staring to create the game, we had something very clear in mind, we wanted to focus in the user experience for digital urban games. We discarded using active devices that sends information to the screen since is overcomplicated to set it up in urban context and internet on mobile phones, although is here, not everybody has it, and we wanted EVERYBODY to be able to play this game, kids, youngsters and granpas :) 
+
+The other solution we thought about was tracking the user with cameras but most of the times the result is not good enough, specially when lots of users are playing in a reduced space and light condition varies. For these reasons we came out with the idea of using light sources as a controller, so turning on the phone screen works perfectly even with a huge number of players!
+
+The game was showed in the Piksel Festival 2011 in Bergen, Norway. One day indoor due to the rain, one day outdoor. 
+
+If you are curious to see how it looked like in only 24 hours of development, check it here :) 
+	
+<iframe class="project_full_video" src="http://player.vimeo.com/video/19356892" width="480" height="320"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/19356892" class="project_full_caption"> City Fireflies v0.1 Vimeo Link</a> 
