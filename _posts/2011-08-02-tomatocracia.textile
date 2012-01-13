@@ -2,7 +2,7 @@
 layout: post 
 category: project 
 type: interactive installation  
-img: tomatocracy
+img: tomatocracia
 title: Tomatocracia 
 technologies: [Processing, Javascript, Python] 
 when: 28/01/2011 - 30/01/2011
