@@ -15,6 +15,23 @@ html, body {
 
 } 
 
+.qq:hover { 
+	
+		background-color: rgba(0, 0, 0, 0.5);
+	
+		-moz-transform: rotate(0deg) scale(0.95);
+		-webkit-transform: rotate(15deg) scale(0.2);
+		-o-transform: rotate(0deg) scale(0.95);
+		transform: rotate(0deg) scale(0.95);
+		
+		position: relative; 
+		
+	    -webkit-transition: all 0.2s linear; 
+
+
+	
+	}
+
 body {
   background-color: #eeffec; 
   background-image:url(/images/bg/p8_2.png);
@@ -204,7 +221,6 @@ a:visited {
   	padding:0px;   
 
 	
-	
 		-moz-transform: rotate(0deg) scale(0.95);
 		-webkit-transform: rotate(0deg) scale(0.95);
 		-o-transform: rotate(0deg) scale(0.95);
@@ -217,8 +233,9 @@ a:visited {
 		-webkit-border-radius: 2px; 
 		-moz-box-shadow: 1px 1px 2px #222;
 		-webkit-box-shadow: 1px 1px 2px #222; 		
-		z-index: 1; 
-		
+	
+
+	z-index: 1; 		
 		
 	position:relative; 
 	z-index:1; 
