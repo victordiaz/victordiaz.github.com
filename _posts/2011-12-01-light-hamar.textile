@@ -6,7 +6,10 @@ img: lighthamar
 title: Light Hamar 
 technologies: [Processing, Python, Arduino] 
 when: 22/10/2011 - 25/10/2011
-collaborators: [Sergio Galan, Guillermo Casado, Lucas Lopez] 
+collaborators: [
+				<a href="http://sergio.eclectico.net">Sergio Galan,</a>, 
+			 	<a href="http://www.peripecio.com">Guillermo Casado</a>,
+				Lucas Lopez] 
 task: Arduino and Python programming, Network part 
 desc: Interactive Light installation in Hamar, Norway  
 images: 
