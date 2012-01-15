@@ -20,7 +20,7 @@ collaborators: ["Montserrat Cañedo",
 
 ] 
 task: Visualization design and Programming 
-desc: Visualization of the Food flow in the main food hub of Madrid 
+desc: Visualizing the food flow of the main food hub of Madrid 
 images: 
 sourcecode: 
 context: Visualizar 2011, Medialab Prado, Madrid. 
