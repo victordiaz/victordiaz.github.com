@@ -274,12 +274,14 @@ a:visited {
 
 .project_preview img:hover { 
 	opacity: 0.8; 
+	
+	
+	/*
 	-moz-transition: all 0.2s ease-out;
 	-webkit-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
  	-transition: all 0.2s ease-out;
 	
-	/* 
     -moz-transform: rotate(0deg) scale(1.1);
     -webkit-transform: rotate(0deg) scale(1.1); 
     -o-transform: rotate(0deg) scale(1.1); 
