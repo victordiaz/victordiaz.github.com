@@ -734,9 +734,27 @@ video {
 		
 	} 
 	
+	.content h3 { 
+	
+	
+		font-family: sans-serif; 
+		font-size: 1.2em; 
+		color: #555; 
+		margin-top:15px; 
+		margin-bottom:15px; 
+		padding-left:0px; 
+		font-family:sans-serif;
+		color:#4E443C;
+		font-variant: small-caps; text-transform: lowercase; font-weight: 100;  
+		border-bottom: 1px dashed #ccc;
+	    width: 100%; 
+	
+		
+	}
+	
 	
 	.b_imagenes { 
-		text-align: center; 
+		text-align: left; 
 		
 	} 
 
