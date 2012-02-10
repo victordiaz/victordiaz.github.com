@@ -1,47 +1,108 @@
 ---
 layout: default
-title: Victor Diaz  
+title: Main  
 ---
 
+{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ site.root }}{% endif %}{%endcapture%}
 
-<div class = "container_12">  
-	<div class = "grid_12 contenido" id = "projects"> 
-  		<!-- <h1>Projects</h1>  -->
+<div class="row">	
+	<div class = "eight columns" > 
+		<div class="foundation-header">
+			<h2>Projects
+			<span class="subheader">My last non-commercial projects</span>
+			</h2>
+		</div> 
+		
+	<ul class="block-grid five-up mobile project_preview">
+		
+    	{% for post in site.posts %} 
+		{% if post.categories contains 'project' %}  
+
+		<li class = "{{post.type}}"> 
+			<a href="{{root}}{{ post.url }}"> 
+	   		
+			  	<img src="{{root}}/images/{{post.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
+				<p> {{post.title }}  </p> 
+				<!--
+		 		<div class = "project_preview_desc">  {{post.desc}}  </div>
+				--> 
 	
+			</a> 
+	
+		</li> 
+	
+		{% endif %}  	
+    	{% endfor %}  
+
+	</ul> 
 	</div> 
-	<div class="clear"></div>  
+
+	<div class = "four columns" > 
+
+		<div class = "main_sidebar"> 
+		
+			<a href="{{ post.url }}"> 
+				<img src="{{root}}/images/cityfireflies/preview.jpg" 
+				 alt="{{post.title}} project"/>  
+			</a>			
+			
+			<h3> this is me in many forms! </h3> 
+			<p>  I am a researcher and a creative coder who loves experimenting and creating new ways of interaction among technology and people. My continuous goal is to make technology more human-aware.			
+			</p>
+				
+			<p>
+				This website contains only references or descriptions to non-commercial-projects I have worked on. 
+			</p>
+				
 	
+		
+	</div> 
+
+</div> 
+
+
+
+
+
+
+
+<div class="row">	
+	<div class = "eight columns" > 
+	
+		<div class="foundation-header">
+		<h2 id ="hacks">Hacks
+			<span class="subheader">Some cool hacks / fun / misc</span>
+		</h2> 
+		</div> 
+		
+	<ul class="block-grid five-up mobile project_preview">
 	
     {% for post in site.posts %} 
+	{% if post.categories contains 'hack' %}  
 
-	{% if post.categories contains 'project' %}  
-    <div class = "grid_3" > 
-
-	<div class = "{{post.type}}, project_preview"> 
-		<a href="{{ post.url }}"> 
-		<img src="/images/{{post.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
+   
+	<li class = "{{post.type}}"> 
+		<a href="{{root}}{{ post.url }}"> 
+		<img src="./images/{{post.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
 		</a> 
 	
-			<div class = "project_preview_title"> {{post.title }}  </div> 
+			<p class = "project_preview_title"> {{post.title }}  </p> 
+		<!--
 		 	<div class = "project_preview_desc">  {{post.desc}}  </div>
+		--> 
 	
 	
-	</div> 
-	
-	</div> 
-	
-	
-	
-	{% if forloop.index == 4 or forloop.index == 8 or forloop.index == 12 or forloop.index == 16 or forloop.index == 20 %}  
-	<div class="clear"></div>  
-	{% endif %}  
+	</li> 
 	
 	{% endif %}  	
-	
-	
     {% endfor %}  
+	</ul> 
 
-	<!-- </div>  -->
-	
+</div> 
 
-</div>
+<div class = "four columns" > 
+
+
+</div> 
+
+

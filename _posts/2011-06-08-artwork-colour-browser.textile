@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category:  project 
 type: visualization 
 img: artworkcolorviz
@@ -13,8 +14,6 @@ images:
 sourcecode: 
 context: Europeana Hack4europe event. Barcelona. 
 ---
-
-h1. {{ page.title }} 
 
 This tool was made in order to visualize how artists color palette changed over time. The first visualization was made using a Pablo Picasso dataset since he is well known for having used different color palettes in different life periods, especially this can be seen during his blue and pink periods. Each image is analyzed using a python program in order to extract main colors of each image and then visualized using either html or a Processing custom tool. 
 

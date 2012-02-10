@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category:  project 
 type: interactive installation 
 img: lighthamar
@@ -14,10 +15,9 @@ task: Arduino and Python programming, Network part
 desc: Interactive Light installation in Hamar, Norway  
 images: 
 sourcecode: 
-context: <a href="http://www.dreamhamar.org/">Dreamhamar</a>. Hamar, Norway. 
+context: <a href="http://www.dreamhamar.org/">Dreamhamar Hamar Norway.  </a> 
 ---
 
-h1. {{ page.title }} 
 
 Lighthamar is an interactive light installation made for the <a href="http://www.dreamhamar.org/">Dreamhamar</a> participation network led by <a href="http://www.ecosistemaurbano.com/">Ecosistema Urbano</a> to redesign the Stortorger Square in Hamar, Norway. 
 
@@ -41,4 +41,4 @@ Here a list of different features that we made:
 !../images/{{page.img}}/big/p1.jpg(Title)! 
 
 
-<div class="infonote">Note: Most pictures are credited to <a href="http://www.ecosistemaurbano.com/">Ecosistema Urbano</div> 
+Most pictures are credited to <a  class="infonote" href="http://www.ecosistemaurbano.com/">Ecosistema Urbano</a> 

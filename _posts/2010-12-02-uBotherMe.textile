@@ -1,6 +1,7 @@
 ---
 layout: post 
-category: project 
+root: "./.."
+category: hack 
 type: mobile experiment 
 img: ubotherme
 title: uBotherMe 
@@ -14,7 +15,6 @@ sourcecode: git@github.com:victordiaz/youBotherMe.git
 context: BCN Music hack day  
 ---
 
-h1. {{ page.title }} 
 
 Imagine for one second that you loose the control of your alarm clock. You cannot set up any alarm but your friends can. With this hack we wanted to provoke to the user the feel of not controlling their own life and reflect how the society we are living in, already is doing it to us, setting up our schedules and rhythms of life. 
 

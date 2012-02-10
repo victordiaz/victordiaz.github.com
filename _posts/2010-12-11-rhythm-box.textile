@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category: project 
 type: interactive toy 
 img: rhythmbox
@@ -14,13 +15,21 @@ sourcecode:
 context: Advance interface design. CSIM Master UPF 
 ---
 
-h1. {{ page.title }}
 
 Rhythmbox is a new generation of percussion instrument that allows the user play different percussion kits, record sequences and modify them using different gestures. It has been designed to have haptic feedback inherited directly from the box properties and visual feedback through the use of reactive light. 
 
 The instrument itself can be played in two modes separately or together depending on how it want to be played. One mode is pure percussion, were the player can make beats detected by piezo-electric sensors located on the surface of the box and attached to an Arduino board. The second mode allows the user to record loops and modifying the sound according to certain movements detected through a 3-axys accelerometer and a gyroscope. 
 
-<iframe class="project_full_video" src="http://player.vimeo.com/video/18859164" width="480" height="320"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/18859164" class="project_full_caption"> Rhythm Vimeo Link</a> 
+{% if site.videos == true %} 
+<div class="videoWrapper">   
+<iframe class="project_full_video" src="http://player.vimeo.com/video/18859164"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/18859164" class="project_full_caption"> Rhythm Vimeo Link</a> 
+</div>
+{% else %} 
+
+<video  width="100%" height="360"  src="../videosparaweb/rhythmbox_640x360.MP4" poster="../videosparaweb/rhythmbox_640x360.jpg" controls="controls" preload="none">
+        It seems that your browser doesn't support html5 videos!! 
+</video>
+{% endif %}
 	
 As we developed a fast prototype and our budget was not very high, we used recycled components from old boards resistors and diodes, LEDs, cheap piezo sensors, wood and metal. 
 The piezo sensors were located on small holes made into the wooden box and covered with metallic plates with a thin layer of foam in the middle to absorb the knock. Piezo sensors are really sensitive and just with some slight movements some “knock” can be detected. The foam helped us to reduce that false knocks and it turned out the best solution we tried. 

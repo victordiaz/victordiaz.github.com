@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category: project 
 type: visualization 
 img: visuallyrics
@@ -14,7 +15,6 @@ sourcecode:
 context: BCN Music hack day 
 ---
 
-h1. {{ page.title }}
 
 Synesthesia is a really interesting neuronal condition, where different sensations are mixed together and thus some people see colors while listening to sounds or have a different taste while seeing various things. 
 

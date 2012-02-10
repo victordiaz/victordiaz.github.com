@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category:  project 
 type: visualization 
 img: twittercircles
@@ -13,8 +14,6 @@ images:
 sourcecode: 
 context: Dutch Design Week 2011. Eindhoven. The Netherlands. 
 ---
-
-h1. {{ page.title }} 
 
 
 This project was realized as a part of the temporary lab created between <a href="http://www.kibu.hu">Kitchen Budapest</a> and <a href="http://www.baltanlaboratories.org">Baltan Laboratories</a>. 

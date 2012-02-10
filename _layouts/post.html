@@ -2,29 +2,73 @@
 layout: default
 --- 
 
-<div class = "container_12 contenido" >  
-	<div class = "grid_4"> 
-	<div class = "project_full project_info">
 
+<div class="row">	
 
-<!-- <h1> details </h1> --> 
+<div class = "twelve columns"> 
+
+</div> 
+</div>
+
+<div class="row">	
+<div class = "eight columns"> 
+	
+	<div class = "project_full"> 
+		
+		<div class = "qq5">
+		<h1>
+		{{ page.title }} 
+		</h1> 
+	
+		</div> 
+	
+		{{ content }} 
+	
+	</div> 
+	
+
+	<div class = "content"> 
+	{% if page.images != null %} 
+	<h2> Extra media content </h2> 
+	<div class="b_imagenes"> 
+			{% for image in page.images %} 
+			<a rel="example_group" href="/images/{{page.img}}/big/{{ image }}" title=""><img alt="" src="/images/{{page.img}}/thumb/{{ image }}" /></a> 
+			{% endfor %} 
+	</div> 
+	{% endif %} 
+	</div> 
+	
+
+	
+</div>
+<div class = "four columns"> 
+<div class = "project_full, project_info">
+
+<!--  
+	<img width="125px" height="125px" src="{{page.root}}/images/{{page.img|downcase}}/preview.jpg" />  
+	
+	--> 
 
 {% if page.type != null %} 
 <h3> Project type: </h3> 
-<p> {{ page.type }} </p> 
+<ul> 
+<li> {{ page.type }} </li> 
+</ul> 
 {% endif %} 
-
-
 
 {% if page.context != null %} 
 <h3> Context: </h3> 
-<p> {{ page.context }} </p> 
+<ul> 
+<li> {{ page.context }} </li> 
+</ul> 
 {% endif %} 
-
 
 {% if page.when != null %} 
 <h3> When: </h3> 
-<p class = ""> {{ page.when }} </p> 
+<ul> 
+<li> {{ page.when }} </li> 
+</ul> 
+
 {% endif %} 
 
 
@@ -73,89 +117,31 @@ layout: default
 	</ul> 
 {% endif %} 
 
-<br /> 
 </div>
 </div> 
 
-<div class = "grid_8"> 
-	
-	<div class = "project_full">
 
-	 <!-- div class = "grid_12" id="post"> --> 
-
-	{{ content }} 
-	
-	</div> 
-	
-	<div class = "contenido_img"> 
-	
-	
-	
-	{% if page.videos != null %} 
-	<h2> Videos	</h2> 
-	
-
-		<ul> 
-			{% for video in page.videos %} 
-			{{video}} 
-			{% endfor %} 
-		</ul> 
-		
-		<br /> 
-	{% endif %} 
+</div> <!-- row --> 
 
 
-	<div class = "content"> 
+<div class="row">	
+<div class = "eight columns"> 
 	
-	{% if page.images != null %} 
-	<h2> Extra media content </h2> 
-	<div class="b_imagenes"> 
-		<!-- <ul>  -->
-			{% for image in page.images %} 
-			<!-- <li> <img src="/images/{{page.img}}/{{ image }}" /> </li>  -->
-			<a rel="example_group" href="/images/{{page.img}}/big/{{ image }}" title=""><img alt="" src="/images/{{page.img}}/thumb/{{ image }}" /></a> 
-			{% endfor %} 
-		<!-- </ul>  --> 
-	</div> 
-	<br /> 
-	{% endif %} 
+	<div class="moreprojects">
+	<h1> More projects </h1>
+	<ul class="qq2"> 
+	{% for post in site.posts %} 
+	{% if post.categories contains 'project' or post.categories contains 'hack' %}  
+		<li> 
+		<a class="has-tip right" id="{{post.img}}" data-width="120px" title="{{post.title}}" href="{{root}}{{ post.url }}"> 
+		<img src="{{root}}/images/{{post.img|downcase}}/preview.jpg" />  
 	
-	
-	{% if page.cv != null %} 
-	<h2> CV	</h2> 
-	<p> {{page.cv}} </p> 
-	<br /> 
-	{% endif %} 
-	
-	
-	{% if page.links != null %} 
-	<h2> Links </h2> 
+		</a> 
+		</li> 	
+	{% endif %}  	
+	{% endfor %}  
+	</ul>
+	</div>
+</div> <!-- row --> 
 
-		<!-- <ul>  -->
-			{% for link in page.links %} 
-			<p> {{link}} </p> 
-		
-			{% endfor %} 
-		<!-- </ul>  -->
-	<br /> 
-	{% endif %} 
-	
-	
-	{% if page.meinimages != null %} 
-	<h2> Me in images	</h2> 
-	<p> {{page.meinimages}} </p> 
-	<br /> 
-	{% endif %}
-	
-	
-	
-	
-	
-	</div> 
-	
-	</div> 
-	
-</div> 
-
-</div> 
 

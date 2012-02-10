@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category: project 
 type: interactive installation  
 img: tomatocracia
@@ -15,7 +16,6 @@ sourcecode:
 context: The App Date Event. Madrid. 
 ---
 
-h1. {{ page.title }} 
 
 Tomatocracia is an interactive game specifically designed for The App Date event in Madrid where the audience were able to throw virtual rotten tomatoes to a series of well known and in most of the cases not liked politicians and celebrities using their phones. The phone detects the arm movement when the player perform a throwing gesture and at this moment, the rotten tomato virtually falls over the person displayed in the large screen. 
 

@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category: project 
 type: university project
 img: psychogeophotography
@@ -14,8 +15,6 @@ sourcecode:
 link: [http://www.flickr.com/photos/46638554@N02/, http://www.flickr.com/photos/kiwi_popeye/] 
 context: Aesthetics of interactive media. CSIM Master UPF 
 ---
-
-h1. {{ page.title }}
 
 The fictitious itinerary of a person living in "Poblenou area, Barcelona":http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=112009115463063919948.00047d611994066867781&z=16. 
 Our persona suffers from Dissociative Personality disorder. There are days where she is a girl working in a fruit shop, delivering fruit to the neighboring companies and days he is a man with a hazy past.

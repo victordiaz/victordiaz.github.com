@@ -1,5 +1,6 @@
 ---
 layout: post 
+root: "./.."
 category: project 
 type: university project
 img: physiodb
@@ -14,9 +15,8 @@ sourcecode:
 context: MSc Thesis. CSIM Master UPF 
 ---
 
-h1. {{ page.title }} 
 
-During my master thesis I tried to study human emotions in general and in specific, study how could be created a biofeedback system that might variate the affective state of an user through visual stimuli and at the same time modulate the content being showed and heard.  
+During my Master Thesis I tried to study human emotions in general, and in specific study how could be created a biofeedback system that might variate the affective state of an user through visual stimuli and at the same time modulate the content being showed and heard.  
 
 !../images/{{page.img}}/big/1.png(Title)! 
 
