@@ -187,16 +187,16 @@ a:visited {
 } 
 
 .main_sidebar p { 
-	text-align: center; 
-	padding: 22px;  
-	padding-top:2px;
+	text-align: left; 
+	padding: 2px;  
+	padding-top:15px;
 	
     font-family:  Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
 	margin: 0px auto;
 
 	line-height: 145%;
-	font-size: 1.1em;
+	font-size: 0.98em;
 
 } 
  
