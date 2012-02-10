@@ -24,9 +24,9 @@ Each client can work in two modes: active, sending information to the server con
 
 The system was designed using a small pc connected to a GPS and a phone which used GPRS a data connection to exchange data information encapsulated in SOAP messages with a remote server. 
 
-!../images/{{page.img}}/big/1.png(Title)! 
+!../images/{{page.img}}/big/1.png(Configuration diagram)! 
 
 The server was made using PHP using the Apache web server which at the same triggered different scripts asynchronously in order to process the incoming data. 
 A web application was created in order to monitor the fleet and perform actions over the system.
 
-!../images/{{page.img}}/big/4.png(Title)!
+!../images/{{page.img}}/big/4.png(Web control)!
