@@ -50,9 +50,32 @@
 	<div class="row header"> 
 		
   		<div class="four columns">
-    		<h1 class="logo">	<a href="{{root}}/index.html"> Victor Diaz Portfolio </a></h1>
+    		<h1 class="logo">	<a href="{{root}}/index.html" class="hide-on-phones"> Victor Diaz Portfolio </a></h1> 
+		
+			<div class="show-on-phones hide-on-desktops hide-on-tablets main_sidebar main_sidebar_mobile"> 
+				<h1 class="logo logo-mobile">  Victor Diaz Portfolio </h1> 
+				<a href="{{ post.url }}/bio/bio.html"> 
+					<img src="{{root}}/images/bio/victordiaz.jpeg" 
+				 	alt=""/> 
+						<p>  I am a researcher & creative coder who loves to experiment and design new ways of interaction among technology and people. My continuous goal is to make technology more human aware.			
+						</p>
+				 
+				</a> 
+				
+				<div class="eight columns menu menu-mobile">
+
+					<a href="{{root}}/index.html" class=""> Projects </a> 
+					<a href="{{root}}/index.html#hacks" class=""> Hacks </a> 
+					<!--  <a href="/q"> Code </a> --> 
+					<a href="{{root}}/bio/bio.html" class=""> About </a>  
+					<!-- <a href="http://www.sweetmonster.net"> Blog </a> --> 
+
+			  	</div>	
+				
+			</div>			
+
   		</div>
-  		<div class="eight columns menu right">
+  		<div class="eight columns menu right hide-on-phones">
 
 			<a href="{{root}}/index.html" class=""> Projects </a> 
 			<a href="{{root}}/index.html#hacks" class=""> Hacks </a> 

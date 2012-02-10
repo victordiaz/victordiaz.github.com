@@ -44,8 +44,7 @@ body {
 } 
 
 
-.menu
-{
+.menu {
 padding:0px;
 margin:0px;
 padding-top:5px; 
@@ -57,6 +56,17 @@ width: 100%;
 text-align: right;
 color: #555;
 text-transform: uppercase; 
+
+} 
+
+
+.menu-mobile {
+
+padding-top:12px;
+text-align: center;
+color: #555; 
+font-size: 1.3em; 
+margin-top: 12px; 
 
 } 
 
@@ -181,6 +191,13 @@ a:visited {
 	
 } 
 
+.logo-mobile {  
+	width:100%; 
+	margin-bottom:12px;
+} 
+
+
+
 .main_sidebar { 
 	margin-top: 25px; 
 	text-align: center;
@@ -199,6 +216,10 @@ a:visited {
 	font-size: 0.98em;
 
 } 
+
+.main_sidebar_mobile { 
+	margin-top: 0px;
+}
  
 .contenido { 
 	
@@ -340,16 +361,16 @@ a:visited {
 	
 .project_preview_desc { 
 	
-	margin:0px;
-	padding:15px; 
+	margin-bottom:12px;	
+	padding:0px; 
 
-	padding-top: 1px;
-	padding-left: 8px;  
-	padding-right: 8px;  
+	padding-top: 8px;
+	padding-left: 2px;  
+	padding-right: 2px;  
 	
-	font-family: helvetica, arial, sans-serif;  
-	font-size: 0.9em; 
-	color: rgba(0, 0, 0, 0.4); 
+	font-family: serif;  
+	font-size: 1.1em; 
+	color: #222; 
 
 	vertical-align: bottom;
 	text-align: left; 
@@ -735,8 +756,7 @@ video {
 	} 
 	
 	.content h3 { 
-	
-	
+		
 		font-family: sans-serif; 
 		font-size: 1.2em; 
 		color: #555; 
@@ -748,7 +768,6 @@ video {
 		font-variant: small-caps; text-transform: lowercase; font-weight: 100;  
 		border-bottom: 1px dashed #ccc;
 	    width: 100%; 
-	
 		
 	}
 	
