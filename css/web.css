@@ -258,8 +258,9 @@ a:visited {
 	border: 0px solid #222; 
 	text-align:center;
 	margin: 0px; 
-  	padding:0px;   
-
+  	padding:0px;  
+	width: 100%;
+	height: auto;
 	
 	-moz-transform: rotate(0deg) scale(1);
 	-webkit-transform: rotate(0deg) scale(1);
