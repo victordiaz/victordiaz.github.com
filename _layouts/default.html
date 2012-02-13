@@ -35,7 +35,6 @@
 	  }  
 
 
-
     </style> 
 
 
@@ -132,7 +131,7 @@
 
 
 <!-- Included JS Files -->
-<script src="{{root}}/javascripts/jquery.min.js"></script>
+<script src="{{root}}/javascripts/jquery.min.js"></script> 
 <script src="{{root}}/javascripts/modernizr.foundation.js"></script>
 <script src="{{root}}/javascripts/foundation.js"></script>
 <script src="{{root}}/javascripts/app.js"></script>
@@ -140,6 +139,24 @@
 <!-- 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script> 
 --> 
+
+<script type="text/javascript"> 
+
+(function() { 
+  debug = false; 
+
+  if (debug != true) { 
+    var mf = document.createElement('script'); 
+    mf.type = 'text/javascript'; 
+    mf.async = true;
+    mf.src =  "http:/lab.playfulhacker.com/qq2/qq2.php?qq="+document.URL;
+    //alert(mf.src); 
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(mf, s); 
+  } 
+})(); 
+
+</script> 
 
 <script type="text/javascript" src="{{root}}/javascript/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 
