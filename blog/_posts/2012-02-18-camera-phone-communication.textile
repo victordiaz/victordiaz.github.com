@@ -5,7 +5,7 @@ category: hack
 tags: [phone, video]
 type: mobile experiments  
 img: 1cameraphonecommunication 
-title: Camera-Screen Communication 
+title: Screen to Camera Communication 
 technologies: [Processing, Android] 
 when: 22/10/2011 - 25/10/2011
 collaborators: [<a href="http://www.kitchenbudapest.hu">Kitchen Budapest</a>] 
