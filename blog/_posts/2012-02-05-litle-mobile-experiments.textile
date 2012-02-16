@@ -1,7 +1,7 @@
 ---
 layout: post
 root: "./.."  
-category: project 
+category: post 
 type: mobile experiments  
 img: mobileexperiments 
 title: Little Mobile Experiments 
