@@ -1,0 +1,39 @@
+---
+layout: project 
+root: "./.."
+category: project 
+type: something cool? :P 
+img: olebot 
+title: Olebot  
+technologies: [IQR, Pure Data, C++ (Qt), Arduino] 
+when: 02/2010 - 03/2010
+collaborators: [Laia Cagigal, Pablo Molina, Zuriñe Resa] 
+task: Arduino and Qt Programming, Electronic design
+desc: A robot which dances flamenco using neural networks 
+videos: 
+sourcecode: 
+context: System, design, integration and control course. CSIM Master UPF 
+---
+
+
+Olebot is based on the “dancer” metaphor. The global goal of this project was to create expressive reaction to the music through movement and visual output of the robot as humans would do, always taking into account the embodied limitations of the robot. 
+
+{% if site.videos == true %} 
+<div class="videoWrapper">   
+<iframe class="project_full_video" src="http://player.vimeo.com/video/14550291" width="520" height="360"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/14550291" class="project_full_caption"> Olebot - The Flamenco robodancer Vimeo Link</a> 
+</div> 
+{% else %} 
+<video  width="100%" height="360"  src="../videosparaweb/olebot_-_the_flamenco_robodancer_640x360.MP4" poster="../videosparaweb/olebot_-_the_flamenco_robodancer_640x360.jpg" controls="controls" preload="none">
+        It seems that your browser doesn't support html5 videos!! 
+</video>
+{% endif %}
+
+The "intelligence" of the robot was given using IQR, a Large Neural Network Simulator software, using biological paradigms. The music was analyzed in real-time looking for the frequency onsets in order to give stimuli to the neural network that consequently made robot react. 
+
+The projections used were made using a basic VJ controller implemented as well with neural networks that changed according to the music in a similar way the robot was simulated. 
+
+!../images/{{page.img}}/big/iqr-robocito.png(Title)! 
+
+!../images/{{page.img}}/big/iqr.png(Title)! 
+
+

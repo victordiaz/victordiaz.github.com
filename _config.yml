@@ -1,5 +1,6 @@
 permalink: none 
-markdown: rdiscount 
+markdown: redcarpet 
+paginate: 5
 pygments: true 
 auto: true 
 server: true

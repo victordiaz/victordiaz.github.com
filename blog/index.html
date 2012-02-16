@@ -1,0 +1,49 @@
+---
+layout: default
+root: "./.."
+
+--- 
+
+
+<div class="row">	
+	<div class = "eight columns posts" > 
+		
+		{% for page in paginator.posts %}
+		  {% include single_page.html %}
+		{% endfor %} 
+	
+	<!-- 	
+		<div class="page">
+		<ul class="pagination">
+		<li class="unavailable"><a href="">&laquo;</a></li>
+		{% for num in (1..paginator.total_pages) %}
+		{% if num == paginator.page %} 
+	     	<li class="current"><a href="">{{num}}</a></li> 
+		{%else%}
+			<li><a href="/page{{num}}">{{num}}</a></li>
+		{% endif %} 
+		{% endfor %} 
+		<li>&raquo;</li>
+		</ul>
+		</div>
+	 -->  
+		
+	</div> 
+
+
+	<div class = "four columns" > 
+
+		<ul class = "lastposts">
+		<h1> Last Posts </h1>
+	  {% for post in site.posts%}
+	      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	    {% endfor %}
+		</ul>
+		
+	</div> 
+
+
+</div> 
+
+
+

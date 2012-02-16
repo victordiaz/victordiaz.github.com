@@ -1,0 +1,20 @@
+---
+layout: project 
+root: "./.."
+category:  project 
+type: visualization 
+img: artworkcolorviz
+title: Artwork color visualization 
+technologies: [Python, Processing] 
+when: 28/01/2011 - 30/01/2011
+collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+task: Python and Processing Programming 
+desc: Artwork visualization that focus on showing color palettes that artists used 
+images:  
+sourcecode: 
+context: Europeana Hack4europe event. Barcelona. 
+---
+
+This tool was made in order to visualize how artists color palette changed over time. The first visualization was made using a Pablo Picasso dataset since he is well known for having used different color palettes in different life periods, especially this can be seen during his blue and pink periods. Each image is analyzed using a python program in order to extract main colors of each image and then visualized using either html or a Processing custom tool. 
+
+!../images/{{page.img}}/thumb/p1.png(Title)!

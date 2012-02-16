@@ -9,21 +9,29 @@ title: Main
 	<div class = "eight columns" > 
 		<div class="foundation-header">
 			<h2>Projects
-			<span class="subheader">My last projects</span>
+			<span class="subheader">check the info inside!</span>
 			</h2>
 		</div> 
+	
+	{% for q in site.pages %} 
+
+	<p> {{q.name}}  </p> 		
+
+	{% endfor %} 
+	
+	{{site.pages.people.me}}
 		
 	<ul class="block-grid five-up mobile project_preview">
 		
-    	{% for post in site.posts %} 
-		{% if post.categories contains 'project' %}  
+    	{% for project in site.pages reversed %} 
+		{% if project.category contains 'project' %}  
 
-		<li class = "{{post.type}}"> 
-			<a href="{{root}}{{ post.url }}"> 
+		<li class = "{{project.type}}"> 
+			<a href="{{root}}{{ project.url }}"> 
 	   		
-			  	<img src="{{root}}/images/{{post.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
-				<p> {{post.title }}  </p> 		
-		 		<div class = "project_preview_desc project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{post.desc}}  </div>
+			  	<img src="{{root}}/images/{{project.img|downcase}}/preview.jpg" alt="{{project.title}} project"/>  
+				<p> {{project.title }}  </p> 		
+		 		<div class = "project_preview_desc project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{project.desc}}  </div>
 		
 	
 			</a> 
@@ -40,30 +48,53 @@ title: Main
 	
 			<div class="foundation-header">
 			<h2 id ="hacks">Hacks
-				<span class="subheader">Some cool hacks / fun / misc</span>
+				<span class="subheader">some cool hacks & experiments </span>
 			</h2> 
 			</div> 
 
 		<ul class="block-grid five-up mobile project_preview">
 
-	    {% for post in site.posts %} 
-		{% if post.categories contains 'hack' %}  
+		
 
+		{% for hack in site.posts %} 
+		{% if hack.category contains 'hack' %}  
 
-		<li class = "{{post.type}}"> 
-			<a href="{{root}}{{ post.url }}"> 
-			<img src="./images/{{post.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
+		<li class = "{{hack.type}}"> 
+			<a href="{{root}}{{ hack.url }}"> 
+			<img src="./images/{{hack.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
 			</a> 
 
-				<p class = "project_preview_title"> {{post.title }}  </p> 
-			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{post.desc}}  </div>
-
+				<p class = "project_preview_title"> {{hack.title }}  </p> 
+			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{hack.desc}}  </div>
 
 
 		</li> 
 
 		{% endif %}  	
 	    {% endfor %}  
+	
+
+	    {% for hack in site.pages %} 
+		{% if hack.category contains 'hack' %}  
+
+		<li class = "{{hack.type}}"> 
+			<a href="{{root}}{{ hack.url }}"> 
+			<img src="./images/{{hack.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
+			</a> 
+
+				<p class = "project_preview_title"> {{hack.title }}  </p> 
+			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{hack.desc}}  </div>
+
+
+
+		</li> 
+		
+		
+		{% endif %}  	
+	    {% endfor %}  
+	
+
+	
 		</ul> 
 
 
