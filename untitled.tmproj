@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>projects/12-artwork-colour-visualization.textile</string>
+	<string>blog/_posts/2012-02-15-directprinting.textile</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -51,12 +51,26 @@
 				<integer>3</integer>
 			</dict>
 		</dict>
+		<key>_layouts/default.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>159</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>145</integer>
+		</dict>
 		<key>_site/index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>14</integer>
 			</dict>
@@ -79,6 +93,20 @@
 			<key>firstVisibleLine</key>
 			<integer>5</integer>
 		</dict>
+		<key>blog/_posts/2012-02-15-directprinting.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>160</integer>
+				<key>line</key>
+				<integer>17</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>4</integer>
+		</dict>
 		<key>blog/_posts/2012-02-17-heartbeat.textile</key>
 		<dict>
 			<key>caret</key>
@@ -98,9 +126,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>111</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>21</integer>
+				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -173,6 +201,9 @@
 		<string>blog/_posts/2012-02-18-camera-phone-communication.textile</string>
 		<string>projects/06-visual-lyrics.textile</string>
 		<string>projects/12-artwork-colour-visualization.textile</string>
+		<string>_site/index.html</string>
+		<string>_layouts/default.html</string>
+		<string>blog/_posts/2012-02-15-directprinting.textile</string>
 		<string>blog/_posts/2012-02-09-sundayvideo.textile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>

@@ -15,7 +15,7 @@ sourcecode:
 context: Kitchen Budapest Residency. Budapest. Hungary. 
 ---
 
-After a trip I did back in October to the beautiful Ljubljana, Slovenia, where I met the wonderful hackers and artits from <a href="http://www.ljudmila.org/">Liudmila</a> I started hacking on a quite funny mobile / computer app, to generate printed photography collages in seconds! 
+After a trip I did back in October to the beautiful Ljubljana, Slovenia, where I met the wonderful hackers and artits from <a href="http://www.ljudmila.org/">Ljudmila</a> I started hacking on a quite funny mobile / computer app, to generate printed photography collages in seconds! 
 
 Basically, you start taking pictures with the phone which will be automatically download to the computer where the collage is created and sent to the printer.
 
