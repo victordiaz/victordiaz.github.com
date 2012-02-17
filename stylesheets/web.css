@@ -121,9 +121,9 @@ margin-top: 12px;
 .menu a { 
 	
 	color: #555;
-	padding:5px; 
+	padding:0px; 
 
-	margin: 2px;
+	padding: 8px;
 	font-family: arial, helvetica, sans-serif; 
 	font-size: 1.2em; 
 	font-weight:10000;
@@ -221,8 +221,8 @@ a:visited {
 } 
 
 .header { 
-	margin-top: 12px;
-	margin-bottom: 22px; 
+	margin-top: 0px;
+	margin-bottom: 12px; 
 } 
 	
 .subheader { 
