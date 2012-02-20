@@ -8,22 +8,15 @@ title: Main
 <div class="row">	
 	<div class = "eight columns" > 
 		<div class="foundation-header">
-			<h2>Projects
+			<h2 class = "correctme">Projects
 			<span class="subheader">check the info inside!</span>
 			</h2>
 		</div> 
 	
-	{% for q in site.pages %} 
-
-	<p> {{q.name}}  </p> 		
-
-	{% endfor %} 
 	
-	{{site.pages.people.me}}
-		
 	<ul class="block-grid five-up mobile project_preview">
 		
-    	{% for project in site.pages reversed %} 
+    	{% for project in site.posts %} 
 		{% if project.category contains 'project' %}  
 
 		<li class = "{{project.type}}"> 
@@ -109,8 +102,8 @@ title: Main
 				 alt="{{post.title}} project"/>  
 			</a>			
 			
-			<p>  I am a researcher & creative coder who loves to experiment and design new ways of interaction among technology and people.
-			 My continuous goal is to make technology more human aware.			
+			<p class="correctme">  I am a researcher & creative coder who loves to experiment and design new ways of interaction among technology and people.
+			 My goal is to make technology more human aware.			
 			</p>
 			
 		

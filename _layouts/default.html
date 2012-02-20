@@ -62,7 +62,7 @@
 				<a href="{{ post.url }}/bio/bio.html"> 
 					<img src="{{root}}/images/bio/victordiaz.jpeg" 
 				 	alt=""/> 
-						<p>  I am a researcher & creative coder who loves to experiment and design new ways of interaction among technology and people. My continuous goal is to make technology more human aware.			
+						<p>  I am a researcher & creative coder who loves to experiment and design new ways of interaction among technology and people. My goal is to make technology more human aware.			
 						</p>
 				 
 				</a> 
@@ -151,7 +151,7 @@
 <script type="text/javascript"> 
 
 (function() { 
-  debug = false; 
+  debug = true; 
 
   if (debug != true) { 
     var mf = document.createElement('script'); 
@@ -306,7 +306,92 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+	
+</noscript>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script> 
+
+<div id="myModal" class="reveal-modal">
+     <h2>Thanks for helping me out!</h2>
+	 <form class="nice">
+		<label>Just modify the text as you would think it would be better. Feel free! </label>
+		<textarea id="texttochange" style="width=100%"></textarea> 
+		
+		<a href="#" id = "submit" class="button">Here we go!</a>
+		
+	 </form>
+     <a class="close-reveal-modal">&#215;</a>
+</div> 
+
+<script> 
+
+$(document).ready(function() { 
+
+/* 
+	$('body').append('<div id="hey" style="">qq</div>'); 
+	
+	$('#hey').css({
+		"width":"50%",
+		"background":"#d0d0ff",
+		"border":"solid black 1px",
+		"padding":"5px",
+		"position":"absolute",
+		"z-index":"12555"
+	}); 
+	
+	$("#hey").hover(function() { 
+		$(this).css({
+			"background":"#bbb",	
+		}); 
+		
+		$('#myModal').reveal();
+        
+	}); 
+	
+	//add css 
+	$('.correctme').addClass("selected"); 
+	
+	$('.correctme').click(function(event) { 
+		//alert(event.target.id); 
+		$('#texttochange').text($(this).text()); 
+		$('#myModal').reveal();
+				
+	}); 
+	
+	//when clicked on submit then send and close the modal dialog 
+	$('#submit').click(function() {
+		content = $('#texttochange').val(); 	
+		
+		$.ajax({
+		   	data: {id:content, qq:5},
+		    type: "GET",
+	        dataType: "jsonp",
+	        url: "http://lab.playfulhacker.com/qq2/echo.php",
+       		success: function(data) { 
+					alert(content);
+				     alert(data.id); 
+					//$('p').text(data.id);		 
+		   	}
+		}); 
+
+        $('#myModal').trigger('reveal:close'); //close modal dialog
+		
+	}); 
+	
+	
+	$(window).scroll(function() { 
+			$('#hey')
+			.stop()
+			.animate({top: $(document).scrollTop()},'slow','easeOutBack'); 
+	}); 
+
+
+
+}); 
+
+*/ 
+</script> 
 
 
 </body>

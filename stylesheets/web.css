@@ -980,6 +980,10 @@ a.blue:hover {
 	
 } 
 
+#texttochange { 
+	width: 100%;
+	height: 135px;	
+} 
 
 .blueq { 
 	border-top: 5px solid #285; 
@@ -989,8 +993,12 @@ a.blue:hover {
 
 pre.prettyprint {
   margin: 15px;
-
 	
+}
+
+.selected { 
+	color:blue; 
+	background:yellow; 
 }
 
 
