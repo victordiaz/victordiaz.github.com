@@ -1,7 +1,7 @@
 ---
 layout: post
 root: "./.."  
-category:  hack 
+category:  [hack, post]
 tags: [android]
 type: mobile experiments  
 img: 1phonerace 

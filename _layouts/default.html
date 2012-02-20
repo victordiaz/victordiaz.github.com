@@ -86,7 +86,7 @@
 			<a href="{{root}}/index.html#hacks" class=""> Hacks </a> 
 			<!-- <a href="/q"> Code </a> --> 
   			<a href="{{root}}/bio/bio.html" class=""> About </a>  
-			<a href="{{root}}/blog/" class=""> Blog </a> 
+			<a href="{{root}}/blog" class=""> Blog </a> 
 
   		</div> 
 	</div>
@@ -270,20 +270,28 @@
 <script> 
 
 	$('.menu a').click(function(){
-	  $('.menu a').removeClass('selected');
+	  $('.menu a').removeClass('selected'); 
 	  $(this).toggleClass('selected'); 
 	}); 
 	
 	$(function() {
-    	var path = location.pathname; 
+    	var url = document.createElement('a'); 
+		url.href = document.URL; 
+		path = url.pathname; 
 		//alert(path); 
    
-		if ( path ) { 
-     		$('.menu a[href$="' + path + '"]').attr('class', 'selected'); 
-     		//$('.site').attr('class', 'greenq'); 
+     	$('.menu a[href$="' + path + '"]').attr('class', 'selected'); 
+     	//$('.site').attr('class', 'greenq'); 
+		
+		if (path == '/blog/') { 
+			$('.menu a[href$=blog/index.html]').attr('class', 'selected'); 
+	  	}
+		//alert("qq"); 
 
-			//alert("qq"); 
- 		} /*else if (path == '/bio/bio.html') { 
+
+
+		
+		/*else if (path == '/bio/bio.html') { 
 	
 	  		$('.menu a[href$="' + path + '"]').attr('class', 'pinkq'); 
 	    	$('.site').attr('class', 'pinkq'); 	

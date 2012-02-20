@@ -1,7 +1,7 @@
 ---
 layout: post 
 root: "./.." 
-category: hack 
+category: [hack, post] 
 tags: [phone, video]
 type: mobile experiments  
 img: 1directprinting 
