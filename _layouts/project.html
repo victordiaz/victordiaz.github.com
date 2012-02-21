@@ -130,7 +130,7 @@ layout: default
 	<div class="moreprojects">
 	<h1> More projects </h1>
 	<ul class="qq2"> 
-	{% for project in site.pages %}
+	{% for project in site.posts %}
 	{% if project.category contains 'project' or project.category contains 'hack' %}  
 		<li> 
 		<a class="has-tip right" id="{{project.img}}" data-width="120px" title="{{project.title}}" href="{{root}}{{ project.url }}"> 
