@@ -13,11 +13,13 @@
 
 	{% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ site.root }}{% endif %}{%endcapture%}
 
-	<!-- Included CSS Files -->
+	<!-- Included CSS Files --> 
 	<link rel="stylesheet" href="{{root}}/stylesheets/foundation.css">
 	<link rel="stylesheet" href="{{root}}/stylesheets/app.css"> 
 	
 	<link href="{{root}}/javascripts/prettify/prettify.css" type="text/css" rel="stylesheet" /> 
+	
+
 <!--	
 	<link href="{{root}}/stylesheets/syntax.css" type="text/css" rel="stylesheet" /> 
 --> 
@@ -44,8 +46,11 @@
     </style> 
 
 
-</head>
+</head> 
 <body id = "clouds" onload="prettyPrint()">
+<canvas id="canvasbg"></canvas>  
+<div id = "bocasuperior"> </div> 
+<div id = "bocainferior"> </div> 
 
 
 <div class="site"> 
@@ -131,6 +136,7 @@
 </footer>
 </div>
 
+<img src = "./images/cursor.png" id = "cursor"/> 
 <!-- container -->
 
 
@@ -141,6 +147,7 @@
 <script src="{{root}}/javascripts/modernizr.foundation.js"></script>
 <script src="{{root}}/javascripts/foundation.js"></script>
 <script src="{{root}}/javascripts/app.js"></script>
+<script type="text/javascript" src="{{root}}/javascripts/jquery.scrollTo-min.js"></script>
 
 <!-- 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script> 
@@ -334,10 +341,37 @@
 
 <script> 
 
+
+
+function recomendme() { 
+	
+	list = $(".project_preview > li"); 
+	chosen = list[Math.ceil(list.length * Math.random())]; 
+	pos = $(chosen).position();  
+	posx = $(chosen).width() + pos.left; 
+	posy = $(chosen).height() + pos.top; 
+	
+	console.log(chosen); 
+	console.log(posx); 
+	
+	
+	$.scrollTo(chosen, 800, function() { 
+		
+		$("#cursor").show(true); 
+		$("#cursor").animate({left: posx +  'px', top: posy +'px'
+		}, 1252, function() { 
+			$(chosen).addClass("hover"); 	
+		}); 
+		$("#cursor").animate({}, 152);	
+		
+	}); 
+	
+
+	
+}
+
 $(document).ready(function() { 
 
-/* 
-	$('body').append('<div id="hey" style="">qq</div>'); 
 	
 	$('#hey').css({
 		"width":"50%",
@@ -358,6 +392,7 @@ $(document).ready(function() {
 	}); 
 	
 	//add css 
+	/* 
 	$('.correctme').addClass("selected"); 
 	
 	$('.correctme').click(function(event) { 
@@ -366,6 +401,7 @@ $(document).ready(function() {
 		$('#myModal').reveal();
 				
 	}); 
+	*/ 
 	
 	//when clicked on submit then send and close the modal dialog 
 	$('#submit').click(function() {
@@ -389,16 +425,45 @@ $(document).ready(function() {
 	
 	
 	$(window).scroll(function() { 
-			$('#hey')
-			.stop()
-			.animate({top: $(document).scrollTop()},'slow','easeOutBack'); 
+			//$('#hey')
+			//.stop()
+			//.animate({top: $(document).scrollTop()},'slow','easeOutBack'); 
+			
+		//	draw($(document).scrollTop()); 
 	}); 
 
+    function draw(b) { 
+      var canvasbg = $("#canvasbg")[0]; 
 
+        canvasbg.width = $(document).width(); 
+  		canvasbg.height = $(document).height(); 
+
+      if (canvasbg.getContext) { 
+        var ctx = canvasbg.getContext("2d"); 
+      
+        ctx.fillStyle = "rgba(0, 0,"+ b +", 0.1)"; 
+        ctx.fillRect (0, 0, canvasbg.width, canvasbg.height); 
+
+
+ 	   // for(j = 0; j < canvasbg.width; j = j + canvasbg.width / 25) {
+       //   for(i = 0; i < canvasbg.width; i = i +  canvasbg.width / 25) {
+        //    ctx.fillRect (i, j, 12, 12); 
+		//	console.log("hola"); 
+        //  } 
+ 	    //}        
+
+      }
+    } 
+
+   //draw(125); 
+
+	$("#randomproject").click(function() { 
+		recomendme(); 
+	}); 
 
 }); 
 
-*/ 
+
 </script> 
 
 

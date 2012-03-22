@@ -10,8 +10,10 @@ title: Main
 		<div class="foundation-header">
 			<h2 class = "correctme">Projects
 			<span class="subheader">check the info inside!</span>
-			</h2>
-		</div> 
+	
+				<span id = "randomproject" class="subheader"> Click here to see a random project</span>
+				</h2>
+			</div> 
 	
 	
 	<ul class="block-grid five-up mobile project_preview">
@@ -19,7 +21,7 @@ title: Main
     	{% for project in site.posts %} 
 		{% if project.category contains 'project' %}  
 
-		<li class = "{{project.type}}"> 
+		<li class = "{{project.type}} "> 
 			<a href="{{root}}{{ project.url }}"> 
 	   		
 			  	<img src="{{root}}/images/{{project.img|downcase}}/preview.jpg" alt="{{project.title}} project"/>  
