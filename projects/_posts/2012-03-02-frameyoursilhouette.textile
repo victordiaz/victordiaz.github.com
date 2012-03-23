@@ -15,8 +15,9 @@ sourcecode:
 context: Cebit 2012. Hannover, Germany 
 ---
 
+Thanks to the guys of Open Design City I had the opportunity to experiment with laser cutters. First I started using some simple generative designs and experiment a bit exporting data from Processing to something that could be understood by the laser cutter. Then I realized it could be cool to extract silhouettes from pictures and print them. 
 
-The puppet master is a game that creates a link between the people in a public space and a user behind a computer. It works pretty similar as the Mechanical Turk, creating the illusion of a intelligent machine that interact with the people which is in reality a person behind manipulating the computer. 
+So I ended up creating something similar to a photo both app that takes pictures of people, analizes it and after having some pictures taken send them to the laser cutter. Here you can see some results! 
 
 !../images/{{page.img}}/big/1.jpg(Title)! 
 !../images/{{page.img}}/big/2.jpg(Title)! 
