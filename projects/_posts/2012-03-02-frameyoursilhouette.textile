@@ -1,8 +1,8 @@
 ---
 layout: project 
 root: "./.." 
-category:  project 
-type: experimentation
+category: project 
+type: Digital to physical
 img: frameyoursilhouette
 title: Frame your silhouette
 technologies: [Processing, Laser cutter] 

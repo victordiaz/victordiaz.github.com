@@ -31,3 +31,6 @@ The gameplay had to be done under normal and stressing conditions such as color 
 	
 The hypothesis, performance level increases when subjects were exposed to stress, failed to be accepted, because the study could not find any difference in performance of the subjects with or without stress factors applied. The study discovered, however, that there is a strong correlation between performance scores under stress and the affinity to play sports that require intense physical activity. 
 
+!../images/{{page.img}}/big/p1.png(Title)! 
+!../images/{{page.img}}/big/p2.png(Title)! 
+!../images/{{page.img}}/big/p3.png(Title)! 

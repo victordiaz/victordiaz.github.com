@@ -19,4 +19,11 @@ This tool was made in order to visualize how artists color palette changed over 
 
 Each image is analyzed using a python program in order to extract main colors of each image and then visualized using either html or a Processing custom tool. 
 
-!../images/{{page.img}}/thumb/p1.png(Title)!
+!../images/{{page.img}}/big/p1.png(Title)! 
+!../images/{{page.img}}/big/p2.png(Title)! 
+!../images/{{page.img}}/big/p3.png(Title)! 
+
+
+
+
+

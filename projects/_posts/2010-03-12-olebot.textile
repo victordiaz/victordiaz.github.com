@@ -28,7 +28,9 @@ Olebot is based on the “dancer” metaphor. The global goal of this project wa
 </video>
 {% endif %}
 
-The "intelligence" of the robot was given using IQR, a Large Neural Network Simulator software, using biological paradigms. The music was analyzed in real-time looking for the frequency onsets in order to give stimuli to the neural network that consequently made robot react. 
+The "intelligence" of the robot was given using IQR, a Large Neural Network Simulator software, using biological paradigms. The music was analyzed in real-time looking for the frequency onsets in order to give stimuli to the neural network that consequently made the robot react. 
+
+!../images/{{page.img}}/big/olebot_interface.png(Title)! 
 
 The projections used were made using a basic VJ controller implemented as well with neural networks that changed according to the music in a similar way the robot was simulated. 
 

@@ -34,5 +34,9 @@ This project aims to shed some light on Madrid food flows through visualization 
 
 It tries to answer basic questions about our consumption habits, self-sustainability and how food is distributed on a daily basis. This project analyzes how production logics have evolved in last years because of changes in our supply chain, based on an anthropological study now in progress. We are particularly interested in examining how some of the controversies which, as semiotic-material constants in the city´s ecology, circulate through food flows and contribute to define the political agenda of the city. 
 
+Different types visualizations where made, one more focused on exploration, where the user can interact and explore the dataset selecting different types of food and seen in the food flows in a period of time. 
+
+The others were static images that tried to depict certain aspects of how we import / export food such as in the following images where they show the longitudes and latitudes where the food that is consumed to Madrid comes from. 
+
 !../images/{{page.img}}/big/visualizar_lon.png(Title)! 
 !../images/{{page.img}}/big/visualizar_lat.png(Title)! 

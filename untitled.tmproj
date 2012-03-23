@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_layouts/default.html</string>
+	<string>projects/_posts/2012-03-02-frameyoursilhouette.textile</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -70,14 +70,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>374</integer>
+				<integer>54</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>357</integer>
+			<integer>0</integer>
 		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
@@ -140,14 +140,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>77</integer>
 				<key>line</key>
-				<integer>50</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>75</integer>
+			<integer>5</integer>
 		</dict>
 		<key>javascript/easySlider1.5.js</key>
 		<dict>
@@ -179,14 +179,28 @@
 				<integer>38</integer>
 			</dict>
 		</dict>
-		<key>projects/_posts/2010-04-02-sketchyplane.textile</key>
+		<key>projects/_posts/2012-02-02-puppetmaster.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>21</integer>
 				<key>line</key>
-				<integer>25</integer>
+				<integer>22</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>projects/_posts/2012-03-02-frameyoursilhouette.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>9</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -198,42 +212,27 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>17</integer>
+				<integer>15</integer>
 				<key>line</key>
-				<integer>667</integer>
+				<integer>1031</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>607</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>667</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>667</integer>
-			</dict>
+			<integer>1000</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>projects/_posts/2010-04-02-sketchyplane.textile</string>
-		<string>index.html</string>
 		<string>_layouts/default.html</string>
 		<string>stylesheets/web.css</string>
+		<string>index.html</string>
+		<string>projects/_posts/2012-02-02-puppetmaster.textile</string>
+		<string>projects/_posts/2012-03-02-frameyoursilhouette.textile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{743, -161}, {683, 878}}</string>
+	<string>{{707, -26}, {683, 878}}</string>
 </dict>
 </plist>
