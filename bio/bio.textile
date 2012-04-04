@@ -4,6 +4,8 @@ root: "./.."
 category: bio
 title: about me 
 recentactivities: [
+"LCD Guimaraes residency. Guimaraes, Portugal", 
+"BigGames workshop at Medialab Prado. Madrid, Spain"
 "Global Game Jam 2012. Madrid, Spain", 
 "LightHamar Installation in Hamar, Norway", 
 "Piksel Festival 2011, Bergen, Norway",    

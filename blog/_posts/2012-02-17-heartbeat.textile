@@ -15,7 +15,7 @@ sourcecode:
 context: Kitchen Budapest Residency. Budapest. Hungary. 
 ---
 
-Months ago I bot a running belt with the pretext I would run more often. I bought the Zephyr module because it work with Android phones using bluetooth. The running thing in fact didn't work out very well with the belt. I found it not so comfortable and the batteries run out of juice pretty quickly so I though I should use it for something else. 
+Months ago I got a running belt with the pretext I would run more often. I bought the Zephyr module because it work with Android phones using bluetooth. The running thing in fact didn't work out very well with the belt. I found it not so comfortable and the batteries run out of juice pretty quickly so I though I should use it for something else. 
 
 I took the Zephyr module, connected to my phone and forward all the heartbeat data to my computer. The heartbeat rate was sent to a couple of phones which I placed underneath a plastic hemisphere and trigger the flash light to enlighten it. At the same time a sound that evokes the beating of the heart was played giving the sensation your hear somehow was outside your body. 
 
