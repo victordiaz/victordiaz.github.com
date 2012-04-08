@@ -16,9 +16,9 @@ context: Kitchen Budapest Residency. Budapest. Hungary.
 ---
 
 
-I created a small working prototype of tangible twitting. I made some cards to be placed in different places and when I tap them using my phone I could automatically twitt where am I 
+I created a small working prototype of tangible twitting. I made some cards to be placed in different places and when I tap them using my phone I could automatically twit where am I 
 
-The magic behind is pretty easy, in fact there is no magic, is just NFC. My phone, a Nexus S, has a NFC reader that I used to scan the tags that were placed behind the cards. Each tag has a different id number that is linked to the placename.bsite that you can find here:
+The magic behind is pretty easy, in fact there is no magic, is just NFC. My phone, a Nexus S, has a NFC reader that I used to scan the tags that were placed behind the cards. Each tag has a different id number that is linked to a different place which is used to send the appropriate text to twitter :) 
 
 {% if site.videos == true %} 
 <div class="videoWrapper">   

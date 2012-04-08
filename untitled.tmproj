@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>blog/_posts/2012-02-17-heartbeat.textile</string>
+	<string>stylesheets/web.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,7 +18,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>376</integer>
+	<integer>114</integer>
 	<key>metaData</key>
 	<dict>
 		<key>_config.yml</key>
@@ -51,61 +51,19 @@
 				<integer>3</integer>
 			</dict>
 		</dict>
-		<key>_site/index.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>997</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>553</integer>
-		</dict>
-		<key>bio/bio.textile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>2</integer>
-				<key>line</key>
-				<integer>23</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>342</integer>
-			<key>firstVisibleLine</key>
-			<integer>37</integer>
-		</dict>
-		<key>blog/_posts/2012-02-17-heartbeat.textile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>17</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>77</integer>
+				<integer>46</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>99</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>8</integer>
+			<integer>87</integer>
 		</dict>
 		<key>javascript/easySlider1.5.js</key>
 		<dict>
@@ -142,26 +100,24 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>25</integer>
 				<key>line</key>
-				<integer>1031</integer>
+				<integer>247</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>1000</integer>
+			<integer>232</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>index.html</string>
-		<string>_site/index.html</string>
-		<string>blog/_posts/2012-02-17-heartbeat.textile</string>
-		<string>bio/bio.textile</string>
+		<string>stylesheets/web.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{800, 23}, {632, 594}}</string>
+	<string>{{731, 67}, {632, 594}}</string>
 </dict>
 </plist>
