@@ -4,7 +4,7 @@ root: "./.."
 category: [post] 
 tags: [workshop, mediafacade]
 type: mobile experiments  
-img: 1cameraphonecommunication 
+img:  
 title: Big Games workshop 
 technologies: [] 
 when: 22/10/2011 - 25/10/2011

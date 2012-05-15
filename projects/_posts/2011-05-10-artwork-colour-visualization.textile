@@ -17,13 +17,20 @@ context: Europeana Hack4europe event. Barcelona.
 
 This tool was made in order to visualize how artists color palette changed over time. The first visualization was made using a Pablo Picasso dataset since he is well known for having used different color palettes in different life periods, especially this can be seen during his blue and pink periods. 
 
-Each image is analyzed using a python program in order to extract main colors of each image and then visualized using either html or a Processing custom tool. 
+Each image is analyzed using a python program in order to extract the main colors of each painting and then visualized using either HTML technologies or a Processing custom tool. 
 
-!../images/{{page.img}}/big/p1.png(Title)! 
+{% if site.book == false %} 
 !../images/{{page.img}}/big/p2.png(Title)! 
-!../images/{{page.img}}/big/p3.png(Title)! 
+!../images/{{page.img}}/big/p3.png(Title)!
+!../images/{{page.img}}/big/p1.png(Title)! 
+
+{% endif %} 
 
 
+
+{% if site.book == true %} 
+<img src="../images/{{page.img}}/big/p2.png" title="Title" alt="Title"><img src="../images/{{page.img}}/big/p3.png" title="Title" alt="Title"><img src="../images/{{page.img}}/big/p1.png" title="Title" alt="Title">
+{% endif %} 
 
 
 

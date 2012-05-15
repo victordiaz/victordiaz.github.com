@@ -1102,6 +1102,10 @@ margin-left: -200px;
   -webkit-transition: filter ease-in 0.3s; 
 } 
 
+.showing { 
+   /* display: none;    */ 
+    
+}
 
 
 	a[href^="http"] { 

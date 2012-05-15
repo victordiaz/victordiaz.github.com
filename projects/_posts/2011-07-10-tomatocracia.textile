@@ -21,9 +21,12 @@ Tomatocracia is an interactive game specifically designed for The App Date event
 
 At the end of the game, the people could see who was the most tomatoed person during the game which the most non-liked person is democratically chosen. 
 
-Simple and superfunny, everybody loved it! The video will be online very soon! 
+Simple and superfunny, everybody loved it! 
 
 <!-- 
 <iframe class="project_full_video" src="http://player.vimeo.com/video/25071870" width="480" height="320"  frameborder="0"></iframe><p><a href="http://www.vimeo.com/25071870" class="project_full_caption"> Tomatocracia Vimeo Link</a> 
 --> 
 
+{% if site.book == true %} 
+<img src="../images/tomatocracia/videocapture/1.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/2.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/3.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/4.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/5.jpg" title="Title" alt="Title">
+{% endif %}

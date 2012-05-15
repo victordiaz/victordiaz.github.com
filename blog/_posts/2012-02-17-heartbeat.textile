@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: project 
 root: "./.." 
 category: [hack, post] 
 tags: [phone, video]
@@ -19,6 +19,7 @@ Months ago I got a running belt with the pretext I would run more often. I bough
 
 I took the Zephyr module, connected to my phone and forward all the heartbeat data to my computer. The heartbeat rate was sent to a couple of phones which I placed underneath a plastic hemisphere and trigger the flash light to enlighten it. At the same time a sound that evokes the beating of the heart was played giving the sensation your hear somehow was outside your body. 
 
+{% if site.book == false %} 
 {% if site.videos == true %} 
 <div class="videoWrapper">   
 <iframe width="560" height="315" src="http://www.youtube.com/embed/KehF6-P6eR4" frameborder="0" allowfullscreen></iframe>
@@ -27,4 +28,12 @@ I took the Zephyr module, connected to my phone and forward all the heartbeat da
 <video  width="100%" height="360"  src="../videosparaweb/olebot_-_the_flamenco_robodancer_640x360.MP4" poster="../videosparaweb/olebot_-_the_flamenco_robodancer_640x360.jpg" controls="controls" preload="none">
         It seems that your browser doesn't support html5 videos!! 
 </video>
-{% endif %}
+{% endif %} 
+{% endif %} 
+
+{% if site.book == true %} 
+<br /> 
+
+<div ><p class="bookvideo">Please watch the video located in: <strong>http://www.youtube.com/watch?v=KehF6-P6eR4</strong></p></div> <br /> 
+<img src="../images/{{page.img}}/videocapture/1.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/2.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/3.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/4.jpg" title="Title" alt="Title">
+{% endif %} 
