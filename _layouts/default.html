@@ -253,12 +253,12 @@
 
 		list = $(".project_preview > li"); 
 		chosen = list[Math.ceil(list.length * Math.random())]; 
-		pos = $(chosen).position();  
-		posx = $(chosen).width() + pos.left; 
-		posy = $(chosen).height() + pos.top; 
+		pos = $(chosen).offset();  
+		posx = $(chosen).width() / 2 + pos.left; 
+		posy = $(chosen).height() / 2 + pos.top; 
 
-		console.log(chosen); 
-		console.log(posx); 
+		//console.log(chosen); 
+		//console.log(posx); 
 
 
 		$.scrollTo(chosen, 800, function() { 
