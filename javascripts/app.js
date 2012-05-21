@@ -1,5 +1,5 @@
-/* Foundation v2.1.5 http://foundation.zurb.com */
-$(document).ready(function () {
+/* Foundation v2.2.1 http://foundation.zurb.com */
+jQuery(document).ready(function ($) {
 
 	/* Use this js doc for all application specific JS */
 
@@ -9,14 +9,17 @@ $(document).ready(function () {
 	function activateTab($tab) {
 		var $activeTab = $tab.closest('dl').find('a.active'),
 				contentLocation = $tab.attr("href") + 'Tab';
+				
+		// Strip off the current url that IE adds
+		contentLocation = contentLocation.replace(/^.+#/, '#');
 
 		//Make Tab Active
 		$activeTab.removeClass('active');
 		$tab.addClass('active');
 
-    	//Show Tab Content
+    //Show Tab Content
 		$(contentLocation).closest('.tabs-content').children('li').hide();
-		$(contentLocation).show();
+		$(contentLocation).css('display', 'block');
 	}
 
 	$('dl.tabs').each(function () {
@@ -29,6 +32,7 @@ $(document).ready(function () {
 
 	if (window.location.hash) {
 		activateTab($('a[href="' + window.location.hash + '"]'));
+		$.foundation.customForms.appendCustomMarkup();
 	}
 
 	/* ALERT BOXES ------------ */
@@ -44,6 +48,9 @@ $(document).ready(function () {
 	/* Remove this and jquery.placeholder.min.js if you don't need :) */
 
 	$('input, textarea').placeholder();
+
+	/* TOOLTIPS ------------ */
+	$(this).tooltips();
 
 
 
@@ -88,5 +95,4 @@ $(document).ready(function () {
 	/* DISABLED BUTTONS ------------- */
 	/* Gives elements with a class of 'disabled' a return: false; */
   
-
 });

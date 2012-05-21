@@ -266,9 +266,10 @@
 			$("#cursor").show(true); 
 			$("#cursor").animate({left: posx +  'px', top: posy +'px'
 			}, 1252, function() { 
-				$(chosen).addClass("hover"); 	
+				$(chosen).addClass("hover"); 
+				$(chosen).click();
 			}); 
-			$("#cursor").animate({}, 152);	
+
 
 		}); 
 

@@ -898,6 +898,7 @@ video {
 
 .moreprojects li { 
 	display: inline; 
+	float: left;
 } 
 
 .moreprojects img { 

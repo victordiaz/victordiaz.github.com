@@ -9,17 +9,17 @@ title: Main
 	<div class = "eight columns" > 
 		<div class="foundation-header">
 			<h2 class = "correctme">Projects
-			<span class="subheader">check the info inside!</span>
+			<span class="subheader">check the info inside</span>
 		
 		
 	
-			 <a href ="JavaScript:void()" id = "randomproject" class="subheader"> Click here to see a random project</a>  
+			 <a href ="JavaScript:void()" id = "randomproject" class="subheader"> Be random! </a>  
 			
 				</h2>
 			</div> 
 	
 	
-	<ul class="block-grid five-up mobile project_preview">
+	<ul class="block-grid five-up  project_preview">
 		
     	{% for project in site.posts %} 
 		{% if project.category contains 'project' %}  
@@ -29,7 +29,7 @@ title: Main
 	   		
 			  	<img src="{{root}}/images/{{project.img|downcase}}/preview.jpg" alt="{{project.title}} project"/>  
 				<p> {{project.title }}  </p> 		
-		 		<div class = "project_preview_desc project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{project.desc}}  </div>
+		 		<div class = "project_preview_desc project_preview_desc hide-on-phones hide-on-desktops hide-on-tablets">  <!-- {{project.desc}} --> </div>
 		
 	
 			</a> 
@@ -50,7 +50,7 @@ title: Main
 			</h2> 
 			</div> 
 
-		<ul class="block-grid five-up mobile project_preview">
+		<ul class="block-grid five-up project_preview">
 
 		
 
@@ -63,7 +63,7 @@ title: Main
 			</a> 
 
 				<p class = "project_preview_title"> {{hack.title }}  </p> 
-			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{hack.desc}}  </div>
+			 	<div class = "project_preview_desc hide-on-phones hide-on-desktops hide-on-tablets">  <!-- {{hack.desc}} --> </div>
 
 
 		</li> 
@@ -81,7 +81,7 @@ title: Main
 			</a> 
 
 				<p class = "project_preview_title"> {{hack.title }}  </p> 
-			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  {{hack.desc}}  </div>
+			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  <!-- {{hack.desc}} --> </div>
 
 
 
