@@ -29,4 +29,12 @@ Simple and superfunny, everybody loved it!
 
 {% if site.book == true %} 
 <img src="../images/tomatocracia/videocapture/1.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/2.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/3.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/4.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/5.jpg" title="Title" alt="Title">
+{% else %}
+
+!../images/{{page.img}}/videocapture/1.jpg(Title)! 
+!../images/{{page.img}}/videocapture/2.jpg(Title)! 
+!../images/{{page.img}}/videocapture/3.jpg(Title)! 
+!../images/{{page.img}}/videocapture/4.jpg(Title)! 
+!../images/{{page.img}}/videocapture/5.jpg(Title)! 
 {% endif %}
+

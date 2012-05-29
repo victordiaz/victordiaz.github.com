@@ -15,12 +15,12 @@ sourcecode:
 context: Historical, social and cultural context of interactive media course. CSIM Master UPF  
 ---
 
+Dancing flowers is an installation that tries to reproduce an alternate reality taking different aspects from the real world such as the current weather, the amount of sunlight the current time and with those parameters, create a virtual world where you become a flower. 
 
-In today's world the chances "to discover" new realities is being reduced so we started to create fictional ones. We create those realities through virtuality therefore the gap with the real world is getting smaller and smaller. It looks a bit scary when said so why not make it funny transforming you into a dancing flower? 
+This flower is first created according to your height and the color of your t-shirt and then as a normal flower start to grow up more and more. 
 
-!../images/{{page.img}}/big/5.png(Title)! 
-!../images/{{page.img}}/big/6.png(Title)!
-!../images/{{page.img}}/big/4.png(Title)!
-!../images/{{page.img}}/big/3.png(Title)!
+!../images/{{page.img}}/big/5_1.png(Title)!
+!../images/{{page.img}}/big/1.png(Title)! 
 !../images/{{page.img}}/big/2.png(Title)!
-!../images/{{page.img}}/big/1.png(Title)!
+!../images/{{page.img}}/big/3.png(Title)!
+!../images/{{page.img}}/big/4.png(Title)!

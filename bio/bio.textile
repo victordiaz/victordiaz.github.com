@@ -4,6 +4,8 @@ root: "./.."
 category: bio
 title: about me 
 recentactivities: [
+"Reshape your phone workshop. Electropixel Festival, Nantes", 
+"Reshape your phone workshop. WeLoveCode, Barcelona", 
 "LCD Guimaraes residency. Guimaraes, Portugal", 
 "BigGames workshop at Medialab Prado. Madrid, Spain", 
 "Global Game Jam 2012. Madrid, Spain", 

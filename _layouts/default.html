@@ -251,7 +251,7 @@
 
 	function recomendme() { 
 
-		list = $(".project_preview > li"); 
+		list = $(".project_preview > li > a > img"); 
 		chosen = list[Math.ceil(list.length * Math.random())]; 
 		pos = $(chosen).offset();  
 		posx = $(chosen).width() / 2 + pos.left; 
@@ -267,7 +267,7 @@
 			$("#cursor").animate({left: posx +  'px', top: posy +'px'
 			}, 1252, function() { 
 				$(chosen).addClass("hover"); 
-				$(chosen).click();
+				setTimeout("$(chosen).click();", 200); 
 			}); 
 
 
@@ -368,6 +368,32 @@
 			recomendme(); 
 		}); 
 
+/* 
+
+		$('body').prepend('<div id = "q1"></div>'); 
+		$('body').append('<div id = "q2"></div>'); 
+		$('#q1, #q2').css({ 
+			position: 'absolute',
+			width: '100%',
+			height: $(window).height() / 2, 			
+			height: $(window).height() / 2, 
+			background: 'black',
+			'z-index': 2
+
+		}); 
+		
+		$('#q1').css('top', ( $(window).height() / 2 ) * -1);
+		$('#q2').css('bottom', '0px');
+	
+		$('#q1').animate({  
+			top: '0px', 
+		    opacity: 0.25,
+		  }, 5000, function() {
+		    // Animation complete.
+		  }); 
+	*/ 	
+		
+	
 	}); 
 
 
@@ -383,9 +409,6 @@
 -->
 	
 <canvas id="canvasbg"></canvas>  
-<div id = "bocasuperior"> </div> 
-<div id = "bocainferior"> </div> 
-
 
 <div class="site"> 
 

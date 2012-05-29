@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>projects/_posts/2012-03-02-frameyoursilhouette.textile</string>
+	<string>_layouts/project.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,7 +18,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>278</integer>
+	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
 		<key>_layouts/default.html</key>
@@ -26,14 +26,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>30</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>91</integer>
+				<integer>421</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>396</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>41</integer>
+				<key>line</key>
+				<integer>421</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>45</integer>
+				<key>line</key>
+				<integer>421</integer>
+			</dict>
+		</dict>
+		<key>_layouts/perfil.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>42</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>258</integer>
+			<integer>24</integer>
 		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
@@ -47,21 +77,21 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>24</integer>
+			<integer>22</integer>
 		</dict>
 		<key>_layouts/project.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>36</integer>
 				<key>line</key>
-				<integer>92</integer>
+				<integer>144</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>2</integer>
+			<integer>113</integer>
 		</dict>
 		<key>blog/_posts/2012-02-15-directprinting.textile</key>
 		<dict>
@@ -91,6 +121,36 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>5</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>15</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>20</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+		</dict>
 		<key>projects/_posts/2012-03-02-frameyoursilhouette.textile</key>
 		<dict>
 			<key>caret</key>
@@ -99,6 +159,20 @@
 				<integer>24</integer>
 				<key>line</key>
 				<integer>5</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>qq.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -138,14 +212,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>536</integer>
+				<integer>900</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>516</integer>
+			<integer>880</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -154,11 +228,14 @@
 		<string>_layouts/default.html</string>
 		<string>_layouts/post.html</string>
 		<string>_layouts/project.html</string>
+		<string>index.html</string>
+		<string>_layouts/perfil.html</string>
+		<string>qq.html</string>
 		<string>projects/_posts/2012-03-02-frameyoursilhouette.textile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{322, 170}, {769, 654}}</string>
+	<string>{{607, 25}, {709, 686}}</string>
 </dict>
 </plist>
