@@ -10,7 +10,6 @@ when: 12/2009 - 09/2010
 collaborators: 
 task: 
 desc: Study of affective modulation through a rated audio-visual database 
-images: [] 
 sourcecode: 
 context: MSc Thesis. CSIM Master UPF 
 ---

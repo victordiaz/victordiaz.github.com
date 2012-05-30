@@ -336,7 +336,7 @@
 				//.stop()
 				//.animate({top: $(document).scrollTop()},'slow','easeOutBack'); 
 
-			//	draw($(document).scrollTop()); 
+				//draw($(document).scrollTop()); 
 		}); 
 
 	    function draw(b) { 
@@ -348,16 +348,16 @@
 	      if (canvasbg.getContext) { 
 	        var ctx = canvasbg.getContext("2d"); 
 
-	        ctx.fillStyle = "rgba(0, 0,"+ b +", 0.1)"; 
-	        ctx.fillRect (0, 0, canvasbg.width, canvasbg.height); 
+	        //ctx.fillStyle = "rgba(0, 0,"+ b +", 0.1)"; 
+	        //ctx.fillRect (0, 0, canvasbg.width, canvasbg.height); 
 
 
-	 	   // for(j = 0; j < canvasbg.width; j = j + canvasbg.width / 25) {
-	       //   for(i = 0; i < canvasbg.width; i = i +  canvasbg.width / 25) {
-	        //    ctx.fillRect (i, j, 12, 12); 
-			//	console.log("hola"); 
-	        //  } 
-	 	    //}        
+	 	    for(j = 0; j < canvasbg.width; j = j + canvasbg.width / 25) {
+	          for(i = 0; i < canvasbg.width; i = i +  canvasbg.width / 25) {
+	            ctx.fillRect (i, j, b * 0.5, b * 0.5); 
+				console.log("hola"); 
+	          } 
+	 	    }        
 
 	      }
 	    } 
@@ -368,31 +368,52 @@
 			recomendme(); 
 		}); 
 
-/* 
-
+		/* 
 		$('body').prepend('<div id = "q1"></div>'); 
 		$('body').append('<div id = "q2"></div>'); 
 		$('#q1, #q2').css({ 
 			position: 'absolute',
 			width: '100%',
-			height: $(window).height() / 2, 			
-			height: $(window).height() / 2, 
+			height: ($(window).height() / 2) + 1, 
+			top: 0, 
+			left: 0,	
+			opacity: '0.5',		
 			background: 'black',
 			'z-index': 2
-
+					
 		}); 
 		
 		$('#q1').css('top', ( $(window).height() / 2 ) * -1);
-		$('#q2').css('bottom', '0px');
+		$('#q2').css('top', $(window).height() + $(window).height() / 2);
+	
+		$(window).scroll(function() { 
+			$('#q1').css('top', $(document).scrollTop());
+			$('#q2').css('top', $(document).scrollTop() + $(window).height() / 2);
+			
+		});
+	
+		var q = $('.site')[0]; 
+		q.style.webkitTransition = "all 2s ease-out"; 
+		q.style.webkitTransformOrigin = "50% 0%";
+		q.style.webkitTransform = "scale(0.5)";
 	
 		$('#q1').animate({  
 			top: '0px', 
-		    opacity: 0.25,
-		  }, 5000, function() {
+		    opacity: 1,
+		  }, 2500, function() {
 		    // Animation complete.
 		  }); 
-	*/ 	
-		
+
+
+		$('#q2').animate({  
+			top: $(window).height() - $(window).height() / 2, 
+		    opacity: 1,
+		  }, 2500, function() {
+		    // Animation complete.
+		  }); 
+
+
+		*/ 
 	
 	}); 
 

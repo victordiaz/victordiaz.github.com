@@ -92,28 +92,27 @@ body {
 
 
 .menu {
-padding:0px;
-margin:0px;
-padding-top:5px; 
-padding-bottom:15px; 
-margin:0;
-white-space:nowrap;
-list-style-type:none; 
-width: 100%; 
-text-align: right;
-color: #555;
-text-transform: uppercase; 
-
+    padding:0px;
+    margin:0px; 
+    padding-top:5px; 
+    padding-bottom:15px; 
+    margin:0;
+    white-space:nowrap;
+    list-style-type:none; 
+    width: 100%; 
+    text-align: right;
+    color: #555;
+    text-transform: uppercase; 
 } 
 
 
 .menu-mobile {
 
-padding-top:12px;
-text-align: center;
-color: #555; 
-font-size: 1.3em; 
-margin-top: 12px; 
+    padding-top:12px;
+    text-align: center;
+    color: #555; 
+    font-size: 1.3em; 
+    margin-top: 12px; 
 
 } 
 
@@ -130,7 +129,8 @@ margin-top: 12px;
 
 	line-height: 10px;
 	letter-spacing: -1px; 
-	
+	border-radius: 0px 0px 2px 2px;
+    
 } 
 
 .menu a.selected {
