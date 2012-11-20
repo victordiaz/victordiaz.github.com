@@ -39,7 +39,7 @@ It tries to answer basic questions about our consumption habits, self-sustainabi
 
 Different types visualizations where made, one more focused on exploration, where the user can interact and explore the dataset selecting different types of food and seen in the food flows in a period of time. 
 
-The others were static images that tried to depict certain aspects of how we import / export food such as in the following images where they show the longitudes and latitudes where the food that is consumed to Madrid comes from. 
+The others were static images that tried to depict certain aspects of how we import / export food such as in the following images where they show the longitudes and latitudes where the food that is consumed in Madrid comes from. 
 
 {% if site.book == false %} 
 !../images/{{page.img}}/big/visualizar_lon.png(Title)! 

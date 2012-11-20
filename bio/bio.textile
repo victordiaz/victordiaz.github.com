@@ -4,11 +4,14 @@ root: "./.."
 category: bio
 title: about me 
 recentactivities: [
+"La Cosa Radiactiva tour, Spain",
+"Melissani Project & Residency, Kefalonia, Greece",
 "Reshape your phone workshop. Electropixel Festival, Nantes", 
 "Reshape your phone workshop. WeLoveCode, Barcelona", 
 "LCD Guimaraes residency. Guimaraes, Portugal", 
 "BigGames workshop at Medialab Prado. Madrid, Spain", 
 "Global Game Jam 2012. Madrid, Spain", 
+"Photohack day, Berlin, Germany",
 "LightHamar Installation in Hamar, Norway", 
 "Piksel Festival 2011, Bergen, Norway",    
 "Beyond Data, Temporary design lab, Budapest & Eindhoven",  
@@ -54,8 +57,7 @@ My biggest passion is to travel, it always remind me that my culture is not the 
 Spain, Portugal, Greece, France, England, Ireland, Italy, Japan, Switzerland, Germany, Czech Republic, The Netherlands, Belgium, Morocco, Hungary, Austria, Poland, Slovakia, Sweden, Serbia, Slovenia, Norway. 
 
 <div class="q"><h3>Places where I've lived </h3> </div> 
-Granada, Jaen, Madrid, Barcelona (Spain), Montpellier (France), Bern (Switzerland), Budapest (Hungary), Berlin (Germany) and Tokyo (Japan) 
-
+Granada, Jaen, Madrid, Barcelona (Spain), Montpellier (France), Bern (Switzerland), Budapest (Hungary), Berlin (Germany), Rotterdam (The Netherlands) and Tokyo (Japan) 
 
 <div class="q"><h3> Things I like </h3></div> 
 Take pictures of nonsense things, travel to not-yet-visited countries, cooking, skiing after a huge snow, roller blading in the city, open source, Linux, tinker with Android, <a href="http://en.wikipedia.org/wiki/Spanish_omelette">Tortilla de patatas</a>, sunny days with a blue sky and some little white clouds :), my home town (Granada), nightlife in Madrid, travel by train, get lost in a new city

@@ -1,0 +1,22 @@
+---
+layout: post 
+root: "./.." 
+category: [post] 
+tags: [thepatchingzone, education]
+type: education  
+img:  
+title: The Patching Zone
+technologies: [] 
+when: 19/11/2012
+collaborators: [] 
+task: [] 
+desc: 
+context:  
+---
+
+
+Two months ago, I started a new job at <a href="http://www.patchingzone.net">The Patching Zone</a>. We are working in Mediawharf / Streetwise billboards a project that involves engineering, new media and art aiming to create a urban / pervasive gaming jointly with high school students in Rotterdam, The Netherlands. 
+
+!../images/blog/thepatchingzone_victor_card.png(my patching zone card :])! 
+
+So far the experience of working here has been really great. The entire Patching Zone team is really nice and teaching cool workshops to the students is getting good results. The engine was difficult to turn it on but now is starting to run pretty smooth! :)

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_layouts/project.html</string>
+	<string>workshops/2010-04-02-arworkshop.textile</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,80 +18,96 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>389</integer>
 	<key>metaData</key>
 	<dict>
-		<key>_layouts/default.html</key>
+		<key>_config.yml</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>8</integer>
 				<key>line</key>
-				<integer>421</integer>
+				<integer>4</integer>
 			</dict>
 			<key>columnSelection</key>
 			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>396</integer>
+			<integer>0</integer>
 			<key>selectFrom</key>
 			<dict>
 				<key>column</key>
-				<integer>41</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>421</integer>
+				<integer>4</integer>
 			</dict>
 			<key>selectTo</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>10</integer>
 				<key>line</key>
-				<integer>421</integer>
+				<integer>4</integer>
 			</dict>
 		</dict>
-		<key>_layouts/perfil.html</key>
+		<key>_layouts/default.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>18</integer>
 				<key>line</key>
-				<integer>42</integer>
+				<integer>122</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>24</integer>
+			<integer>214</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>9</integer>
+				<key>line</key>
+				<integer>122</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>122</integer>
+			</dict>
 		</dict>
-		<key>_layouts/post.html</key>
+		<key>biggames.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>9</integer>
 				<key>line</key>
-				<integer>49</integer>
+				<integer>12</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>22</integer>
+			<integer>0</integer>
 		</dict>
-		<key>_layouts/project.html</key>
+		<key>bio/bio.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>36</integer>
+				<integer>33</integer>
 				<key>line</key>
-				<integer>144</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>113</integer>
+			<integer>0</integer>
 		</dict>
 		<key>blog/_posts/2012-02-15-directprinting.textile</key>
 		<dict>
@@ -126,44 +142,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>124</integer>
 				<key>line</key>
-				<integer>8</integer>
+				<integer>16</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>5</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>15</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>20</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
+			<integer>11</integer>
 		</dict>
-		<key>projects/_posts/2012-03-02-frameyoursilhouette.textile</key>
+		<key>projects/_posts/2010-04-02-sketchyplane.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>24</integer>
+				<integer>532</integer>
 				<key>line</key>
-				<integer>5</integer>
+				<integer>32</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>16</integer>
 		</dict>
 		<key>qq.html</key>
 		<dict>
@@ -212,30 +212,58 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>12</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>900</integer>
+				<integer>1128</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>880</integer>
+			<integer>1128</integer>
+		</dict>
+		<key>workshops/2010-04-02-arworkshop.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>8</integer>
+				<key>line</key>
+				<integer>33</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>14</integer>
+		</dict>
+		<key>workshops/index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>stylesheets/web.css</string>
-		<string>_layouts/default.html</string>
-		<string>_layouts/post.html</string>
-		<string>_layouts/project.html</string>
 		<string>index.html</string>
-		<string>_layouts/perfil.html</string>
-		<string>qq.html</string>
-		<string>projects/_posts/2012-03-02-frameyoursilhouette.textile</string>
+		<string>stylesheets/web.css</string>
+		<string>workshops/index.html</string>
+		<string>projects/_posts/2010-04-02-sketchyplane.textile</string>
+		<string>workshops/2010-04-02-arworkshop.textile</string>
+		<string>_config.yml</string>
+		<string>_layouts/default.html</string>
+		<string>bio/bio.textile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{607, 25}, {709, 686}}</string>
+	<string>{{567, 54}, {790, 775}}</string>
 </dict>
 </plist>
