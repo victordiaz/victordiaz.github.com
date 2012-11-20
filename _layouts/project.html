@@ -50,21 +50,21 @@ layout: default
 	--> 
 
 {% if page.type != null %} 
-<h3> Project type: </h3> 
+<h3> <span class="icon-calendar"/> Project type </h3> 
 <ul> 
 <li> {{ page.type }} </li> 
 </ul> 
 {% endif %} 
 
 {% if page.context != null %} 
-<h3> Context: </h3> 
+<h3> <span class="icon-globe"/> Context </h3> 
 <ul> 
 <li> {{ page.context }} </li> 
 </ul> 
 {% endif %} 
 
 {% if page.when != null %} 
-<h3> When: </h3> 
+<h3> <span class="icon-calendar"/> When </h3> 
 <ul> 
 <li> {{ page.when }} </li> 
 </ul> 
@@ -73,7 +73,7 @@ layout: default
 
 
 {% if page.technologies != null %} 
-<h3> Used Technologies: </h3> 
+<h3>  <span class="icon-wrench"/> Used Technologies </h3> 
 
 	<ul> 
 		{% for technology in page.technologies %} 
@@ -84,7 +84,7 @@ layout: default
 
 
 {% if page.task != null %} 
-<h3> My task: </h3> 
+<h3>  <span class="icon-tasks"/> My task </h3> 
 	<ul> 
 	<li>{{ page.task }}</li>
 	</ul> 
@@ -93,7 +93,7 @@ layout: default
 
 
 {% if page.collaborators != null %} 
-<h3> Developed with: </h3> 
+<h3>  <span class="icon-group"/> Developed with </h3> 
 	<ul> 
 		{% for collaborator in page.collaborators %} 
 		<li>{{ collaborator }}</li>
@@ -104,12 +104,12 @@ layout: default
 
 
 {% if page.sourcecode != null %} 
-<h3> Sourcecode: </h3> 
+<h3> <span class="icon-github"/> Sourcecode: </h3> 
 	<li>{{ page.sourcecode }}</li> 
 {% endif %} 
 
 {% if page.link != null %} 
-<h3> Link: </h3> 
+<h3> <span class="icon-calendar"/> Link </h3> 
 	<ul>
 		{% for l in page.link %} 
 		<li><a href={{ l }}> {{l}} </a></li> 

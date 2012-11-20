@@ -19,7 +19,7 @@ OSCdroid is a nifty tool, meant for prototyping, manipulate values of your inter
 
 You can start playing with it since the first moment. Just download the Processing examples from this URL: goo.gl/nqRDo and have fun! 
 
-<div class="infonote">Note: The version in the market is pretty outdated. I still work on it for my experimentations. Sadly I have to say that I do not find the time to polish it and upload it to the market. If you want the the latest version, write me and kindly I will send to you :)</div>  
+<div class="infonote">Note: The version in the market is pretty outdated and does not work with Android versions higher than >= 3.0. Although I have plans to update it, it will take some little time for me to do it. </div>  
 
 The application comes with some standard native interfaces but it also provides the option of creating as many custom interfaces as you want using html5 and Javascript.
 

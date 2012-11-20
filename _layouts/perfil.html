@@ -20,7 +20,7 @@ layout: default
 
 
 	{% if page.recentactivities != null %} 
-	<h3> Recent Activity </h3> 
+	<h3> <span class="icon-calendar"/> Recent Activity </h3> 
 	<ul> 
 	{% for recentactivity in page.recentactivities %} 
 	<li class = "liseparator">{{ recentactivity }}</li>
@@ -30,7 +30,7 @@ layout: default
 
 	
 	{% if page.cv != null %} 
-	<h3> Curriculum </h3> 
+	<h3> <span class="icon-calendar"/> Curriculum </h3> 
 	<ul> 
 	<li>{{ page.cv }}</li>
 	</ul> 
@@ -39,7 +39,7 @@ layout: default
 	
 	
 	{% if page.links != null %} 
-	<h3 class = "book"> Links </h3> 
+	<h3 class = "book"> <span class="icon-link"/> Links </h3> 
 	<ul class = "book"> 
 	{% for link in page.links %} 
 	<li>{{ link }}</li>
@@ -48,7 +48,7 @@ layout: default
 	{% endif %} 
 	
 	{% if page.mentions != null %} 
-	<h3> Mentions </h3> 
+	<h3> <span class="icon-calendar"/> Mentions </h3> 
 	<ul> 
 	{% for mention in page.mentions %} 
 	<li>{{ mention }}</li>
