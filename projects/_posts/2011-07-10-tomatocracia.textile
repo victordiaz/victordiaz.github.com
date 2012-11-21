@@ -17,7 +17,7 @@ context: The App Date Event. Madrid.
 ---
 
 
-Tomatocracia is an interactive game specifically designed for The App Date event in Madrid where the audience were able to throw virtual rotten tomatoes to a series of well known and in most of the cases not liked politicians and celebrities using their phones. The phone detects the arm movement when the player perform a throwing gesture and at this moment, the rotten tomato virtually falls over the person displayed in the large screen. 
+Tomatocracia is an interactive game specifically designed for The App Date event in Madrid where the audience was able to throw virtual rotten tomatoes to a series of well known, and in most cases, not liked politicians and celebrities using their phones. The phone detects the arm movement when the player perform a throwing gesture and at this moment, the rotten tomato virtually falls over the person displayed on the large screen. 
 
 At the end of the game, the people could see who was the most tomatoed person during the game which the most non-liked person is democratically chosen. 
 

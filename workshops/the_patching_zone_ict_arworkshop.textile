@@ -1,13 +1,14 @@
 ---
-layout: project 
+layout: workshop 
 root: "./.."
-category: project 
+category: workshop 
 type: workshop 
 img: arworkshop
 title: Prototyping and Augmented Reality Workshop  
-technologies: [Paper, Android, Python] 
+technologies: [Paper, Android, Python, HTML5] 
 when: 03/2010
-collaborators: [The Patching Zone] 
+participants: 11 ICT students
+collaborators: [The Patching Zone]
 task: Workshop 
 desc: lala
 videos:  
@@ -15,63 +16,6 @@ sourcecode:
 context: The Patching Zone Mediawharf / Streetwise Billboards 
 ---
 
-
-Title 
-Prototyping and Augmented reality workshop 
-
-Why 
-
-Description 
-
-Name of participants 
-
-Number of participants 
-11
-
-Materials and technologies used 
-Paper prototyping, python server with autorefresh, android app with a camera view and html overlay, HTML5
-
-
-Results 
-
-
-
-
-<div style="font-size: 24px;">
-  <i class="icon-calendar"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-group"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-globe"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-flickr"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-twitter"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-reorder"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-wrench"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-envelope-alt"></i>
-</div>
-
-<div style="font-size: 24px;">
-  <i class="icon-exclamation-sign"></i>
-</div>
 
 The workshop aimed to teach the students how to create low and high fidelity representation of a final product through sketching and prototyping. The number of participants were 11 students in MBO high school from The Netherlands with an IT profile. All of them have some programming knowledge more oriented into backend programming and lacking sense of design and visual communication. The workshop lasted 5 hours a day during two days, so a total of 10 hours although the worked a bit more outside the workshop time to present the final result.
 

@@ -16,6 +16,8 @@
 	<!-- Included CSS Files --> 
 	<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+
+	
 	<script type="text/javascript"
 	  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 	</script>
@@ -69,6 +71,8 @@
 	<script type="text/javascript" src="{{root}}/javascripts/prettify/prettify.js"></script>
 
 	<script type="text/javascript"> 
+	
+	
 
 	(function() { 
 	  debug = false; 
@@ -93,7 +97,18 @@
 
 	<script type="text/javascript">
 		$(document).ready(function() { 
-
+			//category menu
+			$('.category_selector').click(function() {
+				console.log("hola" + $(this)[0].id); 
+				var id = $(this)[0].id; 
+				//if ($("."+q).css())
+				$("."+ id).each(function(index) {
+					$(this).delay(index*300).toggle(200); 
+				  
+				}); 
+			});
+			
+			
 				$("a[rel=example_group]").fancybox({
 					'transitionIn'		: 'elastic',
 					'transitionOut'		: 'elastic', 
@@ -578,31 +593,12 @@
 
 <footer class="row book">
 	    <section class="five columns">
-	      <h6><strong>Do you want to contact me?</strong></h6>
-        <p> Just write me to the following e-mail address, dont forget to replace the __ with @. I do this to prevent ugly spam! </p> 
-     	<p> victormdb __ gmail.com </p> 
-
 
 	    </section>
-	    <!--
-	
-	    <section class="four columns">
-	      <h6><strong>Or you might prefer to check this</strong></h6>	      
-	      <ul class="block-grid three-up">
-			<li> 
-	      	<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=biquillo" style="width:180px; height:20px;"></iframe>
-			</li>
-		
-		
-		</ul>
-		</section> 
-		--> 
-	   
+
+
 	    <section class="seven columns">
-	      <h6><strong>About this website</strong></h6>
-	      <p>Last update {{site.time}} </p>
-	      <p>Created using <a href="http://github.com/mojombo/jekyll">Jekyll</a> & <a href="http://foundation.zurb.com/">Foundation</a></p>
-		
+	      <a href = "./about"><h6><strong>About this website</strong></h6>
 		</section> 
 		
 </footer>

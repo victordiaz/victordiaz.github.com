@@ -1,0 +1,29 @@
+---
+layout: workshop 
+root: "./.."
+category: workshop 
+type: workshop 
+img: reshapeyourphone
+title: Prototyping and Augmented Reality Workshop  
+technologies: [Paper, Android, Python, HTML5] 
+when: 20/04/2012 - 21/04/2012
+participants: 11
+collaborators: [The Patching Zone]
+task: Workshop 
+desc: Reshape your phone Workshop
+videos:  
+sourcecode: 
+context: The Patching Zone Mediawharf / Streetwise Billboards 
+---
+
+<div class="row">	
+<p id = "" class = ""> 	Note: the workshop will be realized soon </p> 
+
+
+</div> 
+
+
+{% if site.book == true %} 
+<div ><p class="bookvideo">Please watch the video located in: <strong>http://vimeo.com/39880475</strong></p></div> <br />  <br /> <br /> 
+<img src="../images/{{page.img}}/videocapture/1.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/2.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/3.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/4.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/5.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/6.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/7.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/8.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/videocapture/9.jpg" title="Title" alt="Title">
+{% endif %}

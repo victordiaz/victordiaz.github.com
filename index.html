@@ -19,13 +19,20 @@ title: Main
 			</h2>
 			</div> 
 	
+	<div id ="categories" style="display:none">
+	<p id = "mobile" class = "category_selector"> mobile </p>
+	<p id = "tool" class = "category_selector"> tool </p>
+	<p id = "visualization" class = "category_selector"> visualization </p>
+	<p id = "mobile" class = "category_selector"> mobile </p>
+	<p id = "mobile" class = "category_selector"> mobile </p>
+	</div>
 	
 	<ul class="block-grid five-up  project_preview">
 		
     	{% for project in site.posts %} 
 		{% if project.category contains 'project' %}  
 
-		<li class = "{{project.type}} "> 
+		<li class = "{{project.type}}"> 
 			<a href="{{root}}{{ project.url }}"> 
 	   		
 			  	<img src="{{root}}/images/{{project.img|downcase}}/preview.jpg" alt="{{project.title}} project"/>  

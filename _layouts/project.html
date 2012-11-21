@@ -50,7 +50,7 @@ layout: default
 	--> 
 
 {% if page.type != null %} 
-<h3> <span class="icon-calendar"/> Project type </h3> 
+<h3> <span class="icon-sign-blank"/> Project type </h3> 
 <ul> 
 <li> {{ page.type }} </li> 
 </ul> 
@@ -104,8 +104,10 @@ layout: default
 
 
 {% if page.sourcecode != null %} 
-<h3> <span class="icon-github"/> Sourcecode: </h3> 
+<h3> <span class="icon-github"/> Sourcecode </h3> 
+	<ul>
 	<li>{{ page.sourcecode }}</li> 
+	</ul>
 {% endif %} 
 
 {% if page.link != null %} 
