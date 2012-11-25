@@ -2,7 +2,7 @@
 layout: project 
 root: "./.." 
 category: [hack, post] 
-tags: [phone, video]
+tags: [phone, android, video]
 type: mobile experiments  
 img: 1heartbeat 
 title: Heartbeat

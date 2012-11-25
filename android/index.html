@@ -4,97 +4,66 @@ root: "./.."
 
 --- 
 
-<footer class="row book">
-	    <section class="five columns">
-	      <h6><strong>Do you want to contact me?</strong></h6>
-        <p> Just write me to the following e-mail address, dont forget to replace the __ with @. I do this to prevent ugly spam! </p> 
-     	<p> victormdb __ gmail.com </p> 
-
-
-	    </section>
-	    <!--
-	
-	    <section class="four columns">
-	      <h6><strong>Or you might prefer to check this</strong></h6>	      
-	      <ul class="block-grid three-up">
-			<li> 
-	      	<iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/follow_button.html?screen_name=biquillo" style="width:180px; height:20px;"></iframe>
-			</li>
-		
-		
-		</ul>
-		</section> 
-		--> 
-	   
-	    <section class="seven columns">
-	      <h6><strong>About this website</strong></h6>
-	      <p>Last update {{site.time}} </p>
-	      <p>Created using <a href="http://github.com/mojombo/jekyll">Jekyll</a> & <a href="http://foundation.zurb.com/">Foundation</a></p>
-		
-		</section> 
-		
-</footer>
-
-
 
 <div class="row"> 	
-<h1 class = "niceh1"> Workshops </h1> 
-<p> Information about the workshops I was teaching during the last months 
-</p> 
+<h1 class = "niceh1"> Android experiments </h1> 
+<p> lalala </p> 
 </div> 
 
 <div class="row"> 	
 
-	<!-- BigGames -->
-	<div class = "six columns posts" > 
+	<div class = "eight columns" > 
+		<div class="foundation-header">
+			<h2 class = "correctme">Projects
+			<span class="subheader">check the info inside</span>
+
+
+			</div> 
+	
+	<ul class="block-grid five-up  project_preview">
 		
-		<div class = "workshop">
-			<h1> Big Games </h1>
-			<p> Big Games was a workshop for showing how to create and develop playful interactive games for the Medialab Prado media-facade in Madrid which was taken place during the 9th and 10th of March 2012. Two days of intensive work that brought 9 game prototypes to the media-facade and will soon be showcased on it.
-			</p> 
-			
-			<div class="videoWrapper">   
-			<iframe class="project_full_video" src="http://player.vimeo.com/video/39880475 
-"  frameborder="0"></iframe> 
-			</div>
-			
-			<p>	
-			This is a video that summarizes the workshop and the amazing projects made. <br /><br />
-			<b>Mentors:</b> Sergio Galán y Víctor Díaz (<a href="http://uncoded.es"> uncoded.es </a>) <br />
-			Video editing: <a href="http://vimeo.com/laracano">Lara Cano</a> <br />
-			Cameraman: Victor Diaz <br />
-			Thanks to: Medialab Prado Madrid <br />
-			Music: Mister Electric Demon_CHO7-31ko (CC License) <br />
-			</p>
-			<p>
-			For more details about the workshop check the website of the event <a href = "http://uncoded.es/biggames"> BigGames (Spanish) </a>
-			</p> 
-			
-		</div> 
+    	{% for project in site.posts %} 
+		{% if project.tags contains 'android' %}  
+
+		<li class = "{{project.type}}"> 
+			<a href="{{root}}{{ project.url }}"> 
+	   			
+				{% if project.img %}
+			  	<img src="{{root}}/images/{{project.img|downcase}}/preview.jpg" alt="{{project.title}} project"/> 	
+				{% else %}
+				hola
+				{% endif %}  	
+				<p> {{project.title }}  </p> 		
+		 		<div class = "project_preview_desc project_preview_desc hide-on-phones hide-on-desktops hide-on-tablets">  <!-- {{project.desc}} --> </div>
+		
+	
+			</a> 
+	
+		</li> 
+	
+		{% endif %}  	
+    	{% endfor %}  
+
+	</ul> 
+	
 
 	</div> 
 
-	<!-- Reshape your phone series -->
-	<div class = "six columns posts" > 
+	<div class = "four columns" > 
+
+		<div class = "main_sidebar hide-on-phones"> 
 		
-		<div class = "workshop">
-			<h1> Reshape your phone </h1>
-			<p> Reshape your phone is a series of workshops that aims to unlock the way 
-				
-				
+			<a href="{{ post.url }}/bio/bio.html" class = "imgbio"> 
+
+			</a>			
 			
+			<p class="correctme"> I am a $$\frac{engineer + artist + researcher }{3}$$		
+			 who loves to experiment and design new ways of interaction among technology and people. My goal is to make technology more human aware.	
+				
 			</p>
+			
 		
-		<img src = "../images/workshops/reshapeyourphone/reshapeyourphone.png" />
-		
-		</div> 
-
-
-	</div> 
-
-
-
-
+	</div>
 
 </div> 
 

@@ -2,7 +2,7 @@
 layout: post 
 root: "./.." 
 category: [hack, post] 
-tags: [phone, video]
+tags: [phone, android, video]
 type: mobile experiments  
 img: 1cameraphonecommunication 
 title: Screen to Camera Communication 

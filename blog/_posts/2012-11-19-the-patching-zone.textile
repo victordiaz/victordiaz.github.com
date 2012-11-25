@@ -15,7 +15,7 @@ context:
 ---
 
 
-Two months ago, I started a new job at <a href="http://www.patchingzone.net">The Patching Zone</a>. We are working in Mediawharf / Streetwise billboards a project that involves engineering, new media and art aiming to create a urban / pervasive gaming jointly with high school students in Rotterdam, The Netherlands. 
+Two months ago, I started a new job at <a href="http://www.patchingzone.net">The Patching Zone</a>. We are working in Mediawharf / Streetwise billboards a project that involves engineering, new media and art aiming to create a urban / pervasive game together with high school students in Rotterdam, The Netherlands. 
 
 !../images/blog/thepatchingzone_victor_card.png(my patching zone card :])! 
 
