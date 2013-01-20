@@ -1,0 +1,13 @@
+{
+    "name": "urbanjs",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "express": "~3.0.4",
+      "ejs": "~0.7.1",
+      "socket.io": "0.9.11"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}

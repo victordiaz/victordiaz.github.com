@@ -9,16 +9,12 @@ $(document).ready(function() {
     	left: 0,	
     	opacity: '0.5',		
     	background: 'black',
-    	'z-index': 2
-
+    	'z-index': 2,
+    	display: 'none'
     });
+});
 
-} 
-
-
-
-
-function monstruito() {  
+function monstruito() {
 	$('body').prepend('<div id = "q1"><div id ="ojoiz"></div><div id ="ojoder"></div></div>'); 
 	$('body').append('<div id = "q2"></div>'); 
 	$('#q1, #q2').css({ 
@@ -97,8 +93,6 @@ function monstruito() {
 
 
 function nomonstruo() {
-
-
 	var q = $('.site')[0]; 
 	q.style.webkitTransition = "all 2s ease-out"; 
 	q.style.webkitTransformOrigin = "50% 0%";
@@ -118,7 +112,5 @@ function nomonstruo() {
   	}, 2500, function() {
 		$('#q2').remove();
   	}); 
-
-
 
 }

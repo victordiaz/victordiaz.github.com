@@ -1,19 +1,18 @@
-var modal = '<div id="myModal" class="reveal-modal">
-     <h2>Thanks for helping me out!</h2>
-	 <form class="nice">
-		<label>Just modify the text as you would think it would be better. Feel free! </label>
-		<textarea id="texttochange" style="width=100%"></textarea> 
-
-		<a href="#" id = "submit" class="button">Here we go!</a>
-
-	 </form>
-     <a class="close-reveal-modal">&#215;</a>
+var modal = '<div id="myModal" class="reveal-modal">\
+     <h2>Thanks for helping me out!</h2>\
+	 <form class="nice">\
+		<label>Just modify the text as you would think it would be better. Feel free! </label>\
+		<textarea id="texttochange" style="width=100%"></textarea>\
+		<a href="#" id = "submit" class="button">Here we go!</a>\
+	 </form>\
+     <a class="close-reveal-modal">&#215;</a>\
 </div>';
 
-
+/* 
 $(document).ready(function() { 
 
 
+    //window.alert("hola");
 	$('#hey').css({
 		"width":"50%",
 		"background":"#d0d0ff",
@@ -34,6 +33,7 @@ $(document).ready(function() {
 
 	//add css 
 	//TODO add to every text in the website 
+
 	$('.correctme').addClass("selected"); 
 
 	$('.correctme').click(function(event) { 
@@ -42,7 +42,7 @@ $(document).ready(function() {
 		$('#myModal').reveal();
 
 	}); 
-	
+
 
 	//when clicked on submit then send and close the modal dialog 
 	$('#submit').click(function() {
@@ -66,3 +66,5 @@ $(document).ready(function() {
 
 
 }); 
+
+*/

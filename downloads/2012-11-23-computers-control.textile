@@ -1,0 +1,22 @@
+---
+layout: post 
+root: "./.." 
+category: [post] 
+tags: [thepatchingzone, education]
+type: education  
+img:  
+title: Effects on The Patching Zone computers
+technologies: [] 
+when: 23/11/2012
+collaborators: [] 
+task: [] 
+desc: 
+context:  
+---
+
+
+We had an open event in <a href="http://www.patchingzone.net">The Patching Zone</a> last week where the whole Patching Zone team, project partners, collaborators and students assisted to see the results of last months and to get to know each other better. We arranged our new space which by the way it's starting to look pretty nice! I though it would be nice to make a little app that allows to control and display different content in the computers we have in the lab so we could do cool stuff with them :)
+
+!../images/blog/thepatchingzone_victor_card.png(my patching zone card :])! 
+
+There is a master app that controls which content should be shown in which computer using OSC messages. The client side is installed in the computers 

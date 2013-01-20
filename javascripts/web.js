@@ -80,40 +80,40 @@ function setCategories() {
 } 
 
 function setDice() {
-	$("#randomproject").hover(function(event) { 
+	$("#randomproject").hover(function(event) {
 		$("#randomimg").addClass('rotatedice');
-
 	}, function (event) { 
-		$("#randomimg").removeClass('rotatedice');
-									
+		$("#randomimg").removeClass('rotatedice');								
 	});
 } 
 
-function recomendme() { 
-
+function recomendme() {
 	list = $(".project_preview > li > a > img"); 
 	chosen = list[Math.ceil(list.length * Math.random())]; 
 	pos = $(chosen).offset();  
 	posx = $(chosen).width() / 2 + pos.left; 
 	posy = $(chosen).height() / 2 + pos.top; 
 
-	//console.log(chosen); 
-	//console.log(posx); 
+	console.log(chosen); 
+	console.log(posx); 
 
-
-	$.scrollTo(chosen, 800, function() { 
-
+	$.scrollTo(chosen, 800, function() {
 		$("#cursor").show(true); 
 		$("#cursor").animate({left: posx +  'px', top: posy +'px'
 		}, 1252, function() { 
-			$(chosen).addClass("hover"); 
-			setTimeout("$(chosen).click();", 200); 
+	
+	
 		}); 
-
-
+	});
+	
+	$.scrollTo(chosen, 800, function() {
+		$("#cursor").show(true); 
+		$("#cursor").animate({left: posx +  'px', top: posy +'px'
+		}, 1252, function() { 
+		//	$(chosen).addClass("hover"); 
+		//	setTimeout("$(chosen).click();", 200); 
+		}); 
 	}); 
-
-
 } 
 
 function draw(b) { 
@@ -139,18 +139,50 @@ function draw(b) {
   }
 }
 
+/* 
+
+if (navigator.geolocation) {
+	navigator.geolocation.getCurrentPosition(function(position) {
+
+		console.log(position.coords.latitude); 
+		console.log(position.coords.longitude); 
+
+
+	}, 
+	function (error)
+	{
+		switch(error.code) 
+		{
+			case error.TIMEOUT:
+				alert ('Timeout');
+				break;
+			case error.POSITION_UNAVAILABLE:
+				alert ('Position unavailable');
+				break;
+			case error.PERMISSION_DENIED:
+				alert ('Permission denied');
+				break;
+			case error.UNKNOWN_ERROR:
+				alert ('Unknown error');
+				break;
+		}
+	}
+	); 
+
+} 
+*/ 
+
 
 $(document).ready(function() { 
     setCategories(); 
     setDice();
     setMenu(); 
     
-    
-    $("#randomproject").click(function() { 
-		recomendme(); 
-	}); 
-	
-	$(window).scroll(function() { 
+    $("#randomproject").click(function() {
+		recomendme();
+	});
+
+	$(window).scroll(function() {
 			//$('#hey')
 			//.stop()
 			//.animate({top: $(document).scrollTop()},'slow','easeOutBack'); 

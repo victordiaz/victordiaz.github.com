@@ -57,6 +57,9 @@
 	<link rel="stylesheet" href="{{root}}/stylesheets/font-awesome.css" />
 
 	<script src="{{root}}/javascripts/app.js"> </script>
+	<script src="{{root}}/javascripts/translateme.js" type="text/javascript" charset="utf-8"></script>
+	<script src="{{root}}/javascripts/monstruito.js" type="text/javascript" charset="utf-8"></script>
+	
 	<script src="{{root}}/javascripts/web.js"> </script>
 	
 	<link rel="stylesheet" href="{{root}}/stylesheets/web.css" type="text/css" media="screen, projection" /> 
@@ -78,53 +81,7 @@
 	</script> 
 
 
-	  <script type="text/javascript">
-
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-19400173-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })(); 
-
-		/* 
-
-		if (navigator.geolocation) {
-	  		navigator.geolocation.getCurrentPosition(function(position) {
-
-				console.log(position.coords.latitude); 
-				console.log(position.coords.longitude); 
-
-
-	  		}, 
-			function (error)
-			{
-				switch(error.code) 
-				{
-					case error.TIMEOUT:
-						alert ('Timeout');
-						break;
-					case error.POSITION_UNAVAILABLE:
-						alert ('Position unavailable');
-						break;
-					case error.PERMISSION_DENIED:
-						alert ('Permission denied');
-						break;
-					case error.UNKNOWN_ERROR:
-						alert ('Unknown error');
-						break;
-				}
-			}
-			); 
-
-		} 
-		*/ 
-
-
-	</script> 
+	
 
 
 </head> 
@@ -143,14 +100,14 @@
 	<div class="row header book"> 
 		
   		<div class="four columns">
-    		<h1 class="logo">	<a href="{{root}}/index.html" class="hide-on-phones"> Victor Diaz Portfolio </a></h1> 
+    		<h1 class="logo">	<a href="{{root}}/index.html" class="hide-for-small"> Victor Diaz Portfolio </a></h1> 
 		
-			<div class="show-on-phones hide-on-desktops hide-on-tablets main_sidebar main_sidebar_mobile"> 
-				<h1 class="logo logo-mobile">  Victor Diaz Portfolio </h1> 
+			<div class="show-for-small hide-for-large hide-for-large main_sidebar main_sidebar_mobile"> 
+				<h1 class="logo logo-mobile">	<a href="{{root}}/index.html"> Victor Diaz Portfolio </a></h1> 
 				<a href="{{ post.url }}/bio/bio.html" class="imgbio"> 
 
 
-						<p>  I am a researcher & creative coder who loves to experiment and design new ways of interaction among technology and people. My goal is to make technology more human aware.			
+						<p>  I am a researcher / artist / engineer who loves to experiment and design new ways of interaction among technology and people. My goal is to make technology more human aware.			
 						</p>
 				 
 				</a> 
@@ -169,9 +126,9 @@
 
   		</div> 
 
-  		<div class="four columns menu right hide-on-phones"> </div>
+  		<div class="four columns menu right hide-for-small"> </div>
 
-  		<div class="four columns menu right hide-on-phones">
+  		<div class="four columns menu right hide-for-small">
 
 			<a href="{{root}}/index.html" class=""> Projects </a> 
 			<span class = "separator">  </span>
@@ -193,20 +150,31 @@
 
 
 <footer class="row book">
-	    <section class="five columns">
-	    </section>
 
-	    <section class="seven columns">
+	<center>
 	      <a href = "./about"><h6><strong>About this website</strong></h6>
-		</section> 
+	</center>
 		
 </footer>
 </div>
 
-<img src = "./images/cursor.png" id = "cursor"/> 
+<img src = "{{root}}/images/cursor.png" id = "cursor"/> 
 <!-- container -->
 
 
 
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19400173-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })(); 
+
+</script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+---
+layout: project 
+root: "./.." 
+category: project 
+type: Digital to physical
+img: melissani
+title: Melissani cave project
+technologies: [Processing, Laser cutter] 
+when: 06/03/2012 - 03/03/2012
+collaborators: [<a href="http://"> Max Kazemzadeh </a>, <a href="http://"> Reza Safavi </a>, <a href="http://"> Carles Gutierrez </a>, <a href="http://"> Wilfredo Terrazas </a>, <a href="http://"> Adnan Naseem Khan </a>, Haytham Nawar, Ionian Center] 
+task: Programming 
+desc: Melissani Cave Project
+videos:  
+sourcecode: 
+context: Kefalonia, Greece
+---
+
+
+Documentation in process... 

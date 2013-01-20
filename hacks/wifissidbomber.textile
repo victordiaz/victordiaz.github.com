@@ -1,0 +1,25 @@
+---
+layout: project 
+root: "./.."
+category: hack 
+type: mobile experiment 
+img: wifissidbomber
+tags: [android]
+title: Wifi SSID bomber
+technologies: [Android SDK, wrt firmware router]  
+when: 09/2012
+collaborators:  
+task:  
+desc: 
+images: 
+sourcecode: 
+context: 
+---
+
+Documentation in process...... 
+
+<!--
+!../images/{{page.img}}/big/img1.png(Title)!
+!../images/{{page.img}}/big/img2.jpg(Title)!
+-->
+

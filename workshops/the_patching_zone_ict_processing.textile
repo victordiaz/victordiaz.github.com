@@ -1,0 +1,161 @@
+---
+layout: workshop 
+root: "./.."
+category: workshop 
+type: workshop 
+img: the_patching_zone_ict_processing
+title: Processing Workshop  
+technologies: [Processing, Laser-cutted screen overlays] 
+when: 29/11/2012
+participants: 7 ICT students
+collaborators: [The Patching Zone]
+task: Workshop 
+desc: lala
+videos:  
+sourcecode: 
+context: The Patching Zone Mediawharf / Streetwise Billboards 
+---
+
+
+Introduction 
+
+<div style="font-size: 124px;">
+  <i class="icon-file">Download Presentation</i>
+</div>
+
+
+This workshop had a dual purpose, first and the clearest was to introduce Processing language to the ICT students. They already have a programming background, so no basic programming introduction, logic and code structure was needed to explain. On the other hand in a previous survey previous to the workshop, none of the students had any previous knowledge of graphics programming and experience using this programming tool / language. 
+
+Processing, is a programming language meant to have a easy learning curve focus on having fast visual feedback that encourage people to learn programming. It is multiplatform and all the tools such as compiler, IDE, help, etc is contained in the same package. 
+
+The workshop was structured in two days of 8 hours per day with a break in the middle for lunch. 
+
+The first day students arrived at 9:30, all of them where quite sharp in time. A small introduction was given to them to show what it is possible to create with this tool. Few videos were shown. Although some of them were too overwhelming for them, it triggered something in their brains since they never realized that you could do such things using only code. 
+
+Two spaces were set up for the workshop, one in front of the projection area with a round table where we could discuss and another with all the computers in line, so we could see their advancement in a glance and it prevented as well that all of them talked to each other. Been seated in a row they only spoke with the people on each side.
+
+We started using the static mode in Processing drawing a few primitives and changing the size of the window. They had to do an small assignment drawing a small hand drawn character given. They had to find which primitives to use, understanding the coordinates system, how to change the drawing order to overlay certain parts and change a basic color from white to black. The majority of them spent more time than I expected figuring out how and where to draw things. Since they never did any graphic programming it was quite understandable.
+
+They were introduced some basic motion in the dynamic mode, so they could experiment moving objects around with their mouse or in a more programmatic way. They were experimenting as well with randomness, linear motion and a bit of sin/cos motion. After the explanation they were given 40 minutes to experiment with motion. Most of them did quite well and they started to understand better the graphic canvas. 
+
+After the break the were explained how to apply colors in Processing and different tricks for having aesthetically pleasant results. They understood the basic differences between RGB and HSV colorspaces and how to get advantage of each of them. As usual they were challenged to experiment with colors and movement combined. 
+
+They were shown a quick example on how Processing can become quite handy to create our own tools. An example of how to create an event flyer and how randomness can help us for the creative process. Another example was a custom made image resizer. Although this last example was simpler they quite liked this more since the amount of lines of code were much more reduced. 
+
+For the second day, they were given an exercise early morning for warming up. 
+
+After the break they got a random computer screen overlay with different holes and shapes that they had to use to create the final project. The reasons behind using those overlays was firstly to engage them creatively. Thinking out of the comfort zone that implies working with a squared screen and different shapes trigger many useful thoughts. Most of them found immediately a use for the overlay, some others needed a bit of time or some small chat. Secondly, to let them think alone. They tend to copy each other when they do not know exactly how to do something. Giving them a totally different shape forced them to thing in a completely different way than the person seated next. And finally the last reason was to let them think about creating content for devices that have a different non-rectangular shape that we might use for the game that we are creating in the patching zone with the students. 
+ 
+
+<div style="margin: 5px 0px 20px 0px; text-align: center;">
+  <i style="font-size: 18px; padding:5px" class="icon-github"></i>
+  <i style="font-size: 24px;">Get the Python server</i>
+</div>
+
+
+
+more here 
+
+<div style="font-size: 124px;">
+  <i class="icon-github">Get the Android application</i>
+</div>
+
+
+more here 
+
+
+Here the video 
+
+<!-- augmented drawing on mobile --> 
+{% if site.videos == true %} 
+<div class="videoWrapper">   
+<iframe width="560" height="315" src="http://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?v=" class="project_full_caption">   </a> 
+</div>
+
+{% else %} 
+<video  width="100%" height="360"  src="../videosparaweb/the_patching_zone/workshops/prototyping/.MP4" poster="../videosparaweb/the_patching_zone/workshops/prototyping/.jpg" controls="controls" preload="none">
+        It seems that your browser doesn't support html5 videos!! 
+</video>
+{% endif %} 
+
+
+
+
+
+
+
+
+
+Content 
+9:45 What is Processing 
+9:55 Types of Processing 
+	
+	Working modes (static, dynamic)
+10:00 Static. Drawing shapes (stroke, noStroke, fill, noFill)
+10:10 Exercise 
+
+10:40 Moving things around x, y (mouse, linear, random) 
+11:00 First Challenge 
+11:10 Little break 
+
+
+11:45 Color tricks (beautiful colors and rect smooth color)
+	circular motion (decomposing motion) (sin, cos)
+	motion + changing shape
+
+
+
+
+
+
+
+	Teaching a tool vs teaching a toy 
+
+
+	Saving images 
+	Events (keyboard) 
+
+	Text
+	Images 
+	affine transformations 
+
+	Load text files (hard drive and online)
+	functions 
+	random() vs noise() 
+	Arrays 
+	map() 
+	lerp
+	modulo % 
+	println
+	frameRate 
+	size 
+
+	motion 
+	bezier curves 
+
+	Sound 
+
+
+
+
+	Henny -> on time
+	Vincent -> on time
+	Roy -> on time
+	Nathan -> on time 
+	Davy -> on time 
+	Jasper -> on time 
+	Jordi -> on time 
+
+
+
+
+
+
+more here 
+
+!../images/workshops/{{page.img}}/computer_overlays_overview.png(Title)! 
+
+
+
+

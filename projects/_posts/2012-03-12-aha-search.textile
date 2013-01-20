@@ -1,0 +1,57 @@
+---
+layout: project 
+root: "./.." 
+category: project 
+type: Digital to physical
+img: ahasearchengine
+title: A Human Approach search engine
+technologies: [NodeJS, HTML5] 
+when: 06/03/2012 - 03/03/2012
+collaborators: [<a href="http://areas.fba.ul.pt/msm"> Mónica Mendes </a>, Gil Ferreira da Silva] 
+desc: AHA. A Human Approach search engine
+videos:  
+sourcecode: 
+context: Guimaraes LCD residency
+---
+
+
+Documentation in process...
+
+
+This proposal is a response to the challenge launched on the LCD residency working on the theme of the hyperlink and the connection of the digital and physical worlds. We focused on the human hyperlink by exploring the brain as index and its processes.
+With a critical perspective on the trend of the search engines to circumscribing and narrowing the results based on the user data, we consider to be castrating when we intend to be creative and integrate knowledge from the most diverse areas. With this motivation of a broader, unconventional access to knowledge, we are proposing an anti-environment to these search issues – AHA! A Human Approach.
+
+Search engines are some of the most use(ful) tools on the web. Google (3) is unquestionably "the reference of the references", here assumed as the metaphor.
+The recent trend of becoming more and more specific, intelligently adapting to our preferences, processes and "likes" threatens to turn us, humans, more and more robotized/machine-like.
+Search results are bringing too much focused results, narrowing knowledge fields into specialized data that ultimately inhibits us to expand our knowledge into diverse other areas.
+In the scope of the reflections brought up during the LCD residency on the hyperlink and exploring the potential of alternative approaches that connect the digital with the physical world, we are proposing “AHA!”, a human approach to the search engines processes and possible consequences.
+AHA! proposes a paradigm shift/stop/reflection on the  search trends to reflect and question on how these interactive systems are shaping our knowledge, threatening to turn us into robot-like humanoids, instead of open, broad multidisciplinary beings. To broaden our human side, our proposal is a search engine that deals with human subjectivity and error, by stressing the process.
+The archetype of the incommensurable would never ever be possible, … .
+
+
+I'm Feeling Lucky – a choice for randomness? 
+This option becomes irresistible when the search is not... . Playing the the idea on random results, we are proposing the reflection on how in the real world we would (not) make a new search. Such an nonsense method for choice would bring the will to make more conducted choices.
+
+5. Mechanical Turk (http://en.wikipedia.org/wiki/The_Turk by Victor – to choose ref and mention in the text).
+6. Multitouch Barcelona, (HI) Human Interaface http://www.multitouch-barcelona.com/?page_id=385
+
+
+<!--
+{% if site.book == false %} 
+!../images/{{page.img}}/big/1.jpg(Title)! 
+!../images/{{page.img}}/big/2.jpg(Title)! 
+!../images/{{page.img}}/big/3.jpg(Title)! 
+!../images/{{page.img}}/big/4.jpg(Title)! 
+!../images/{{page.img}}/big/5.jpg(Title)! 
+!../images/{{page.img}}/big/6.jpg(Title)! 
+!../images/{{page.img}}/big/7.jpg(Title)! 
+!../images/{{page.img}}/big/8.jpg(Title)! 
+{% endif %} 
+
+
+
+{% if site.book == true %} 
+<img src="../images/{{page.img}}/big/1.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/2.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/3.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/4.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/5.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/6.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/7.jpg" title="Title" alt="Title"><img src="../images/{{page.img}}/big/8.jpg" title="Title" alt="Title">
+{% endif %}
+-->
+

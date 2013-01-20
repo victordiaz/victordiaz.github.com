@@ -11,7 +11,7 @@ title: Main
 			<h2 class = "correctme">Projects
 			<span class="subheader">check the info inside</span>
 			
-		 <span>	 <a href ="JavaScript:void()" id = "randomproject" class="subheader"> <img id = "randomimg" style = "opacity: 0.6;" src = "./images/random.png" width = "18px" height = "18px"/><p style ="float:right; display: inline;"> Be random! </p></a>  </span>
+		 <span>	 <a href ="#" id = "randomproject" class="subheader"> <img id = "randomimg" style = "opacity: 0.6;" src = "./images/random.png" width = "18px" height = "18px"/><p style ="float:right; display: inline;"> Be random! </p></a>  </span>
 			
 			</h2>
 			</div> 
@@ -24,6 +24,8 @@ title: Main
 	<p id = "mobile" class = "category_selector"> mobile </p>
 	</div>
 	
+	<ul class="block-grid five-up  project_preview"></ul>
+	
 	<ul class="block-grid five-up  project_preview">
 		
     	{% for project in site.posts %} 
@@ -33,7 +35,7 @@ title: Main
 			<a href="{{root}}{{ project.url }}"> 
 	   		
 			  	<img src="{{root}}/images/{{project.img|downcase}}/preview.jpg" alt="{{project.title}} project"/>  
-				<p> {{project.title }}  </p> 		
+				<p class = "hide-for-small"> {{project.title }}  </p> 		
 		 		<div class = "project_preview_desc project_preview_desc hide-on-phones hide-on-desktops hide-on-tablets">  <!-- {{project.desc}} --> </div>
 		
 	
@@ -45,9 +47,6 @@ title: Main
     	{% endfor %}  
 
 	</ul> 
-	
-	
-	
 	
 			<div class="foundation-header">
 			<h2 id ="hacks">Experiments
@@ -65,12 +64,12 @@ title: Main
 		<li class = "{{hack.type}}"> 
 			<a href="{{root}}{{ hack.url }}"> 
 			<img src="./images/{{hack.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
-			</a> 
+		
 
-				<p class = "project_preview_title"> {{hack.title }}  </p> 
+				<p class = "project_preview_title hide-for-small"> {{hack.title }}  </p> 
 			 	<div class = "project_preview_desc hide-on-phones hide-on-desktops hide-on-tablets">  <!-- {{hack.desc}} --> </div>
 
-
+			</a> 
 		</li> 
 
 		{% endif %}  	
@@ -83,13 +82,11 @@ title: Main
 		<li class = "{{hack.type}}"> 
 			<a href="{{root}}{{ hack.url }}"> 
 			<img src="./images/{{hack.img|downcase}}/preview.jpg" alt="{{post.title}} project"/>  
-			</a> 
-
-				<p class = "project_preview_title"> {{hack.title }}  </p> 
+		
+				<p class = "project_preview_title hide-for-small"> {{hack.title }}  </p> 
 			 	<div class = "project_preview_desc show-on-phones hide-on-desktops hide-on-tablets">  <!-- {{hack.desc}} --> </div>
 
-
-
+			</a> 
 		</li> 
 		
 		
@@ -105,13 +102,13 @@ title: Main
 
 	<div class = "four columns" > 
 
-		<div class = "main_sidebar hide-on-phones"> 
+		<div class = "main_sidebar hide-for-small"> 
 		
 			<a href="{{ post.url }}/bio/bio.html" class = "imgbio"> 
 
 			</a>			
 			
-			<p class="correctme"> I am a $$\frac{engineer + artist + researcher }{3}$$		
+			<p id = "memobile" class="correctme"> I am a $$\frac{engineer + artist + researcher }{3}$$		
 			 who loves to experiment and design new ways of interaction among technology and people. My goal is to make technology more human aware.	
 				
 			</p>
