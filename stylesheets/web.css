@@ -1177,6 +1177,11 @@ margin-left: -200px;
     border: 1px dotted #BBB;    
 } 
 
+#hacks { 
+    margin-top: 35px;   
+    
+}
+
 .postblock {
     margin-bottom: 38px;
 }
