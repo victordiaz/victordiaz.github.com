@@ -1,0 +1,33 @@
+
+<!--
+I am Victor Diaz a Researcher & Creative Coder from Granada, Spain who lives in..., well, somewhere in Europe :P 
+
+I hold a Telecommunications Engineering degree and a MSc on Cognitive Systems and Interactive Media (CSIM) from the University Pompeu Fabra of Barcelona. I have studied one year of the MSc program in Computer Science at the University of Bern and at the University of Fribourg within the Erasmus exchange program and I did a research stay on the Wireless Network System group at the Tokyo University of Sciences. After that I worked with Wireless Sensor Network technologies in a FP7 European project and worked as a Android programmer and interaction designer. 
+
+My current interests stay around of developing novel ways of collaborative interactions in public spaces where time, space and in general, context are key aspects. I like to create rapid-prototyping tools that help to speed up the creation process specifically related to mobile phones.  
+
+Apart that, I am interested as well in human emotions, in how the brain works, in data visualizations, new ways of interfacing with computers, photography, experimental cinema, more humanized architecture and really concerned about new ways of education. And even better if everything is seasoned with open source and free culture :) Too many things isn't it? It could be but somehow all of them are interconnected :) 
+
+I love languages as well and although I do not speak any perfectly I try to do it in English, French, German and Japanese apart from my mother tongue, Spanish. 
+
+My biggest passion is to travel, it always remind me that my culture is not the only one in the world and there are many ways of thinking and seeing about the same thing. This is the beauty of this world, an heritage we should keep. 
+</div> 
+
+<div class="book postblock"> 
+<h1>Here some irrelevant info you might like to know :) </h1>
+
+<div class="q"><h3>Places where I have been (by visiting order)</h3></div> 
+Spain, Portugal, Greece, France, England, Ireland, Italy, Japan, Switzerland, Germany, Czech Republic, The Netherlands, Belgium, Morocco, Hungary, Austria, Poland, Slovakia, Sweden, Serbia, Slovenia, Norway. 
+
+<div class="q"><h3>Places where I've lived </h3> </div> 
+Granada, Jaen, Madrid, Barcelona (Spain), Montpellier (France), Bern (Switzerland), Budapest (Hungary), Berlin (Germany), Rotterdam (The Netherlands) and Tokyo (Japan) 
+
+<div class="q"><h3> Things I like </h3></div> 
+Take pictures of nonsense things, travel to not-yet-visited countries, cooking, skiing after a huge snow, roller blading in the city, open source, Linux, tinker with Android, <a href="http://en.wikipedia.org/wiki/Spanish_omelette">Tortilla de patatas</a>, sunny days with a blue sky and some little white clouds :), my home town (Granada), nightlife in Madrid, travel by train, get lost in a new city
+
+
+<div class="q"><h3> Things I don't like </h3></div> 
+Hypocrisy and many cloudy days in a row :P 
+
+</div> 
+-->

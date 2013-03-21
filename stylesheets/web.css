@@ -278,7 +278,7 @@ a.imgbio {
     border-radius: 0px;
     box-shadow: 0px 1px 4px #bbb; 
     margin-top: 11px;
-    background: url("../images/bio/victor_diaz_on.jpg") no-repeat;
+    background: url("../images/bio/victordiaz.JPG") center;
     width: 300px;
     height: 317px;
     display: block; 
@@ -376,9 +376,9 @@ a.imgbio:hover {
 	width: 100%;
 	height: auto;
 	
-	-moz-transform: rotate(0deg) scale(1);
-	-webkit-transform: rotate(0deg) scale(1);
-	-o-transform: rotate(0deg) scale(1);
+	-moz-transform: rotate(0deg) scale(1) skewX(random(-2,2)deg);
+	-webkit-transform: rotate(0deg) scale(1) skewX(random(-2,2)deg);
+	-o-transform: rotate(0deg) scale(1) skewX(random(-2,2)deg);
 	transform: rotate(0deg) scale(1);
 				
 	-webkit-transition: -webkit-transform 0.2s ease-out; 

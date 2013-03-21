@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>hacks/wifissidbomber.textile</string>
+	<string>javascripts/msg.js</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,7 +18,7 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>412</integer>
+	<integer>222</integer>
 	<key>metaData</key>
 	<dict>
 		<key>_config.yml</key>
@@ -56,30 +56,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>59</integer>
+				<integer>86</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
-			<integer>0</integer>
+			<integer>91</integer>
 			<key>firstVisibleLine</key>
-			<integer>43</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>59</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>60</integer>
-			</dict>
+			<integer>65</integer>
 		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
@@ -249,20 +233,6 @@
 			<key>firstVisibleLine</key>
 			<integer>1</integer>
 		</dict>
-		<key>blog/_posts/2012-11-19-the-patching-zone.textile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>258</integer>
-				<key>line</key>
-				<integer>17</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>hacks/alcoholimeter.textile</key>
 		<dict>
 			<key>caret</key>
@@ -337,33 +307,35 @@
 				<integer>23</integer>
 			</dict>
 		</dict>
-		<key>hacks/wifissidbomber.textile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>7</integer>
-				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>53</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>107</integer>
+				<integer>51</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>76</integer>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>51</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>51</integer>
+			</dict>
 		</dict>
 		<key>javascripts/monstruito.js</key>
 		<dict>
@@ -378,6 +350,20 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>javascripts/msg.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>3</integer>
 		</dict>
 		<key>javascripts/translateme.js</key>
 		<dict>
@@ -493,6 +479,20 @@
 			<key>firstVisibleLine</key>
 			<integer>8</integer>
 		</dict>
+		<key>projects/_posts/2012-07-12-melissani.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>6</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>stylesheets/book.css</key>
 		<dict>
 			<key>caret</key>
@@ -512,9 +512,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>21</integer>
 				<key>line</key>
-				<integer>1178</integer>
+				<integer>1180</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -526,21 +526,15 @@
 	<array>
 		<string>javascripts/web.js</string>
 		<string>index.html</string>
+		<string>javascripts/msg.js</string>
 		<string>stylesheets/web.css</string>
-		<string>javascripts/translateme.js</string>
-		<string>javascripts/monstruito.js</string>
-		<string>package.json</string>
-		<string>_config.yml</string>
-		<string>hacks/augmented-scalextric.textile</string>
-		<string>hacks/uBotherMe.textile</string>
-		<string>hacks/wifissidbomber.textile</string>
-		<string>hacks/alcoholimeter.textile</string>
+		<string>projects/_posts/2012-07-12-melissani.textile</string>
 		<string>android/index.html</string>
 		<string>_layouts/default.html</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{573, 12}, {830, 866}}</string>
+	<string>{{630, 10}, {757, 732}}</string>
 </dict>
 </plist>
