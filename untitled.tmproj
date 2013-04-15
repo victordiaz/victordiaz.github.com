@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>javascripts/msg.js</string>
+	<string>stylesheets/web.css</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -56,14 +56,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>38</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>86</integer>
+				<integer>13</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>91</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>65</integer>
+			<integer>146</integer>
+		</dict>
+		<key>_layouts/perfil.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>43</integer>
+				<key>line</key>
+				<integer>41</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
 		</dict>
 		<key>_layouts/post.html</key>
 		<dict>
@@ -93,19 +107,33 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>android/index.html</key>
+		<key>bio/bio.textile</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>8</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>33</integer>
+				<integer>47</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>7</integer>
+			<integer>18</integer>
+		</dict>
+		<key>bio/previousbio.textile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>32</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>8</integer>
 		</dict>
 		<key>blog/_posts/2012-02-09-sundayvideo.textile</key>
 		<dict>
@@ -312,30 +340,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>6</integer>
+				<integer>91</integer>
 				<key>line</key>
-				<integer>51</integer>
+				<integer>111</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>51</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>51</integer>
-			</dict>
+			<integer>88</integer>
 		</dict>
 		<key>javascripts/monstruito.js</key>
 		<dict>
@@ -350,20 +362,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>javascripts/msg.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>3</integer>
 		</dict>
 		<key>javascripts/translateme.js</key>
 		<dict>
@@ -479,20 +477,6 @@
 			<key>firstVisibleLine</key>
 			<integer>8</integer>
 		</dict>
-		<key>projects/_posts/2012-07-12-melissani.textile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>stylesheets/book.css</key>
 		<dict>
 			<key>caret</key>
@@ -512,29 +496,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>12</integer>
 				<key>line</key>
-				<integer>1180</integer>
+				<integer>281</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>1160</integer>
+			<integer>223</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>javascripts/web.js</string>
-		<string>index.html</string>
-		<string>javascripts/msg.js</string>
-		<string>stylesheets/web.css</string>
-		<string>projects/_posts/2012-07-12-melissani.textile</string>
-		<string>android/index.html</string>
 		<string>_layouts/default.html</string>
+		<string>index.html</string>
+		<string>stylesheets/web.css</string>
+		<string>_layouts/perfil.html</string>
+		<string>bio/bio.textile</string>
+		<string>bio/previousbio.textile</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{630, 10}, {757, 732}}</string>
+	<string>{{563, -53}, {757, 732}}</string>
 </dict>
 </plist>

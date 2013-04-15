@@ -10,16 +10,14 @@ technologies: [Android SDK, Arduino ADK]
 when: 06/2011
 collaborators: [Sergio Galán] 
 task: Android Programming 
-desc: Set the alarm to your friends using the music you want 
-images: [] 
+desc: An alcoholimeter for your Android phone!
+images: 
 sourcecode: 
-context: 
+context: The App Date
 ---
 
+For The App Date in Madrid, Sergio Galán and I developed a series of projects to showcase and use for performing during the event. One of those was a real Alcoholimeter that can be plugged to the phone. 
 
-
-!../images/{{page.img}}/big/img1.png(Title)!
-!../images/{{page.img}}/big/img2.jpg(Title)!
 {% if site.videos == true %} 
 <div class="videoWrapper">   
 <iframe class="project_full_video" src="http://www.youtube.com/embed/7lDBtRtoSf0" width="480" height="360"  frameborder="0"></iframe><p><a href="http://www.youtube.com/watch?v=7lDBtRtoSf0" class="project_full_caption"> Android alcoholimeter </a> 

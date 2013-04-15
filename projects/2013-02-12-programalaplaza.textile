@@ -1,0 +1,19 @@
+---
+layout: project 
+root: "./.." 
+category: project 
+type: Digital to physical
+img: programalaplaza
+title: #programalaplaza
+technologies: [Processing, NodeJS, HTML5] 
+when: 01/01/2013 - 15/02/2013
+collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+task:  
+desc: Programa la plaza
+videos:  
+sourcecode: 
+context: 
+---
+
+
+Documentation in process... 

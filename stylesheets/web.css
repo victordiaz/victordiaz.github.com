@@ -279,11 +279,11 @@ a.imgbio {
     box-shadow: 0px 1px 4px #bbb; 
     margin-top: 11px;
     background: url("../images/bio/victordiaz.JPG") center;
-    width: 300px;
+    width: 250px;
     height: 317px;
     display: block; 
     
-    margin-left: auto;
+    margin-left: 32px;
     margin-right: auto; 
 		
 	position: relative; 
@@ -311,6 +311,7 @@ a.imgbio:hover {
 	text-align: left; 
 	padding: 2px;  
 	padding-top:15px;
+	padding-left: 32px;
 	
     font-family:  Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
@@ -328,6 +329,7 @@ a.imgbio:hover {
     padding: 8px;
     position: absolute;
     bottom: 0px;
+    padding-left: 35px;
 }
 
 .main_sidebar_mobile { 

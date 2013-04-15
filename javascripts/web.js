@@ -47,9 +47,11 @@ function setMenu() {
 		  	} else if (path == '/') {
 		  	    $('.menu a[href$="./index.html"]').attr('class', 'selected'); 
 			    
-		  	    
+		  	 } else if (path == '/workshops/') {
+		  	    $('.menu a[href$="/workshops"]').attr('class', 'selected'); 
+			      
 		  	}
-			//alert("qq"); 
+			//alert(path); 
 
 
 
