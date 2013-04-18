@@ -4,7 +4,7 @@ root: "./.."
 category: post 
 tags: [phone, android, video]
 type: mobile experiments  
-img: 
+img: 1asundayvideo
 title: Sunday video with two phones 
 technologies: [Processing, Python, PHP, OSCdroid, Android, Arduino] 
 when: 22/10/2011 - 25/10/2011

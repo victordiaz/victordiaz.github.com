@@ -1,0 +1,51 @@
+---
+layout: project 
+root: "./.." 
+category: commercial 
+type: Android app
+img: drexler
+tags: [android]
+title: Jorge Drexler App
+technologies: [Android] 
+when: 06/03/2012 - 03/03/2012
+collaborators: [<a href="http://www.reactable.com/"> Reactable Systems </a>]
+task:  
+desc: Jorge Drexler Android app
+videos:  
+sourcecode: 
+context: 
+---
+
+I was working for Reactable Systems developping the Android version of Jorge Drexler N. 
+
+Reactable Systems technology stands behind the new mobile application "n" from Jorge Drexler on Android devices. Drexler, who won an Oscar for his song "Al Otro Lado del Rio" from the movie Motorcycle Diaries shows his creative potential with this new musical format. The project was developed in collaboration with Samsung Spain, Warner Spain and the mobile applications producer WakeApp from Madrid.
+
+Finalist in the  SXSW Interactive Awards People’s Choice! 
+
+<a href="https://play.google.com/store/apps/details?id=com.drexler.intl"> Download it from Google Play </a>
+
+
+
+{% if site.videos == true %} 
+<div class="videoWrapper">   
+<iframe class="project_full_video" src="http://www.youtube.com/embed/PycgYziA5uM" width="480" height="360"  frameborder="0"></iframe><p><a href="http://www.youtube.com/watch?v=7lDBtRtoSf0" class="project_full_caption"> Jorge Drexler N Android App </a> 
+</div>
+{% else %} 
+<video  width="100%" height="360"  src="../videosparaweb/.MP4" poster="../videosparaweb/.jpg" controls="controls" preload="none">
+        It seems that your browser doesn't support html5 videos!! 
+</video>
+{% endif %}
+
+
+
+{% if site.videos == true %} 
+<div class="videoWrapper">   
+<iframe class="project_full_video" src="http://www.youtube.com/embed/EvxSWpFCFkM" width="480" height="360"  frameborder="0"></iframe><p><a href="http://www.youtube.com/watch?v=7lDBtRtoSf0" class="project_full_caption"> Jorge Drexler N Android App </a> 
+</div>
+{% else %} 
+<video  width="100%" height="360"  src="../videosparaweb/.MP4" poster="../videosparaweb/.jpg" controls="controls" preload="none">
+        It seems that your browser doesn't support html5 videos!! 
+</video>
+{% endif %}
+
+

@@ -4,6 +4,7 @@ root: "./.."
 category: hack 
 type: mobile experiment 
 img: ubotherme
+tags: [android]
 title: uBotherMe 
 technologies: [canoris API, PHP, Android SDK]  
 when: 10/2010
