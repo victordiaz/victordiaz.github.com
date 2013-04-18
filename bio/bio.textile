@@ -41,7 +41,9 @@ desc:
 <div class="postblock">
 	
 Victor Diaz (ES) is a researcher, artist and educator whose focus is on creating new ways of interactions between computers and people. He is interested in developing novel ways of collaborative interactions in public spaces considering key aspects of time and space within a cultural context. He also creates tools that help to increase the usability of creative technologies.
+
 	He holds a Telecommunications Engineering degree and a MSc on Cognitive Systems and Interactive Media from the University Pompeu Fabra of Barcelona. He has been integrating research and artistic practice in laboratories and residencies such as the University of Bern, Tokyo University of Sciences, Kitchen Budapest, LCD Guimaraes, Medialab Prado in Madrid and had different roles as an interaction designer and R&D position in the aerospace industry. 
+	
 	He is currently working for The Patching Zone in the Netherlands within a social innovation program finding new ways of education.
 </div>
 	
