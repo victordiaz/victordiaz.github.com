@@ -7,7 +7,7 @@ img: twittercircles
 title: Twitter circles 
 technologies: [Processing, Python] 
 when: 22/10/2011 - 25/10/2011
-collaborators: [<a href="http://www.kibu.hu">Kitchen Budapest</a>, <a href="http://www.baltanlaboratories.org">Baltan Laboratories</a>] 
+collaborators: ['<a href="http://www.kibu.hu">Kitchen Budapest</a>', '<a href="http://www.baltanlaboratories.org">Baltan Laboratories</a>'] 
 task: Design and Programming 
 desc: Twitter wall visualization during the Dutch Design Week 
 images:  

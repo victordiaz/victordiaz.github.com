@@ -2,11 +2,10 @@ permalink: none
 markdown: rdiscount 
 paginate: 5
 pygments: true 
-auto: true 
-server: true 
+serve: true 
 book: false
 videos: true 
-server_port: 4000
+port: 4000
 baseurl: /
 url: http://localhost:4000 
 root: .

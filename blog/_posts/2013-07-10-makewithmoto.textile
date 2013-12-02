@@ -1,0 +1,21 @@
+---
+layout: post 
+root: "./.." 
+category: [post] 
+tags: [makewithmoto, motorola, google, make]
+type: education  
+img:  
+title: Make With Moto
+technologies: [] 
+when: 07/10/2013
+collaborators: [] 
+task: [] 
+desc: 
+context:  
+---
+
+A month ago I joined an awesome project in <a href="http://www.motorola.com">Motorola - (a Google Company)</a>, called <a href="http://www.makewithmoto.com">Make With Moto</a>. A summer tour, with a van wrapped in velcro, 3d printers, lasers, zillion tools and hackable phones. 
+
+So far the experience has been great, lots of travelling, inspiration, workshops, awesome people around and food, loads of food! Travelling around the US making and hacking it's like a dream job! :) 
+
+!../images/blog/makewithmoto.jpg(Make With Moto)! 

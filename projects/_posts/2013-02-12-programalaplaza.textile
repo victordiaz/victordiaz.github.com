@@ -1,0 +1,40 @@
+---
+layout: project 
+root: "./.." 
+category: project 
+type: Digital to physical
+img: programalaplaza
+title: Programa La Plaza / Code The Square
+technologies: [Processing, NodeJS, HTML5] 
+when: 01/01/2013 - 15/02/2013
+collaborators: ['<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>'] 
+task:  
+desc: Programa la plaza
+videos:  
+sourcecode: 
+context: Comisioned by Medialab-prado for the city-art-program of the "Arco" art fair 
+---
+
+
+Programalaplaza (CodeTheSquare) is a programming environment to write visual art for the medialab-prado media facade. We designed and coded an environment where people can write their sketches using Processing.js language, see how the sketch fits into the low resolution facade and submit the result when it is ready. On the management panel, managers can approve and choose the sketches to be shown in the facade together with their timing.
+
+The tool includes an API to detect the position of the people in the square, and the posibility to connect with external API's from web services. Programalaplaza is used as a prototyping tool to quickly develop stuff for the facade.
+
+The first call for project was part of the "after-arco" program within ARCO, the Madrid International contemporary Art fair.
+
+Code the square. View in this video the submitted project in the first open-call
+
+
+{% if site.book == false %} 
+Check out the video! 
+{% if site.videos == true %} 
+<div class="videoWrapper">   
+<iframe class="project_full_video" src="http://player.vimeo.com/video/80713474"  frameborder="0"></iframe><p><a href="https://vimeo.com/80713474" class="project_full_caption"> #ProgramaLaPlaza #CodeTheSquare Vimeo Link</a> 
+</div> 
+{% else %} 
+<video  width="100%" height="360"  src="../videosparaweb/city_fireflies_v0.2_640x360.MP4" poster="../videosparaweb/city_fireflies_v0.2_640x360.jpg" controls="controls" preload="none">
+        It seems that your browser doesn't support html5 videos!! 
+</video> 
+{% endif %} 
+{% endif %} 
+

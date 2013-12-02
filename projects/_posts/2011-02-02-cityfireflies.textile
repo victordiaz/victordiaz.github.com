@@ -7,7 +7,7 @@ img: cityfireflies
 title: City Fireflies 
 technologies: [Openframeworks, Media Facade] 
 when: 28/01/2011 - 30/01/2011
-collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+collaborators: ['<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>'] 
 task: Game design, Programming 
 desc: Media Lab Prado Media Facade Game that uses light sources as a controller 
 videos:  

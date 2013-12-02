@@ -84,7 +84,7 @@ Here the videos
 <div class="videoWrapper">   
 <iframe width="560" height="315" src="http://www.youtube.com/embed/VbC1GpaKuyE" frameborder="0" allowfullscreen></iframe>
 <a href="http://www.youtube.com/watch?v=VbC1GpaKuyE" class="project_full_caption"> Augmented Helikopter </a> 
-</div>
+</div> 
 
 {% else %} 
 <video  width="100%" height="360"  src="../videosparaweb/the_patching_zone/workshops/prototyping/.MP4" poster="../videosparaweb/the_patching_zone/workshops/prototyping/.jpg" controls="controls" preload="none">

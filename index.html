@@ -6,12 +6,12 @@ title: Main
 {% capture root %}{% if page.root %}{{ page.root }}{% else %}{{ site.root }}{% endif %}{%endcapture%}
 
 <div class="row">	
-	<div class = "eight columns" > 
+	<div class = "large-8 columns" > 
 		<div class="foundation-header">
 			<h2 class = "correctme">Projects
-			<span class="subheader">check the info inside</span>
+			<span class="subheader">newest on top</span>
 			
-		 <span>	 <a href ="#" id = "randomproject" class="subheader"> <img id = "randomimg" style = "opacity: 0.6;" src = "./images/random.png" width = "18px" height = "18px"/><p style ="float:right; display: inline;"> Be random! </p></a>  </span>
+		 <span>	 <a href ="#" id = "randomproject" class="subheader"> <img id = "randomimg" style = "opacity: 0.6;" src = "./images/random.png" width = "18px" height = "18px"/><p id = "be_random"> Be random! </p></a>  </span>
 			
 			</h2>
 		</div> 
@@ -24,7 +24,7 @@ title: Main
 	<p id = "mobile" class = "category_selector"> mobile </p>
 	</div>
 	
-	<ul class="block-grid five-up  project_preview">
+	<ul class="large-block-grid-5 project_preview">
 		
     	{% for project in site.posts %} 
 		{% if project.category contains 'project' %}  
@@ -52,7 +52,7 @@ title: Main
 			</h2> 
 			</div> 
 
-		<ul class="block-grid five-up project_preview">
+		<ul class="large-block-grid-5 project_preview">
 
 		
 
@@ -98,7 +98,7 @@ title: Main
 
 	</div> 
 
-	<div class = "four columns" > 
+	<div class = "large-4 columns" > 
 
 		<div class = "main_sidebar hide-for-small"> 
 		

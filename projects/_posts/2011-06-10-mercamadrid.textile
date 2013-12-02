@@ -7,17 +7,17 @@ img: mercamadrid
 title: Mercamadrid visualization 
 technologies: [Python, Processing] 
 when: 28/01/2011 - 30/01/2011
-collaborators: ["Montserrat Cañedo", 
-				"César García",  
-				<a href="http://www.olmeda.artelista.com">María Olmeda Franco</a>, 
-				<a href="http://www.arrsa.org"> Ester Gisbert Alemany </a>, 
-				Javi Esquillor García, 
-				<a href="http://www.linkedin.com/pub/fabio-silli/23/966/727"> Fabio Silli  </a>, 
-				<a href="https://twitter.com/torcuataTK "> Beatríz García </a>, 
-				<a href="http://www.tinapaterson.com "> David Rodríguez (AKA Tina Paterson) </a>, 
-				<a href="http://www.trecedejunio.com"> Sara Alvarellos   </a>, 
-				<a href="http://crearchitetturattivamente.blogspot.com/ "> Martina Minnucci </a>, 
-				<a href="mailto:cpanero@hotmail.com"> Carlos Panero Zurbriggen  </a> 
+collaborators: ['Montserrat Cañedo', 
+				'César García',  
+				'<a href="http://www.olmeda.artelista.com">María Olmeda Franco</a>', 
+				'<a href="http://www.arrsa.org"> Ester Gisbert Alemany </a>', 
+				'Javi Esquillor García', 
+				'<a href="http://www.linkedin.com/pub/fabio-silli/23/966/727"> Fabio Silli  </a>', 
+				'<a href="https://twitter.com/torcuataTK "> Beatríz García </a>', 
+				'<a href="http://www.tinapaterson.com "> David Rodríguez (AKA Tina Paterson) </a>', 
+				'<a href="http://www.trecedejunio.com"> Sara Alvarellos </a>', 
+				'<a href="http://crearchitetturattivamente.blogspot.com/ "> Martina Minnucci </a>', 
+				'<a href="mailto:cpanero@hotmail.com"> Carlos Panero Zurbriggen </a>'
 
 ] 
 task: Visualization design and Programming 

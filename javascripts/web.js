@@ -99,21 +99,12 @@ function recomendme() {
 	console.log(chosen); 
 	console.log(posx); 
 
-	$.scrollTo(chosen, 800, function() {
+	$.scrollTo(chosen, 1200, function() {
 		$("#cursor").show(true); 
 		$("#cursor").animate({left: posx +  'px', top: posy +'px'
 		}, 1252, function() { 
-	
-	
-		}); 
-	});
-	
-	$.scrollTo(chosen, 800, function() {
-		$("#cursor").show(true); 
-		$("#cursor").animate({left: posx +  'px', top: posy +'px'
-		}, 1252, function() { 
-		//	$(chosen).addClass("hover"); 
-		//	setTimeout("$(chosen).click();", 200); 
+			$(chosen).addClass("hover"); 
+			setTimeout("$(chosen).click();", 200); 
 		}); 
 	}); 
 } 

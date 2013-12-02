@@ -7,7 +7,7 @@ img: egyrithms
 title: Egyrithms
 technologies: [Processing, Android, NodeJS, HTML5, Video] 
 when: 06/03/2012 - 03/03/2012
-collaborators: [<a href="http://www.hi-reza.com/"> Reza Safavi </a>]
+collaborators: ['<a href="http://www.hi-reza.com/"> Reza Safavi </a>']
 task:  
 desc: Egyrithms
 videos:  

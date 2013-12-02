@@ -8,7 +8,7 @@ tags: [android]
 title: Jorge Drexler App
 technologies: [Android] 
 when: 06/03/2012 - 03/03/2012
-collaborators: [<a href="http://www.reactable.com/"> Reactable Systems </a>]
+collaborators: ['<a href="http://www.reactable.com/"> Reactable Systems </a>']
 task:  
 desc: Jorge Drexler Android app
 videos:  

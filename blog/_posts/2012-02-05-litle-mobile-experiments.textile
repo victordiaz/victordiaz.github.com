@@ -7,7 +7,7 @@ img: mobileexperiments
 title: Little Mobile Experiments 
 technologies: [Processing, Python, PHP, OSCdroid, Android, Arduino] 
 when: 16/02/2012 - 25/10/2011
-collaborators: [<a href="http://www.kitchenbudapest.hu">Kitchen Budapest</a>] 
+collaborators: ['<a href="http://www.kitchenbudapest.hu">Kitchen Budapest</a>'] 
 task: [] 
 desc: A series of experimentations around new ways of using mobile phones 
 sourcecode: 

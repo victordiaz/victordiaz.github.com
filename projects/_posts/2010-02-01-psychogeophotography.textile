@@ -12,7 +12,7 @@ task: Photography and Batch Pictures merge
 desc: One person with two personalities, two points of view to explore through photography 
 images: [p-0.png, p-1.png, p-2.png, p-3.png, p-4.png, p-5.png, p-6.png, p-7.png, p-8.png, p-9.png, p-10.png, p-11.png, p-12.png, p-13.png, p-14.png, p-15.png, p-16.png, p-17.png, p-18.png, p-19.png, p-20.png, p-21.png, p-22.png, p-23.png, p-24.png, p-25.png, p-26.png] 
 sourcecode: 
-link: [http://www.flickr.com/photos/46638554@N02/, http://www.flickr.com/photos/kiwi_popeye/] 
+link: ['http://www.flickr.com/photos/46638554@N02/', 'http://www.flickr.com/photos/kiwi_popeye/'] 
 context: Aesthetics of interactive media. CSIM Master UPF 
 ---
 

@@ -4,10 +4,10 @@ root: "./.."
 category: project 
 type: Digital to physical
 img: programalaplaza
-title: #programalaplaza
-technologies: [Processing, NodeJS, HTML5] 
+title: Protocoder
+technologies: [Android, HTML5m Javascript] 
 when: 01/01/2013 - 15/02/2013
-collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+collaborators: ['<a href="http://www.makewithmoto.com">Motorola ATAP</a>'] 
 task:  
 desc: Programa la plaza
 videos:  

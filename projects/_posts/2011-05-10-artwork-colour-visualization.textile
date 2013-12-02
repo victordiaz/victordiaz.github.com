@@ -7,7 +7,7 @@ img: artworkcolorviz
 title: Artwork color visualization 
 technologies: [Python, Processing] 
 when: 28/01/2011 - 30/01/2011
-collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+collaborators: ['<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>'] 
 task: Python and Processing Programming 
 desc: Artwork visualization that focus on showing color palettes that artists used 
 images:  

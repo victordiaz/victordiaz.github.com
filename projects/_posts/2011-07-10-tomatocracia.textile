@@ -7,7 +7,7 @@ img: tomatocracia
 title: Tomatocracia 
 technologies: [Processing, Javascript, Python] 
 when: 28/01/2011 - 30/01/2011
-collaborators: [<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>] 
+collaborators: ['<a href="http://sergio.eclectico.net">Sergio Galan Nieto</a>'] 
 task: Game design, Programming 
 desc: Interactive game where players can throw rotten tomatoes to politicians and celebrities  
 videos:  

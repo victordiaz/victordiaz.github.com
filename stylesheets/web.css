@@ -19,6 +19,9 @@ p {
     font-size: 1.3rem;
 } 
 
+.row { 
+	max-width: 68.5em;
+}
 
 /*
 #clouds {
@@ -111,12 +114,11 @@ body {
     padding:0px;
     margin:0px; 
     margin-top:5px;
-    padding-top:5px; 
+    padding-top:2px; 
     padding-bottom:15px; 
     margin:0;
     white-space:nowrap;
     list-style-type:none; 
-    width: 100%; 
     text-align: right;
     color: #555;
     text-transform: uppercase; 
@@ -138,29 +140,30 @@ body {
 
 
 .menu a { 
-	
 	color: #555;
 	padding:0px; 
 
-	padding: 8px;
+	padding: 7px;
 	font-family: arial, helvetica, sans-serif; 
-	font-size: 1.2em; 
+	font-size: 1.1em; 
 	font-weight:10000;
 
 	line-height: 10px;
 	letter-spacing: -1px; 
 	border-radius: 0px 0px 2px 2px;
-    margin: 2px;
+    margin: 1px;
 } 
 
 .menu a.selected {
 	color: #eee; 
 	background-color: #555;
+	text-shadow: 1px 1px 0px black;
+
 } 
 
 .menu a:hover { 
 	color: #eee; 
-	background-color: #888;	
+	background-color: rgba(85, 85, 85, 0.7);	
 } 
 
 
@@ -239,6 +242,7 @@ a:visited {
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 18px; 
 	padding: 0px;
+	padding-bottom: 3px;
 } 
 
 .foundation-header h2 { 
@@ -275,10 +279,9 @@ a:visited {
 
 
 a.imgbio { 
-    border-radius: 0px;
-    box-shadow: 0px 1px 4px #bbb; 
-    margin-top: 11px;
-    background: url("../images/bio/victordiaz.JPG") center;
+    border-radius: 2px;
+    margin-top: 0px;
+    background: url("../images/bio/victordiaz.png") center;
     width: 250px;
     height: 317px;
     display: block; 
@@ -293,12 +296,12 @@ a.imgbio {
 a.imgbio:hover { 
     /* background: url("../images/bio/victor_diaz_on.jpg") no-repeat; */
 
-	opacity: 0.8;
+	opacity: 0.9;
 } 
 
 
 .main_sidebar { 
-	margin-top: 37px; 
+	margin-top: 0px; 
 	text-align: center; 
 	
 	/* background-color: rgba(0, 0, 0, 0.05); 
@@ -332,6 +335,11 @@ a.imgbio:hover {
     padding-left: 35px;
 }
 
+#memobile { 
+    text-shadow: 1px 1px 0px #FFFFFF;
+	color: rgb(121, 121, 121);
+}
+
 .main_sidebar_mobile { 
 	margin-top: 0px;
 }
@@ -360,9 +368,9 @@ a.imgbio:hover {
 }
 
 .project_preview li { 
-	
 	border: 0px solid #000; 
-	padding: 0px; 
+	padding: 6px;
+	margin: 0px;
 	color: #CCCCCC; 
 	/* height: 158px; */ 
 	padding-bottom: 5px;
@@ -601,6 +609,7 @@ a.imgbio:hover {
 	line-height: 1.7em;
 	font-family: "Helvetica Neue",Arial,sans-serif;
 	font-weight: normal;
+	text-shadow: 1px 1px white;
 	
 } 
 
@@ -709,7 +718,6 @@ video {
 }
 
 .project_info { 
-
 	border-left: 1px solid #eee; 
 	padding-left: 18px; 
 	margin-top: 48px;
@@ -732,8 +740,15 @@ video {
 	-o-border-radius: 2px;
 	border-radius: 2px;
 
-
+	font-size: 0.9em;
+	text-shadow: 1px 1px rgb(95, 95, 95);
+	padding: 3px;
 } 
+
+.project_info a:hover {
+	background-color: rgba(0,0,0,0.4); 
+
+}
 
 
 .project_full_caption { 
@@ -1019,6 +1034,15 @@ video {
 	border: 0px;
 }
 
+.post p { 
+
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 17px;
+}
+
 .author { 
 	font-size: 0.9em;
 	color: #555;	
@@ -1101,6 +1125,14 @@ pre.prettyprint {
     font-weight: bold;
 } 
 
+#be_random {
+	font-size: 1em;
+	line-height: 1.6;
+	margin-bottom: 1.25em;
+	float:right;
+	 display: inline;
+}
+
 #randomproject:hover { 
     float: right; 
     font-weight: bold; 
@@ -1176,8 +1208,28 @@ margin-left: -200px;
 } 
 
 .workshop { 
-    border: 1px dotted #BBB;    
+    border: 0px dotted #BBB;  
+    padding:12px;
 } 
+
+
+.workshop  p { 
+	color: #555; 
+	padding-top: 2px;
+	padding-left: 0px; 
+	padding-right: 0px; 
+	text-align: left; 
+	list-style: none; 
+    font-size: 1.05em;
+	color: #444;
+	color: #4A4235;
+	line-height: 1.7em;
+	font-family: "Helvetica Neue",Arial,sans-serif;
+	font-weight: normal;
+	text-shadow: 1px 1px white;
+		
+}
+
 
 #hacks { 
     margin-top: 35px;   

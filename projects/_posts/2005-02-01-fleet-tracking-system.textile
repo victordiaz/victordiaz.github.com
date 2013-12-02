@@ -17,7 +17,7 @@ context: Bachelor Final Project
 ---
 
 
-<div class="infonote">Note: This project was made 7 years ago, I just preserve it here to keep track of what I am doing</div>  
+<div class="infonote">Note: This project was made 8 years ago, I just preserve it here to keep track of what I am doing</div>  
 
 The overall goal of this project goal was to implement a set of computer software that could monitor a fleet of vehicles. 
 

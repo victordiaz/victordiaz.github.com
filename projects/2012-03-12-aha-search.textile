@@ -7,7 +7,7 @@ img: ahasearchengine
 title: A Human Approach search engine
 technologies: [NodeJS, HTML5] 
 when: 06/03/2012 - 03/03/2012
-collaborators: [<a href="http://areas.fba.ul.pt/msm"> Mónica Mendes </a>, Gil Ferreira da Silva] 
+collaborators: ['<a href="http://areas.fba.ul.pt/msm"> Mónica Mendes </a>', 'Gil Ferreira da Silva'] 
 desc: AHA. A Human Approach search engine
 videos:  
 sourcecode: 

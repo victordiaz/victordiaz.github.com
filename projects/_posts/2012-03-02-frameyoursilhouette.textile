@@ -7,7 +7,7 @@ img: frameyoursilhouette
 title: Frame your silhouette
 technologies: [Processing, Laser cutter] 
 when: 06/03/2012 - 03/03/2012
-collaborators: [<a href="http://betahaus.de/"> Open design City </a>] 
+collaborators: ['<a href="http://betahaus.de/"> Open design City </a>'] 
 task: Programming 
 desc: Laser cut your silhouette
 videos:  
