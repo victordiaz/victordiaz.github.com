@@ -135,7 +135,7 @@ body {
     color: #555; 
     font-size: 1.3em; 
     margin-top: 12px; 
-
+	margin-bottom: 22px;
 } 
 
 
@@ -382,10 +382,9 @@ a.imgbio:hover {
 	border: 0px solid #222; 
 	text-align:center;
 	margin: 0px; 
-  	padding:0px;  
-	width: 100%;
-	height: auto;
-	
+  	padding:0px;	
+  	width: 125px;
+
 	-moz-transform: rotate(0deg) scale(1) skewX(random(-2,2)deg);
 	-webkit-transform: rotate(0deg) scale(1) skewX(random(-2,2)deg);
 	-o-transform: rotate(0deg) scale(1) skewX(random(-2,2)deg);
